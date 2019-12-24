@@ -1,0 +1,5049 @@
+- cmd: wifi-menu
+  when: 1574744575
+- cmd: sudo wifi-menu
+  when: 1574744575
+- cmd: pacman -S plasma kdebase
+  when: 1574744575
+- cmd: sudo pacman -S plasma kdebase
+  when: 1574744575
+- cmd: pacman -S noto-fonts-cjk fish
+  when: 1574744575
+- cmd: sudo pacman -S noto-fonts-cjk fish
+  when: 1574744575
+- cmd: pacman -S pkgfile
+  when: 1574744575
+- cmd: sudo pacman -S pkgfile
+  when: 1574744575
+- cmd: rm .bash_history
+  when: 1574744581
+  paths:
+    - .bash_history
+- cmd: ls .config/
+  when: 1574744590
+  paths:
+    - .config/
+- cmd: ls .local/
+  when: 1574744593
+  paths:
+    - .local/
+- cmd: ls .local/share/
+  when: 1574744596
+  paths:
+    - .local/share/
+- cmd: systemctl enable  sddm
+  when: 1574744606
+- cmd: systemctl start NetworkManager
+  when: 1574744783
+- cmd: systemctl status NetworkManager
+  when: 1574744785
+- cmd: systemctl enable NetworkManager
+  when: 1574744790
+- cmd: sudo nano /etc/pacman.d/mirrorlist
+  when: 1574745092
+  paths:
+    - /etc/pacman.d/mirrorlist
+- cmd: nano /etc/pacman.d/mirrorlist
+  when: 1574745099
+  paths:
+    - /etc/pacman.d/mirrorlist
+- cmd: sudo pacman -Rs konqueror
+  when: 1574745198
+- cmd: pacman -Sy
+  when: 1574745213
+- cmd: sudo pacman -Sy
+  when: 1574745215
+- cmd: pacman -S archlinuxcn-keyring
+  when: 1574745233
+- cmd: sudo pacman -S archlinuxcn-keyring
+  when: 1574745236
+- cmd: pacman -Sy yay google-chrome
+  when: 1574745276
+- cmd: pacman -Sy google-chrome
+  when: 1574745282
+- cmd: sudo pacman -Sy google-chrome
+  when: 1574745286
+- cmd: pacman -S yay
+  when: 1574745389
+- cmd: sudo pacman -S yay
+  when: 1574745391
+- cmd: cd .fonts/
+  when: 1574745570
+  paths:
+    - .fonts/
+- cmd: chmod 644 *.ttf
+  when: 1574745591
+- cmd: chmod 644 */*.tt*
+  when: 1574745606
+- cmd: ls arial/
+  when: 1574745612
+  paths:
+    - arial/
+- cmd: ls calibri/
+  when: 1574745617
+  paths:
+    - calibri/
+- cmd: ls yahei/
+  when: 1574745620
+  paths:
+    - yahei/
+- cmd: ls wingdings/
+  when: 1574745622
+  paths:
+    - wingdings/
+- cmd: ls timesnewroman/
+  when: 1574745624
+  paths:
+    - timesnewroman/
+- cmd: yay -Rs kwrite
+  when: 1574745668
+- cmd: yay -S yaquakke
+  when: 1574745684
+- cmd: yay -S yakuak
+  when: 1574745705
+- cmd: yay -S yakuake
+  when: 1574745708
+- cmd: yay -S v2ray
+  when: 1574745730
+- cmd: yay -Rs plasma-sdk
+  when: 1574745910
+- cmd: yay -S webstorm visual-studio-code-bin
+  when: 1574745970
+- cmd: nano /etc/locale.conf
+  when: 1574746040
+  paths:
+    - /etc/locale.conf
+- cmd: sudo nano /etc/locale.conf
+  when: 1574746043
+  paths:
+    - /etc/locale.conf
+- cmd: yay -S webstorm-jre
+  when: 1574746086
+- cmd: yay -S ark
+  when: 1574746135
+- cmd: yay -S p7zip unrar
+  when: 1574746145
+- cmd: yay -S spectacle
+  when: 1574746196
+- cmd: pacman -S peek
+  when: 1574746215
+- cmd: yay -S peek
+  when: 1574746217
+- cmd: yay -S gifski
+  when: 1574746225
+- cmd: netctl
+  when: 1574746239
+- cmd: netctl list
+  when: 1574746248
+- cmd: netctl edit wlo1-Kid-Phone
+  when: 1574746268
+- cmd: sudo netctl edit wlo1-Kid-Phone
+  when: 1574746271
+- cmd: netctl edit --help
+  when: 1574746281
+- cmd: yay -Rs netctl
+  when: 1574746288
+- cmd: yay -Rs dialog
+  when: 1574746294
+- cmd: rm -r /etc/netctl/
+  when: 1574746322
+  paths:
+    - /etc/netctl/
+- cmd: sudo rm -r /etc/netctl/
+  when: 1574746324
+  paths:
+    - /etc/netctl/
+- cmd: yay -S wps-office
+  when: 1574746360
+- cmd: yay -S wps-office gimp baidunetdisk-bin
+  when: 1574746375
+- cmd: yay -S wps-office gimp baidunetdisk-bin netease-cloud-music
+  when: 1574746385
+- cmd: yay -S telegram-desktop
+  when: 1574746610
+- cmd: yay -S vlc
+  when: 1574746629
+- cmd: yay -S packagekit-qt5
+  when: 1574746719
+- cmd: ln -s /lib/v2ray/ vcore
+  when: 1574758970
+  paths:
+    - /lib/v2ray/
+- cmd: onedrive
+  when: 1574760350
+- cmd: yay -Rs onedrive-abraunegg
+  when: 1574761414
+- cmd: yay -S rclone
+  when: 1574761464
+- cmd: rclone
+  when: 1574762832
+- cmd: rclone lsd remote
+  when: 1574762962
+- cmd: rclone lsd remote:
+  when: 1574762978
+- cmd: rclone lsd sharepoint
+  when: 1574762994
+- cmd: rclone ncdu
+  when: 1574763034
+- cmd: rclone ncdu sharepoint
+  when: 1574763058
+- cmd: rclone ncdu sharepoint:
+  when: 1574763219
+- cmd: rclone ncdu sharepoint:/
+  when: 1574763385
+- cmd: rclone mount -h
+  when: 1574763894
+- cmd: yay -S dolphin-plugins
+  when: 1574764479
+- cmd: yay -S gwenview
+  when: 1574764897
+- cmd: umount OneDrive
+  when: 1574765064
+- cmd: chmod 644 b8373e4b.tabninemodel
+  when: 1574765318
+  paths:
+    - b8373e4b.tabninemodel
+- cmd: cd rEFInd-minimal/
+  when: 1574768195
+  paths:
+    - rEFInd-minimal/
+- cmd: mkdir themes
+  when: 1574768285
+- cmd: sudo mkdir themes
+  when: 1574768289
+- cmd: mv ~/Downloads/rEFInd-minimal .
+  when: 1574768319
+  paths:
+    - .
+- cmd: sudo mv ~/Downloads/rEFInd-minimal .
+  when: 1574768321
+  paths:
+    - .
+- cmd: mv rEFInd-minimal/ themes/
+  when: 1574768336
+  paths:
+    - rEFInd-minimal/
+    - themes/
+- cmd: sudo mv rEFInd-minimal/ themes/
+  when: 1574768339
+  paths:
+    - rEFInd-minimal/
+    - themes/
+- cmd: yay -S kcolorpicker-git
+  when: 1574768554
+- cmd: yay -S kcolorchooser
+  when: 1574768559
+- cmd: yay -S kruler
+  when: 1574768575
+- cmd: yay -S kdeconnect
+  when: 1574768673
+- cmd: yay -Q imagemagick
+  when: 1574768728
+- cmd: yay -S ksystemlog
+  when: 1574768801
+- cmd: yay -S filelight
+  when: 1574768889
+- cmd: yay -S kcalc
+  when: 1574768914
+- cmd: yay -Q kdialog
+  when: 1574768922
+- cmd: yay -S kcharselect
+  when: 1574768931
+- cmd: yay -S krenmae
+  when: 1574768974
+- cmd: yay -S krename
+  when: 1574768976
+- cmd: yay -Q git
+  when: 1574769203
+- cmd: yay -S hub
+  when: 1574769213
+- cmd: yay -S nodejs npm yarn
+  when: 1574769292
+- cmd: yay -Q qv2ray
+  when: 1574769309
+- cmd: yay -S deno
+  when: 1574769315
+- cmd: cp os_arch.png vmlinuz-linux.png
+  when: 1574770466
+  paths:
+    - os_arch.png
+- cmd: sudo cp os_arch.png vmlinuz-linux.png
+  when: 1574770469
+  paths:
+    - os_arch.png
+- cmd: sudo rm vmlinuz-linux.png
+  when: 1574771147
+  paths:
+    - vmlinuz-linux.png
+- cmd: mv os_linux.png _os_linux.png
+  when: 1574771177
+  paths:
+    - os_linux.png
+- cmd: sudo mv os_linux.png _os_linux.png
+  when: 1574771180
+  paths:
+    - os_linux.png
+- cmd: sudo cp os_arch.png os_linux.png
+  when: 1574771188
+  paths:
+    - os_arch.png
+- cmd: rclone mount sharepoint:/ ~/OneDrive
+  when: 1574771754
+- cmd: printenv
+  when: 1574772189
+- cmd: yay -S fcitx5-git fcitx5-gtk-git fcitx5-qt-git
+  when: 1574772383
+- cmd: yay -S fcitx5-git fcitx5-gtk-git fcitx5-qt5-git
+  when: 1574772393
+- cmd: yay -S fcitx5 fcitx5-gtk-git fcitx5-qt5-git
+  when: 1574772429
+- cmd: yay -S fcitx5
+  when: 1574772441
+- cmd: yay -S fcitx5-git fcitx5-gtk-git fcitx5-qt5-git fcitx5-chinese-addons
+  when: 1574772460
+- cmd: yay -S kcm-fcitx5-git
+  when: 1574772558
+- cmd: yay -S python
+  when: 1574772564
+- cmd: rclone lsd Cache:
+  when: 1574773120
+- cmd: rclone mount OneDrive: ~/OneDrive
+  when: 1574773464
+- cmd: rclone mount OneDrive:/ ~/OneDrive
+  when: 1574773528
+- cmd: rclone -h
+  when: 1574773886
+- cmd: rclone ncdu cache:
+  when: 1574773901
+- cmd: cat /etc/fstab
+  when: 1574775622
+  paths:
+    - /etc/fstab
+- cmd: systemctl enable fstrim
+  when: 1574775844
+- cmd: systemctl enable fstrim.timer
+  when: 1574775849
+- cmd: ssh
+  when: 1574776189
+- cmd: yay -S ssh
+  when: 1574776192
+- cmd: yay -S openssh
+  when: 1574776204
+- cmd: ssh-agent
+  when: 1574776220
+- cmd: eval (ssh-agent -s)
+  when: 1574776526
+- cmd: set SSH_AUTH_SOCK /tmp/ssh-vaNvL34K08np/agent.4452
+  when: 1574776550
+  paths:
+    - /tmp/ssh-vaNvL34K08np/agent.4452
+- cmd: export SSH_AUTH_SOCK;
+  when: 1574776560
+- cmd: set SSH_AGENT_PID 4453
+  when: 1574776566
+- cmd: export SSH_AGENT_PID;
+  when: 1574776572
+- cmd: chmod 400 .ssh/id_rsa
+  when: 1574776599
+  paths:
+    - .ssh/id_rsa
+- cmd: ssh-add .ssh/id_rsa
+  when: 1574776600
+  paths:
+    - .ssh/id_rsa
+- cmd: yay -S dig
+  when: 1574777035
+- cmd: dig m.wqw.pw
+  when: 1574777078
+- cmd: dig inu.codes
+  when: 1574777084
+- cmd: dig -h
+  when: 1574777334
+- cmd: dig -qmx m.wqw.pw
+  when: 1574777371
+- cmd: dig mx m.wqw.pw
+  when: 1574777402
+- cmd: yay -Rs dnsutils
+  when: 1574777723
+- cmd: yarn global add typescript flow-bin typescript-language-server vscode-html-languageserver-bin vscode-css-languageserver-bin
+  when: 1574777844
+- cmd: git cl ssh://git@git.ncuos.com:8082/dev/ncuos-fe.git
+  when: 1574778200
+- cmd: sudo pacman -Syu
+  when: 1574778575
+- cmd: yay -S webstorm
+  when: 1574778750
+- cmd: yay webstorm
+  when: 1574778756
+- cmd: yay -S deepin-wine-qq
+  when: 1574779628
+- cmd: pacman -U deepin-wine-qq-9.1.8.26211-2-x86_64.pkg.tar.xz
+  when: 1574779945
+  paths:
+    - deepin-wine-qq-9.1.8.26211-2-x86_64.pkg.tar.xz
+- cmd: sudo pacman -U deepin-wine-qq-9.1.8.26211-2-x86_64.pkg.tar.xz
+  when: 1574779948
+  paths:
+    - deepin-wine-qq-9.1.8.26211-2-x86_64.pkg.tar.xz
+- cmd: yay webstorm-jre
+  when: 1574781063
+- cmd: yarn global remove typescript
+  when: 1574781385
+- cmd: qq
+  when: 1574781871
+- cmd: ls /opt/deepinwine/apps/Deepin-QQ/
+  when: 1574782758
+  paths:
+    - /opt/deepinwine/apps/Deepin-QQ/
+- cmd: /opt/deepinwine/apps/Deepin-QQ/run.sh -d
+  when: 1574782781
+- cmd: yay -Q wine-mono
+  when: 1574784357
+- cmd: yay -Q wine_gecko
+  when: 1574784367
+- cmd: yay -Rs (yay -Qdtq)
+  when: 1574812122
+- cmd: yay -scc
+  when: 1574812124
+- cmd: -a
+  when: 1574812617
+- cmd: npm install
+  when: 1574812630
+- cmd: ping qq.com
+  when: 1574813075
+- cmd: ping www.google.com
+  when: 1574813081
+- cmd: yay -S proxychains
+  when: 1574813271
+- cmd: proxychains yarn
+  when: 1574813306
+- cmd: yay -Q proxychains-ng
+  when: 1574813491
+- cmd: git -h
+  when: 1574813794
+- cmd: git --help
+  when: 1574813801
+- cmd: proxychains4 bash
+  when: 1574813883
+- cmd: rm ~/.deepinwine/Deepin-QQ/deepin
+  when: 1574814340
+- cmd: yay -Rns (yay -Qdtq)
+  when: 1574814371
+- cmd: yay -Rsn deepin-wine
+  when: 1574814395
+- cmd: yay -Rsn deepin-wine-qq
+  when: 1574814404
+- cmd: yay -Rsn deepin-wine gnome-settings-daemon lib32-freetype2-infinality-ultimate
+  when: 1574814420
+- cmd: yay -S netctl
+  when: 1574814491
+- cmd: yay -S dialog
+  when: 1574814501
+- cmd: yay -Rsn netctl
+  when: 1574814508
+- cmd: yay -Rsn dialog
+  when: 1574814512
+- cmd: yay -Q webstorm
+  when: 1574814617
+- cmd: yay -Q webstorm-jre
+  when: 1574814621
+- cmd: yay -Q openssh
+  when: 1574814641
+- cmd: yay -Q deno
+  when: 1574814707
+- cmd: hub api
+  when: 1574814745
+- cmd: proxychains hub api
+  when: 1574814806
+- cmd: hub pr
+  when: 1574814828
+- cmd: hub pr list
+  when: 1574814831
+- cmd: hub --version
+  when: 1574814851
+- cmd: yay -S onedrive
+  when: 1574814978
+- cmd: yay -Rsn onedrive
+  when: 1574815001
+- cmd: yay -Rsn onedrive-abraunegg
+  when: 1574815006
+- cmd: yay -S wine
+  when: 1574815111
+- cmd: systemctl restart systemd-binfmt
+  when: 1574815400
+- cmd: systemctl status bluetooth.service
+  when: 1574816815
+- cmd: systemctl -h
+  when: 1574816819
+- cmd: systemctl disable bluetooth
+  when: 1574816834
+- cmd: systemctl stop bluetooth.service
+  when: 1574816847
+- cmd: systemctl enable bluetooth
+  when: 1574816859
+- cmd: systemctl start bluetooth
+  when: 1574816888
+- cmd: yay -S bluez
+  when: 1574816919
+- cmd: yay -S bluez-utils
+  when: 1574816942
+- cmd: bluedevil-sendfile
+  when: 1574817001
+- cmd: sudo cd bluetooth/
+  when: 1574817538
+  paths:
+    - bluetooth/
+- cmd: sudo ls bluetooth/
+  when: 1574817547
+  paths:
+    - bluetooth/
+- cmd: sudo ls bluetooth/74:70:FD:A9:BA:09/F1:19:C1:20:C0:0C
+  when: 1574817568
+- cmd: sudo ls bluetooth/74:70:FD:A9:BA:09
+  when: 1574817583
+- cmd: sudo nano bluetooth/74:70:FD:A9:BA:09/settings
+  when: 1574817593
+- cmd: sudo nano bluetooth/74:70:FD:A9:BA:09/cache
+  when: 1574817601
+- cmd: sudo ls bluetooth/74:70:FD:A9:BA:09/cache
+  when: 1574817605
+- cmd: sudo rm -r bluetooth/74:70:FD:A9:BA:09/cache
+  when: 1574817617
+- cmd: sudo ls bluetooth/74:70:FD:A9:BA:09 -a
+  when: 1574817621
+- cmd: systemctl restart bluetooth
+  when: 1574817633
+- cmd: systemctl restart bluetooth.service
+  when: 1574817806
+- cmd: yay -S firefox
+  when: 1574817816
+- cmd: bluedevil-wizard
+  when: 1574818217
+- cmd: bluetoothctl
+  when: 1574818316
+- cmd: lspci | grep broadcom
+  when: 1574818369
+- cmd: lspci | grep realtek
+  when: 1574818373
+- cmd: lspci | grep Broadcom
+  when: 1574818383
+- cmd: lspci | grep Realtek
+  when: 1574818387
+- cmd: lspci | grep intel
+  when: 1574818394
+- cmd: lspci | grep Intel
+  when: 1574818396
+- cmd: yay -S bluez-firmware
+  when: 1574819087
+- cmd: yay -R -h
+  when: 1574819411
+- cmd: blueman
+  when: 1574819421
+- cmd: sudo ls bluetooth
+  when: 1574819443
+  paths:
+    - bluetooth
+- cmd: sudo ls bluetooth -a
+  when: 1574819446
+  paths:
+    - bluetooth
+- cmd: rm -rf /var/lib/bluetooth/*
+  when: 1574819478
+- cmd: sudo rm -rf /var/lib/bluetooth/*
+  when: 1574819481
+- cmd: help expand
+  when: 1574819511
+- cmd: yay -Q bluez
+  when: 1574820028
+- cmd: yay -S blueman
+  when: 1574820214
+- cmd: yay -Rsn blueman
+  when: 1574820485
+- cmd: yay -Rsn bluetoothctl
+  when: 1574820716
+- cmd: yay -Rsn bluez-utils
+  when: 1574820723
+- cmd: cp ~/Downloads/iwlwifi-9000-pu-b0-jf-b0-34.ucode .
+  when: 1574821692
+  paths:
+    - .
+- cmd: sudo cp ~/Downloads/iwlwifi-9000-pu-b0-jf-b0-34.ucode .
+  when: 1574821695
+  paths:
+    - .
+- cmd: lsmod | grep '^iwl.vm'
+  when: 1574822128
+- cmd: lsmod | grep '^iwl'
+  when: 1574822162
+- cmd: systemctl stop bluetooth
+  when: 1574822347
+- cmd: systemctl stio bluetooth
+  when: 1574822349
+- cmd: yay -S alsa
+  when: 1574823206
+- cmd: yay -S alsa-utils
+  when: 1574823216
+- cmd: alsamixer
+  when: 1574823248
+- cmd: yay -Rs alsa-utils
+  when: 1574823530
+- cmd: yay -Rsn alsa-utils
+  when: 1574823533
+- cmd: dmesg | grep Bluetooth
+  when: 1574826379
+- cmd: wine -h
+  when: 1574826683
+- cmd: wine --help
+  when: 1574826689
+- cmd: wine
+  when: 1574826690
+- cmd: yay -S winetricks
+  when: 1574826701
+- cmd: yay -S lib32-freetype2,
+  when: 1574827031
+- cmd: yay -S lib32-freetype2
+  when: 1574827033
+- cmd: cd Fonts/
+  when: 1574827539
+  paths:
+    - Fonts/
+- cmd: update-mime-database -h
+  when: 1574841300
+- cmd: git co -b add-vacation-register
+  when: 1574850377
+- cmd: git co -b feat/vacation-register
+  when: 1574853054
+- cmd: git ps origin feat/vacation-register
+  when: 1574853104
+- cmd: yarn test
+  when: 1574853170
+- cmd: yay -S qv2ray
+  when: 1574860152
+- cmd: yay qv2ray
+  when: 1574860187
+- cmd: rm vcore
+  when: 1574860285
+  paths:
+    - vcore
+- cmd: yarn glboal add now
+  when: 1574862748
+- cmd: yay -S libdbusmenu
+  when: 1574911107
+- cmd: yay -S -h
+  when: 1574911120
+- cmd: yay -S libdbusmenu-qt5
+  when: 1574911162
+- cmd: yay -S libdbusmenu-gtk3
+  when: 1574911170
+- cmd: yay -S (yay -Ssq libdbusmenu-gtk3)
+  when: 1574911357
+- cmd: yay -Ssq libdbusmenu
+  when: 1574911558
+- cmd: yay -Rsn lib32-libdbusmenu-glib lib32-libdbusmenu-gtk2 lib32-libdbusmenu-gtk3
+  when: 1574911612
+- cmd: yay -Qi
+  when: 1574911725
+- cmd: yay -Qiq -h
+  when: 1574911749
+- cmd: yay -Qiq
+  when: 1574911752
+- cmd: yay -S appmenu-gtk2-module
+  when: 1574911922
+- cmd: yay appmenu-gtk2-module
+  when: 1574911930
+- cmd: yay -S lib32-libdbusmenu-glib lib32-libdbusmenu-gtk2 lib32-libdbusmenu-gtk3 lib32-libdbusmenu-qt libdbusmenu-glib libdbusmenu-gtk2 libdbusmenu-gtk3 libdbusmenu-qt4 libdbusmenu-qt5
+  when: 1574915393
+- cmd: yay -Rs linux
+  when: 1574995493
+- cmd: sudo modprobe
+  when: 1574995797
+- cmd: sudo modprobe -h
+  when: 1574995799
+- cmd: sysctl -h
+  when: 1574995814
+- cmd: sudo modinfo tcp_bbr
+  when: 1574995902
+- cmd: lsmod | grep tcp_bbr
+  when: 1574995954
+- cmd: echo 'net.ipv4.tcp_congestion_control=bbr' > /etc/sysctl.d/99-bbr.conf
+  when: 1574996091
+- cmd: sudo echo 'net.ipv4.tcp_congestion_control=bbr' > /etc/sysctl.d/99-bbr.conf
+  when: 1574996095
+- cmd: sudo echo "net.ipv4.tcp_congestion_control=bbr" > /etc/sysctl.d/99-bbr.conf
+  when: 1574996109
+- cmd: sudo nano /etc/sysctl.d/99-bbr.conf
+  when: 1574996131
+- cmd: sysctl net | grep tcp_con
+  when: 1574996177
+- cmd: sudo sysctl net | grep tcp_con
+  when: 1574996182
+- cmd: pulseaudio -h
+  when: 1574997156
+- cmd: pulseaudio --version
+  when: 1574997162
+- cmd: yay -S pulseaudio
+  when: 1574997170
+- cmd: env
+  when: 1574998143
+- cmd: una
+  when: 1575000640
+- cmd: sudo echo "net.core.default_qdisc=fq" > /etc/sysctl.d/80-bbr.conf
+  when: 1575000772
+- cmd: sudo echo "net.core.default_qdisc=fq" >> /etc/sysctl.d/80-bbr.conf
+  when: 1575000777
+- cmd: nano /etc/sysctl.d/99-bbr.conf
+  when: 1575000787
+- cmd: cat /etc/sysctl.d/
+  when: 1575000795
+  paths:
+    - /etc/sysctl.d/
+- cmd: ls /etc/sysctl.d/
+  when: 1575000800
+  paths:
+    - /etc/sysctl.d/
+- cmd: ls /etc/modules-load.d/
+  when: 1575000864
+  paths:
+    - /etc/modules-load.d/
+- cmd: sysctl net.ipv4.tcp_congestion_control
+  when: 1575000886
+- cmd: sudo echo "tcp_bbr" > /etc/modules-load.d/80-bbr.conf
+  when: 1575001759
+- cmd: sudo nano /etc/modules-load.d/80-bbr.conf
+  when: 1575001782
+- cmd: modinfo tcp_bbr
+  when: 1575001801
+- cmd: modprobe tcp_bbr
+  when: 1575001819
+- cmd: sudo modprobe tcp_bbr
+  when: 1575001822
+- cmd: sudo mv /etc/sysctl.d/99-bbr.conf /etc/sysctl.d/80-bbr.conf
+  when: 1575001886
+  paths:
+    - /etc/sysctl.d/99-bbr.conf
+- cmd: sudo !
+  when: 1575001905
+- cmd: sudo !!
+  when: 1575001907
+- cmd: python --version
+  when: 1575001981
+- cmd: yay -S pip
+  when: 1575001986
+- cmd: yay -S python-pip
+  when: 1575002001
+- cmd: yay -S thefuck
+  when: 1575002046
+- cmd: ls /etc/modules-load.d/ -a
+  when: 1575002206
+  paths:
+    - /etc/modules-load.d/
+- cmd: ls /etc/sysctl.d/ -a
+  when: 1575002213
+  paths:
+    - /etc/sysctl.d/
+- cmd: fish
+  when: 1575002280
+- cmd: systemctl status bluetooth
+  when: 1575002302
+- cmd: nano /etc/sysctl.d/80-bbr.conf
+  when: 1575002351
+  paths:
+    - /etc/sysctl.d/80-bbr.conf
+- cmd: sysctl net
+  when: 1575002385
+- cmd: sudo nano /etc/sysctl.d/80-bbr.conf
+  when: 1575002676
+  paths:
+    - /etc/sysctl.d/80-bbr.conf
+- cmd: lspci -k
+  when: 1575003234
+- cmd: dmesg | grep firmware
+  when: 1575003381
+- cmd: yay -Rs wpa_supplicant
+  when: 1575003652
+- cmd: yay -Rs dhcpcd
+  when: 1575003689
+- cmd: yay -S dhcpcd
+  when: 1575003709
+- cmd: yay -Rsn dhcpcd
+  when: 1575003715
+- cmd: ls /etc/wpa_supplicant/ -a
+  when: 1575003801
+  paths:
+    - /etc/wpa_supplicant/
+- cmd: wpa_supplicant -h
+  when: 1575003952
+- cmd: lspci -nnkd 8086:a370
+  when: 1575004512
+- cmd: yarn global add trash-cli
+  when: 1575005283
+- cmd: trash
+  when: 1575005309
+- cmd: yarn global remove now
+  when: 1575005342
+- cmd: sudo yarn global add now
+  when: 1575005349
+- cmd: yay -Q now
+  when: 1575005381
+- cmd: yay -S now
+  when: 1575005383
+- cmd: sudo yarn global lsit
+  when: 1575005510
+- cmd: sudo yarn global add trash-cli
+  when: 1575005522
+- cmd: cd Dow
+  when: 1575005605
+- cmd: echo 1 > 1.txt
+  when: 1575005611
+- cmd: cat 1.txt
+  when: 1575005614
+  paths:
+    - 1.txt
+- cmd: trash 1.txt
+  when: 1575005616
+  paths:
+    - 1.txt
+- cmd: yarn global remove trash-cli
+  when: 1575005684
+- cmd: sudo yarn global remove trash-cli
+  when: 1575005687
+- cmd: yay -Rs pkgfile
+  when: 1575022570
+- cmd: sudo fish_update_completions
+  when: 1575025481
+- cmd: fish_update_completions
+  when: 1575025488
+- cmd: man 2
+  when: 1575025543
+- cmd: cd ../.mozilla/
+  when: 1575026005
+  paths:
+    - ../.mozilla/
+- cmd: yay && exit
+  when: 1575026162
+- cmd: yay and exit
+  when: 1575026179
+- cmd: yay; and exit
+  when: 1575026188
+- cmd: ls --color=auto
+  when: 1575026484
+- cmd: ls --color=auto -a
+  when: 1575026486
+- cmd: bash
+  when: 1575026531
+- cmd: cd ../.config/
+  when: 1575027025
+  paths:
+    - ../.config/
+- cmd: cd google-chrome/
+  when: 1575027028
+  paths:
+    - google-chrome/
+- cmd: cd .config/google-chrome/
+  when: 1575027061
+  paths:
+    - .config/google-chrome/
+- cmd: cd Safe\\ Browsing/
+  when: 1575027066
+  paths:
+    - Safe Browsing/
+- cmd: .
+  when: 1575027132
+- cmd: ./
+  when: 1575027147
+- cmd: kid/
+  when: 1575027159
+- cmd: ../
+  when: 1575027170
+- cmd: Documents/
+  when: 1575027173
+- cmd: Videos/
+  when: 1575027178
+- cmd: ..
+  when: 1575027179
+- cmd: .config/
+  when: 1575027182
+- cmd: lua -h
+  when: 1575027898
+- cmd: lua --help
+  when: 1575027903
+- cmd: lua5.3
+  when: 1575027909
+- cmd: cd Do
+  when: 1575028397
+- cmd: less -h
+  when: 1575028405
+- cmd: less archlinux.md
+  when: 1575028408
+  paths:
+    - archlinux.md
+- cmd: bootmgr
+  when: 1575109406
+- cmd: yay -S aria2
+  when: 1575110020
+- cmd: 桌面/
+  when: 1575111293
+- cmd: yay -Qv
+  when: 1575111314
+- cmd: yay -Q h
+  when: 1575111319
+- cmd: yay -Qd
+  when: 1575111329
+- cmd: less packages.txt
+  when: 1575111385
+  paths:
+    - packages.txt
+- cmd: deno https://github.com/kidonng/deno-scripts/raw/master/MIUI-dev.ts 123456
+  when: 1575111491
+- cmd: hub
+  when: 1575111502
+- cmd: yay -Q dolphin
+  when: 1575112396
+- cmd: yay -S libdbusmenu-glib
+  when: 1575115931
+- cmd: yay -S appmenu-gtk-module gmenu-dbusmenu-proxy-git appmenu-qt4 appmenu-qt5-git libdbusmenu-glib libdbusmenu-gtk2 libdbusmenu-gtk3
+  when: 1575116365
+- cmd: yay firefox-kde-opensuse
+  when: 1575116414
+- cmd: yay -Rs appmenu-qt4
+  when: 1575116436
+- cmd: yay -Rsn appmenu-qt5-git
+  when: 1575116445
+- cmd: yay -Rsn appmenu-qt5
+  when: 1575116447
+- cmd: yay -Rsn appmenu-qt4
+  when: 1575116448
+- cmd: yay -Q kvantum-qt5
+  when: 1575116699
+- cmd: yay -S kvantum-theme-arc
+  when: 1575116856
+- cmd: yay -S arc-kde
+  when: 1575116869
+- cmd: yay -S arc-kde kvantum-theme-arc
+  when: 1575117142
+- cmd: kvantummanager
+  when: 1575117171
+- cmd: yay -Q papirus-icon-theme
+  when: 1575117222
+- cmd: efibootmgr -h
+  when: 1575117326
+- cmd: yay -S vlc-ark-dark-git
+  when: 1575118363
+- cmd: yay vlc-ark-dark-git
+  when: 1575118399
+- cmd: OA
+  when: 1575118456
+- cmd: yay -S vlc-arc-dark-git
+  when: 1575118457
+- cmd: yay -Qd vlc-arc-dark-git
+  when: 1575118768
+- cmd: yay -Q vlc-arc-dark-git
+  when: 1575118772
+- cmd: yay -Q vlc-arc-dark-git -h
+  when: 1575118773
+- cmd: yay -Qo .yarn
+  when: 1575118807
+  paths:
+    - .yarn
+- cmd: yay -Qo /home/kid/.yarn
+  when: 1575118815
+  paths:
+    - /home/kid/.yarn
+- cmd: yay -Qo /home/kid/.aria2
+  when: 1575118826
+  paths:
+    - /home/kid/.aria2
+- cmd: yay -Qo /home/kid/.gnupg
+  when: 1575118834
+  paths:
+    - /home/kid/.gnupg
+- cmd: yay -Qo /home/kid/.wine
+  when: 1575118848
+  paths:
+    - /home/kid/.wine
+- cmd: yay -Ql -h
+  when: 1575118867
+- cmd: yay -Ql vlc-arc-dark-git
+  when: 1575118878
+- cmd: yay -Rsn vlc-arc-dark-git
+  when: 1575119130
+- cmd: lsmod | grep kvm
+  when: 1575120663
+- cmd: yay -Rsn kvm
+  when: 1575120690
+- cmd: systemctl status network-manager
+  when: 1575121204
+- cmd: ssh root@139.59.192.164
+  when: 1575123643
+- cmd: curl -6 ip.\\sb
+  when: 1575124309
+- cmd: ssh root@128.199.237.102
+  when: 1575124334
+- cmd: rm db.lck
+  when: 1575125723
+  paths:
+    - db.lck
+- cmd: rm -f db.lck
+  when: 1575125729
+  paths:
+    - db.lck
+- cmd: git @ls
+  when: 1575209404
+- cmd: cd autostart
+  when: 1575209723
+  paths:
+    - autostart
+- cmd: cat fcitx5.desktop
+  when: 1575209728
+  paths:
+    - fcitx5.desktop
+- cmd: bat
+  when: 1575209733
+- cmd: yay -S bat
+  when: 1575209735
+- cmd: bat fcitx5.desktop
+  when: 1575209752
+  paths:
+    - fcitx5.desktop
+- cmd: less fcitx5.desktop
+  when: 1575209773
+  paths:
+    - fcitx5.desktop
+- cmd: echo $USER
+  when: 1575210069
+- cmd: echo $XDG_CONFIG_HOME
+  when: 1575210087
+- cmd: kstart5 -h
+  when: 1575211390
+- cmd: kde-open5 -h
+  when: 1575211403
+- cmd: kdesu -h
+  when: 1575211419
+- cmd: yay -Rsn kactivitymanagerd
+  when: 1575211486
+- cmd: yay -Rsn kde-cli-tools
+  when: 1575211496
+- cmd: yay -Rsn kdeplasma-addons
+  when: 1575211663
+- cmd: khotkeys
+  when: 1575211705
+- cmd: yay -Rsn knetattach
+  when: 1575211911
+- cmd: yay -Rsn libksysguard
+  when: 1575212030
+- cmd: milou
+  when: 1575212040
+- cmd: yay -Rsn milou
+  when: 1575212044
+- cmd: yay -Rsn plasma-integration
+  when: 1575212085
+- cmd: yay -Rsn plasma-thunderbolt
+  when: 1575212098
+- cmd: yay -Rsn plasma-vault
+  when: 1575212129
+- cmd: yay -Rsn plasma-workspace
+  when: 1575212151
+- cmd: yay -R plasma-workspace
+  when: 1575212162
+- cmd: yay -Rsn polkit-kde-agent
+  when: 1575212208
+- cmd: systemsettings5
+  when: 1575212235
+- cmd: ln -s ~/.config/fish/fish_variables fish_variables
+  when: 1575212768
+- cmd: sudo ln -s ~/.config/fish/fish_variables fish_variables
+  when: 1575212770
+- cmd: bluetooth off
+  when: 1575246786
+- cmd: qv2ray
+  when: 1575246946
+- cmd: konsole
+  when: 1575341344
+- cmd: make oldconfig
+  when: 1575341375
+- cmd: make menuconfig
+  when: 1575341537
+- cmd: bc
+  when: 1575341569
+- cmd: make install
+  when: 1575341593
+- cmd: mv /home/kid/Downloads/iwlwifi/iwlwifi.ko.xz .
+  when: 1575342868
+  paths:
+    - /home/kid/Downloads/iwlwifi/iwlwifi.ko.xz
+    - .
+- cmd: sudo mv /home/kid/Downloads/iwlwifi/iwlwifi.ko.xz .
+  when: 1575342885
+  paths:
+    - /home/kid/Downloads/iwlwifi/iwlwifi.ko.xz
+    - .
+- cmd: ls mvm
+  when: 1575342905
+  paths:
+    - mvm
+- cmd: mv /home/kid/Downloads/iwlwifi/mvm/iwlmvm.ko.xz .
+  when: 1575342921
+  paths:
+    - /home/kid/Downloads/iwlwifi/mvm/iwlmvm.ko.xz
+    - .
+- cmd: sudo mv /home/kid/Downloads/iwlwifi/mvm/iwlmvm.ko.xz .
+  when: 1575342926
+  paths:
+    - /home/kid/Downloads/iwlwifi/mvm/iwlmvm.ko.xz
+    - .
+- cmd: sudo mv /home/kid/Downloads/iwlwifi/dvm/iwldvm.ko.xz .
+  when: 1575342940
+  paths:
+    - /home/kid/Downloads/iwlwifi/dvm/iwldvm.ko.xz
+    - .
+- cmd: pacman -U linux-zen-5.3.13.1-1-x86_64.pkg.tar.xz
+  when: 1575343040
+  paths:
+    - linux-zen-5.3.13.1-1-x86_64.pkg.tar.xz
+- cmd: sudo rm db.lck
+  when: 1575343077
+  paths:
+    - db.lck
+- cmd: yay -S linux
+  when: 1575343154
+- cmd: yay -Rsn linux-zen
+  when: 1575343294
+- cmd: yay -S linux-zen
+  when: 1575343622
+- cmd: yay -Rsn linux
+  when: 1575343709
+- cmd: sudo mv ~/Downloads/iwlwifi-9000-pu-b0-jf-b0-34.ucode .
+  when: 1575344507
+  paths:
+    - .
+- cmd: ip lunj
+  when: 1575344578
+- cmd: ip link
+  when: 1575344581
+- cmd: sudo rm
+  when: 1575344772
+- cmd: yay -S exfat-utils
+  when: 1575344837
+- cmd: git pull origin dev
+  when: 1575349765
+- cmd: git co dev
+  when: 1575349775
+- cmd: git br -D add-vacation-register
+  when: 1575349784
+- cmd: git br -D feat/vacation-register
+  when: 1575349788
+- cmd: pkgfile sudo
+  when: 1575350311
+- cmd: pkgfile -l netctl
+  when: 1575350327
+- cmd: pkgfile -l sudo
+  when: 1575350332
+- cmd: locate
+  when: 1575352480
+- cmd: mlocate
+  when: 1575352488
+- cmd: updatedb
+  when: 1575352493
+- cmd: yay -Q | grep linux
+  when: 1575353714
+- cmd: cat /etc/passwd
+  when: 1575354802
+  paths:
+    - /etc/passwd
+- cmd: fatlabel /dev/sda4 ARCH_201912
+  when: 1575359575
+  paths:
+    - /dev/sda4
+- cmd: sudo fatlabel /dev/sda4 ARCH_201912
+  when: 1575359578
+  paths:
+    - /dev/sda4
+- cmd: yay -Rsn alsa-lib
+  when: 1575360732
+- cmd: journalctl -h
+  when: 1575361399
+- cmd: curl -T 1 https://cfp.vim-cn.com/
+  when: 1575362093
+  paths:
+    - 1
+- cmd: git clone https://chromium.googlesource.com/chromiumos/third_party/linux-firmware chromiumos-linux-firmware --depth=1
+  when: 1575364460
+- cmd: yay -S tlp
+  when: 1575364536
+- cmd: exot
+  when: 1575364539
+- cmd: git clone https://chromium.googlesource.com/chromiumos/third_party/linux-firmware --depth=1
+  when: 1575364942
+- cmd: proxychains git clone https://chromium.googlesource.com/chromiumos/third_party/linux-firmware --depth=1
+  when: 1575364963
+- cmd: sudo cp iwlwifi-*  /lib/firmware/
+  when: 1575365279
+  paths:
+    - /lib/firmware/
+- cmd: sudo rm -rf /var/lib/bluetooth
+  when: 1575365648
+  paths:
+    - /var/lib/bluetooth
+- cmd: ls /var/lib
+  when: 1575365713
+  paths:
+    - /var/lib
+- cmd: yay linux-firmware
+  when: 1575365731
+- cmd: ls /var/lib/bluetooth/
+  when: 1575366010
+  paths:
+    - /var/lib/bluetooth/
+- cmd: sudo ls /var/lib/bluetooth/
+  when: 1575366012
+  paths:
+    - /var/lib/bluetooth/
+- cmd: sudo ls /var/lib/bluetooth/ -a
+  when: 1575366017
+  paths:
+    - /var/lib/bluetooth/
+- cmd: sudo ls /var/lib/bluetooth/74:70:FD:A9:BA:09 -a
+  when: 1575366028
+- cmd: sudo bat /var/lib/bluetooth/74:70:FD:A9:BA:09/settings -a
+  when: 1575366033
+- cmd: sudo bat /var/lib/bluetooth/74:70:FD:A9:BA:09/settings
+  when: 1575366037
+- cmd: sudo ls /var/lib/bluetooth/74:70:FD:A9:BA:09/
+  when: 1575366069
+- cmd: sudo cp linux-firmware/ /usr/lib/firmware
+  when: 1575366169
+  paths:
+    - linux-firmware/
+    - /usr/lib/firmware
+- cmd: sudo cp linux-firmware/ /usr/lib/firmware -r
+  when: 1575366172
+  paths:
+    - linux-firmware/
+    - /usr/lib/firmware
+- cmd: yay -S trash
+  when: 1575374220
+- cmd: yay -S trash-cli
+  when: 1575374401
+- cmd: trash --help
+  when: 1575374457
+- cmd: trash linux-zen-5.3.13.1-1-x86_64.pkg.tar.xz
+  when: 1575374539
+  paths:
+    - linux-zen-5.3.13.1-1-x86_64.pkg.tar.xz
+- cmd: trash-list
+  when: 1575374544
+- cmd: trash-restore linux
+  when: 1575374561
+- cmd: trash-restore
+  when: 1575374566
+- cmd: git cl
+  when: 1575380834
+- cmd: git cl git@github.com:kidonng/refined-github.git --depth=1
+  when: 1575380856
+- cmd: yay -S archlinuxcn-keyring
+  when: 1575381198
+- cmd: git rebase master
+  when: 1575381796
+- cmd: git rebase origin master
+  when: 1575381800
+- cmd: git co -b fix-console-error
+  when: 1575381810
+- cmd: git co master
+  when: 1575381835
+- cmd: git reset --hard orgin/master
+  when: 1575381846
+- cmd: git reset --hard origin/master
+  when: 1575381853
+- cmd: git co fix-console-error
+  when: 1575381860
+- cmd: git pull origin fix-console-error
+  when: 1575381868
+- cmd: npm run lint
+  when: 1575381962
+- cmd: npn i
+  when: 1575381966
+- cmd: list
+  when: 1575385265
+- cmd: npm i
+  when: 1575416746
+- cmd: yay --ignore=linux-zen
+  when: 1575416822
+- cmd: echo $ignore
+  when: 1575416835
+- cmd: yay --ignore linux-zen
+  when: 1575416844
+- cmd: proxychains yay -S noto-fonts-emoji-blob
+  when: 1575417183
+- cmd: echo 'file:///home/kid/.cache/yay/ttf-twemoji/twitter-twemoji-fonts-12.1.4-1.fc32.noarch.rpm'
+  when: 1575417843
+- cmd: yay -S emoji
+  when: 1575418943
+- cmd: yay emoji
+  when: 1575418948
+- cmd: lua -v
+  when: 1575420801
+- cmd: z download
+  when: 1575421030
+- cmd: z ..
+  when: 1575421033
+  paths:
+    - ..
+- cmd: z projects
+  when: 1575421090
+- cmd: curl -L https://get.oh-my.fish | fish
+  when: 1575421256
+- cmd: proxychains curl -L https://get.oh-my.fish | fish
+  when: 1575421273
+- cmd: curl -L https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+  when: 1575421353
+- cmd: omf list
+  when: 1575421513
+- cmd: omf u
+  when: 1575421547
+- cmd: omf search z
+  when: 1575421565
+- cmd: omf search zlua
+  when: 1575421585
+- cmd: omf i zlua
+  when: 1575421589
+- cmd: z music
+  when: 1575421662
+- cmd: z onedrive
+  when: 1575421665
+- cmd: z picture
+  when: 1575421667
+- cmd: z list
+  when: 1575421742
+- cmd: z -h
+  when: 1575421744
+- cmd: z -i do
+  when: 1575421753
+- cmd: z -I do
+  when: 1575421760
+- cmd: z -e doc
+  when: 1575421773
+- cmd: z doc
+  when: 1575421790
+- cmd: z downloads
+  when: 1575421815
+- cmd: z ../down
+  when: 1575421819
+- cmd: cd music
+  when: 1575421891
+- cmd: z forms
+  when: 1575421903
+- cmd: z one
+  when: 1575421906
+- cmd: omf -h
+  when: 1575422046
+- cmd: omf theme
+  when: 1575422060
+- cmd: fish_config
+  when: 1575422081
+- cmd: omf s fuck
+  when: 1575422136
+- cmd: omf i thefuck
+  when: 1575422255
+- cmd: bat .local/share/zlua/zlua.txt
+  when: 1575422319
+  paths:
+    - .local/share/zlua/zlua.txt
+- cmd: bat /etc/makepkg.conf
+  when: 1575422344
+  paths:
+    - /etc/makepkg.conf
+- cmd: ip l
+  when: 1575423597
+- cmd: ethtool
+  when: 1575423635
+- cmd: ls /etc/modprobe.d
+  when: 1575423975
+  paths:
+    - /etc/modprobe.d
+- cmd: ls /etc/modprobe.d -a
+  when: 1575423976
+  paths:
+    - /etc/modprobe.d
+- cmd: nano /etc/modprobe.d/iwlwifi.conf
+  when: 1575423986
+- cmd: sudo fuck
+  when: 1575424018
+- cmd: ls /root -a
+  when: 1575424039
+  paths:
+    - /root
+- cmd: sudo ls /root/.confi -a
+  when: 1575424052
+- cmd: sudo ls /root/.gnupg -a
+  when: 1575424060
+- cmd: journalctl -b -2 | grep iwlwifi
+  when: 1575424502
+- cmd: cat nano /etc/modprobe.d/
+  when: 1575424594
+  paths:
+    - /etc/modprobe.d/
+- cmd: dmesg | grep iwlwifi | grep lar
+  when: 1575424643
+- cmd: cd ../Downloads/
+  when: 1575424692
+  paths:
+    - ../Downloads/
+- cmd: r, /etc/modprobe.d/iwlwifi.conf
+  when: 1575424779
+  paths:
+    - /etc/modprobe.d/iwlwifi.conf
+- cmd: rm /etc/modprobe.d/iwlwifi.conf
+  when: 1575424782
+  paths:
+    - /etc/modprobe.d/iwlwifi.conf
+- cmd: ls /etc/modprobe.d/
+  when: 1575424788
+  paths:
+    - /etc/modprobe.d/
+- cmd: sudo nano /etc/modprobe.d/iwlwifi.conf
+  when: 1575425115
+- cmd: bat /etc/modprobe.d/iwlwifi.conf
+  when: 1575425539
+  paths:
+    - /etc/modprobe.d/iwlwifi.conf
+- cmd: sudo rm /etc/modprobe.d/iwlwifi.conf
+  when: 1575425837
+  paths:
+    - /etc/modprobe.d/iwlwifi.conf
+- cmd: sudo nano /etc/mkinitcpio.conf
+  when: 1575425850
+  paths:
+    - /etc/mkinitcpio.conf
+- cmd: iw -h
+  when: 1575426499
+- cmd: iw reg get
+  when: 1575426520
+- cmd: cat /etc/modprobe.d/*.conf
+  when: 1575426533
+- cmd: z do
+  when: 1575429442
+- cmd: yay -U linux-firmware-20191118.e8a0f4c-1-any.pkg.tar.xz
+  when: 1575429451
+  paths:
+    - linux-firmware-20191118.e8a0f4c-1-any.pkg.tar.xz
+- cmd: cat /proc/filesystems
+  when: 1575431996
+  paths:
+    - /proc/filesystems
+- cmd: yay -Rsn btrfs-progs
+  when: 1575432077
+- cmd: yay -Rsn libblockdev
+  when: 1575432086
+- cmd: yay -Rsn udisks2
+  when: 1575432091
+- cmd: yay -Rsn solid
+  when: 1575432095
+- cmd: yay -Rsn kio
+  when: 1575432099
+- cmd: yay -Rsn exfat-utils
+  when: 1575432117
+- cmd: cd OneDrive/
+  when: 1575434101
+  paths:
+    - OneDrive/
+- cmd: cd 桌面/
+  when: 1575434108
+  paths:
+    - 桌面/
+- cmd: pacman -Q
+  when: 1575434112
+- cmd: pacman -Q >> packages.txt
+  when: 1575434120
+- cmd: systemctl status fstrim.
+  when: 1575435516
+- cmd: systemctl status fstrim
+  when: 1575435519
+- cmd: yay -Q btrfs-progs
+  when: 1575435595
+- cmd: chattr -h
+  when: 1575435768
+- cmd: attr -h
+  when: 1575435794
+- cmd: attr swapfile
+  when: 1575435803
+  paths:
+    - swapfile
+- cmd: attr -; swapfile
+  when: 1575435812
+- cmd: attr -l swapfile
+  when: 1575435815
+  paths:
+    - swapfile
+- cmd: btrfs subvolume list -p
+  when: 1575436018
+- cmd: btrfs subvolume list
+  when: 1575436020
+- cmd: btrfs subvolume list /
+  when: 1575436028
+  paths:
+    - /
+- cmd: btrfs subvolume delete /ext2_saved/
+  when: 1575436071
+  paths:
+    - /ext2_saved/
+- cmd: sudo btrfs subvolume delete /ext2_saved/
+  when: 1575436074
+  paths:
+    - /ext2_saved/
+- cmd: btrfs balance start /
+  when: 1575436093
+  paths:
+    - /
+- cmd: sudo nano /etc/default/tlp
+  when: 1575436178
+  paths:
+    - /etc/default/tlp
+- cmd: swaplabel -h
+  when: 1575436849
+- cmd: swapon -h
+  when: 1575436854
+- cmd: swapon -a
+  when: 1575436882
+- cmd: sudo swapon -a
+  when: 1575436884
+- cmd: yay -Q zstd
+  when: 1575437012
+- cmd: yay -Q refind-efi
+  when: 1575437016
+- cmd: sudo fdisk -l
+  when: 1575437430
+- cmd: sudo swapon -s
+  when: 1575437511
+- cmd: swapon -s
+  when: 1575437649
+- cmd: yay -Q linux-firmware
+  when: 1575445328
+- cmd: git co -b robot
+  when: 1575445350
+- cmd: =
+  when: 1575450992
+- cmd: lsblk
+  when: 1575522396
+- cmd: lsblk -f
+  when: 1575522404
+- cmd: lsinitcpio
+  when: 1575522413
+- cmd: lsinitcpio -h
+  when: 1575522415
+- cmd: lsinitcpio linux-zen
+  when: 1575522420
+- cmd: lsinitcpio linux
+  when: 1575522422
+- cmd: lsinitcpio vmlinuz
+  when: 1575522427
+- cmd: lsinitcpio vmlinux
+  when: 1575522429
+- cmd: lsns
+  when: 1575522448
+- cmd: dmesg | grep bluetooth
+  when: 1575522520
+- cmd: dmesg | grep bt
+  when: 1575522524
+- cmd: dmesg | grep hci
+  when: 1575522548
+- cmd: bat Projects/ncuos-fe/jest.config.js
+  when: 1575522565
+  paths:
+    - Projects/ncuos-fe/jest.config.js
+- cmd: bat Projects/ncuos-fe/src/global.tsx
+  when: 1575522581
+  paths:
+    - Projects/ncuos-fe/src/global.tsx
+- cmd: bat -h
+  when: 1575522609
+- cmd: bat -L
+  when: 1575522632
+- cmd: man
+  when: 1575522711
+- cmd: echo 'exi                       rxml, builder\nRust[1;5B[1;5B[1;5B[1;5B[1;5B[1;5A[1;5A[1;5A[1;5A                                 rs\nSass                                 sass\nScala                                scala, sbt\nSCSS                    ['
+  when: 1575522887
+- cmd: bluetooth on
+  when: 1575538868
+- cmd: btrfs subvolume list list /
+  when: 1575538983
+  paths:
+    - /
+- cmd: fdisk -
+  when: 1575539343
+- cmd: bat /etc/fstab
+  when: 1575539680
+  paths:
+    - /etc/fstab
+- cmd: [
+  when: 1575539873
+- cmd: []
+  when: 1575539875
+- cmd: [ -h
+  when: 1575539878
+- cmd: [ ]
+  when: 1575539885
+- cmd: base64 '1'
+  when: 1575539898
+- cmd: who
+  when: 1575539989
+- cmd: wxit
+  when: 1575540005
+- cmd: uname -h
+  when: 1575540019
+- cmd: uname --help
+  when: 1575540027
+- cmd: uname
+  when: 1575540029
+- cmd: uname -v
+  when: 1575540051
+- cmd: uname -p
+  when: 1575540122
+- cmd: uname -m
+  when: 1575540130
+- cmd: uname -i
+  when: 1575540136
+- cmd: uname -o
+  when: 1575540139
+- cmd: sudo btrfs filesystem defragment -r -v -czstd /
+  when: 1575540556
+  paths:
+    - /
+- cmd: compsize  -h
+  when: 1575541270
+- cmd: compsize --help
+  when: 1575541273
+- cmd: compsize
+  when: 1575541275
+- cmd: sudo compsize /
+  when: 1575541282
+  paths:
+    - /
+- cmd: dmesg | grep btrfs
+  when: 1575541494
+- cmd: sudo btrfs fi show
+  when: 1575541545
+- cmd: exit -h
+  when: 1575541804
+- cmd: lsblk --discrad
+  when: 1575542195
+- cmd: lsblk --discard
+  when: 1575542199
+- cmd: now login
+  when: 1575543568
+- cmd: now
+  when: 1575544059
+- cmd: git ps -d origin origin/update-navigatino-sidebar
+  when: 1575545457
+- cmd: git ps -d origin/update-navigatino-sidebar
+  when: 1575545468
+- cmd: git ps -d origin update-navigatino-sidebar
+  when: 1575545473
+- cmd: git co -b feat/robot
+  when: 1575546099
+- cmd: git br -d robot
+  when: 1575546107
+- cmd: git fetch dev
+  when: 1575546283
+- cmd: git fetch origin dev
+  when: 1575546286
+- cmd: git br -v
+  when: 1575546299
+- cmd: btrfs subvolume snapshot -h
+  when: 1575546909
+- cmd: btrfs subvolume snapshot --help
+  when: 1575546912
+- cmd: yay -Rsn libwmf
+  when: 1575549134
+- cmd: yay -Rsn noto-fonts
+  when: 1575549162
+- cmd: rm /etc/fonts/conf.d/75-twemoji.conf
+  when: 1575549471
+  paths:
+    - /etc/fonts/conf.d/75-twemoji.conf
+- cmd: fc-cache -h
+  when: 1575549486
+- cmd: yay -Q | grep font
+  when: 1575549639
+- cmd: yay -Rsn gsfonts
+  when: 1575549649
+- cmd: yay -Rsn ca
+  when: 1575549661
+- cmd: yay -Rsn cantarell-fonts
+  when: 1575549671
+- cmd: ls /etc/fonts/
+  when: 1575550840
+  paths:
+    - /etc/fonts/
+- cmd: ls /etc/fonts/conf.d/ -a
+  when: 1575550845
+  paths:
+    - /etc/fonts/conf.d/
+- cmd: yay -S ttf-twemoji
+  when: 1575551238
+- cmd: ln -sf /etc/fonts/conf.avail/75-twemoji.conf /etc/fonts/conf.d/75-twemoji.conf
+  when: 1575551989
+  paths:
+    - /etc/fonts/conf.avail/75-twemoji.conf
+- cmd: sudo ln -sf /etc/fonts/conf.avail/75-twemoji.conf /etc/fonts/conf.d/75-twemoji.conf
+  when: 1575551993
+  paths:
+    - /etc/fonts/conf.avail/75-twemoji.conf
+- cmd: yay -Rsn noto-fonts-emoji-blob
+  when: 1575552017
+- cmd: bat /etc/default/tlp
+  when: 1575553133
+  paths:
+    - /etc/default/tlp
+- cmd: nano /etc/default/tlp
+  when: 1575553140
+  paths:
+    - /etc/default/tlp
+- cmd: chattr +C /swapfile
+  when: 1575553673
+  paths:
+    - /swapfile
+- cmd: fallocate -l 4G /swapfile
+  when: 1575553712
+  paths:
+    - /swapfile
+- cmd: sudo nano /etc/fstab
+  when: 1575553765
+  paths:
+    - /etc/fstab
+- cmd: sudo btrfs subvolume list /
+  when: 1575556303
+  paths:
+    - /
+- cmd: swapon show
+  when: 1575556787
+- cmd: swapon --show
+  when: 1575556792
+- cmd: yay -Q systemd
+  when: 1575557897
+- cmd: sudo btrfs scrub status /
+  when: 1575559242
+  paths:
+    - /
+- cmd: dmesg | tail
+  when: 1575559609
+- cmd: dmesg | grep BTRFS
+  when: 1575559629
+- cmd: sudo btrfs balance start /
+  when: 1575560440
+  paths:
+    - /
+- cmd: sudo btrfs balance start -dusage=5 /
+  when: 1575560483
+  paths:
+    - /
+- cmd: sudo btrfs balance start -dusage=10 /
+  when: 1575560511
+  paths:
+    - /
+- cmd: sudo btrfs balance start -dusage=11 /
+  when: 1575560515
+  paths:
+    - /
+- cmd: sudo btrfs balance start -dusage=15 /
+  when: 1575560523
+  paths:
+    - /
+- cmd: sudo btrfs balance start -dusage=20 /
+  when: 1575560526
+  paths:
+    - /
+- cmd: sudo btrfs balance start -dusage=27 /
+  when: 1575560529
+  paths:
+    - /
+- cmd: sudo btrfs balance start -dusage=40 /
+  when: 1575560532
+  paths:
+    - /
+- cmd: sudo btrfs balance start -dusage=60 /
+  when: 1575560536
+  paths:
+    - /
+- cmd: sudo btrfs balance status /
+  when: 1575560569
+  paths:
+    - /
+- cmd: dmesg | grep crc32c
+  when: 1575560625
+- cmd: fsck -h
+  when: 1575560688
+- cmd: yay -Q mesa
+  when: 1575588259
+- cmd: yay -Q v2ray
+  when: 1575588292
+- cmd: yay -Q v2ray-domain-list-community
+  when: 1575588297
+- cmd: yay -Q v2ray-geoip
+  when: 1575588301
+- cmd: rclone mount onedrive:/ ~/OneDrive
+  when: 1575593510
+- cmd: rclone config
+  when: 1575593816
+- cmd: rm packages.txt
+  when: 1575593983
+  paths:
+    - packages.txt
+- cmd: sudo nano https://wiki.archlinux.org/index.php/Intel_graphics#Fastboot
+  when: 1575595766
+- cmd: sudo nano /etc/modprobe.d/i915.conf
+  when: 1575595772
+- cmd: ls /etc/modprobe.d/ -a
+  when: 1575596069
+  paths:
+    - /etc/modprobe.d/
+- cmd: nano /etc/modprobe.d/i915.conf
+  when: 1575596080
+  paths:
+    - /etc/modprobe.d/i915.conf
+- cmd: sudo rm /etc/modprobe.d/i915.conf
+  when: 1575596095
+  paths:
+    - /etc/modprobe.d/i915.conf
+- cmd: sudo swapon /s
+  when: 1575596926
+- cmd: yay -U linux-firmware-20191118.e8a0f4c-2-any.pkg.tar.xz  linux-zen-5.4.2.zen1-1-x86_64.pkg.tar.xz
+  when: 1575597702
+  paths:
+    - linux-firmware-20191118.e8a0f4c-2-any.pkg.tar.xz
+    - linux-zen-5.4.2.zen1-1-x86_64.pkg.tar.xz
+- cmd: dmesg | grep iwlwifi
+  when: 1575597859
+- cmd: yay -S linux-firmware
+  when: 1575597980
+- cmd: yay -Q linux
+  when: 1575598001
+- cmd: uname -r
+  when: 1575598005
+- cmd: yay -Syu
+  when: 1575598008
+- cmd: exi
+  when: 1575598015
+- cmd: truncate -s 0 /swapfile
+  when: 1575598169
+- cmd: curl -v
+  when: 1575602336
+- cmd: curl -V
+  when: 1575602340
+- cmd: curl -h
+  when: 1575602414
+- cmd: curl -6 ip.sb
+  when: 1575602444
+- cmd: sudo rm /etc/fonts/conf.d/75-twemoji.conf
+  when: 1575610224
+  paths:
+    - /etc/fonts/conf.d/75-twemoji.conf
+- cmd: git cl git@github.com:kidonng/xkcd-why.git
+  when: 1575610556
+- cmd: proxychains git cl git@github.com:kidonng/xkcd-why.git
+  when: 1575610586
+- cmd: code ncuos-fe/
+  when: 1575610602
+  paths:
+    - ncuos-fe/
+- cmd: bat App.tsx
+  when: 1575610760
+- cmd: sudo yarn global upgrade-interactive
+  when: 1575612450
+- cmd: ls /etc/fonts/conf.d
+  when: 1575612511
+  paths:
+    - /etc/fonts/conf.d
+- cmd: sudo yarn global add now@16.6.0
+  when: 1575612929
+- cmd: whereis -h
+  when: 1575612962
+- cmd: whereis now
+  when: 1575612967
+- cmd: sudo yarn global remove now
+  when: 1575613127
+- cmd: sudo yarn global list
+  when: 1575613131
+- cmd: sudo yarn cache clean
+  when: 1575613136
+- cmd: trash .cache
+  when: 1575613246
+  paths:
+    - .cache
+- cmd: sudo trash .cache
+  when: 1575613249
+  paths:
+    - .cache
+- cmd: sudo trash .config
+  when: 1575613254
+  paths:
+    - .config
+- cmd: sudo trash .yarnrc
+  when: 1575613257
+  paths:
+    - .yarnrc
+- cmd: sudo ls /root
+  when: 1575613273
+- cmd: sudo ls /root 0a
+  when: 1575613276
+  paths:
+    - /root
+- cmd: sudo ls /root/.local/share/Trash -a
+  when: 1575613285
+- cmd: sudo trash -h
+  when: 1575613291
+- cmd: sudo trash-list -h
+  when: 1575613298
+- cmd: sudo trash-list
+  when: 1575613300
+- cmd: sudo trash-empty
+  when: 1575613308
+- cmd: sudo ls /root/.local/share/ -a
+  when: 1575613312
+- cmd: sudo ls /root/.local -a
+  when: 1575613317
+- cmd: sudo ls /root/.local/share -a
+  when: 1575613320
+- cmd: sudo rm /root/.local -r
+  when: 1575613326
+- cmd: sudo rm /root/.config -r
+  when: 1575613341
+- cmd: sudo ls /root/ -a
+  when: 1575613345
+  paths:
+    - /root/
+- cmd: sudo rm /root/.cache -r
+  when: 1575613361
+- cmd: sudo ls /root/.gnupg
+  when: 1575613370
+- cmd: sudo ls /root/.gnupg/crls.d
+  when: 1575613378
+- cmd: sudo ls /root/.gnupg/crls.d -a
+  when: 1575613379
+- cmd: sudo cat /root/.gnupg/crls.d/DIR.txt
+  when: 1575613385
+- cmd: yay -Q npm
+  when: 1575613519
+- cmd: yay -Q nodejs
+  when: 1575613522
+- cmd: yay -Q yarn
+  when: 1575613526
+- cmd: omf search yarn
+  when: 1575613756
+- cmd: omf i yarn-binpath
+  when: 1575613879
+- cmd: yarn glboal list
+  when: 1575614006
+- cmd: yarn global add now@16.6.0
+  when: 1575614020
+- cmd: yarn cache clean
+  when: 1575614031
+- cmd: yarn
+  when: 1575614061
+- cmd: yarn global
+  when: 1575614195
+- cmd: yarn global add now
+  when: 1575614214
+- cmd: yay -Rsn ttf-twemoji
+  when: 1575614326
+- cmd: ls /etc/fonts/conf.avail/
+  when: 1575614333
+  paths:
+    - /etc/fonts/conf.avail/
+- cmd: ls /etc/fonts/conf.d -a
+  when: 1575614337
+  paths:
+    - /etc/fonts/conf.d
+- cmd: yarn --version
+  when: 1575614532
+- cmd: sudo nano /etc/fonts/conf.d/75-apple-emoji.conf
+  when: 1575614851
+- cmd: yay -S noto-color-emoji
+  when: 1575615236
+- cmd: rm /etc/fonts/conf.d/75-apple-emoji.conf
+  when: 1575615257
+  paths:
+    - /etc/fonts/conf.d/75-apple-emoji.conf
+- cmd: sudo rm /etc/fonts/conf.d/75-apple-emoji.conf
+  when: 1575615265
+  paths:
+    - /etc/fonts/conf.d/75-apple-emoji.conf
+- cmd: yay -S noto-fonts-color-emoji
+  when: 1575615280
+- cmd: yay -S noto
+  when: 1575615305
+- cmd: yay -S noto-fonts
+  when: 1575615311
+- cmd: yay -S noto-fonts-emoji
+  when: 1575615316
+- cmd: yay -S firefox-beta-i18n-zh-cn
+  when: 1575615667
+- cmd: yay -S firefox-i18n-zh-cn
+  when: 1575615673
+- cmd: yay -Rsh firefox-i18n-zh-cn
+  when: 1575615734
+- cmd: yay -Rsn noto-fonts-emoji
+  when: 1575616760
+- cmd: yay -S noto-fonts-blob
+  when: 1575616780
+- cmd: yay -S noto-fonts-emoji-blob
+  when: 1575616788
+- cmd: bat /etc/fonts/conf.d/README
+  when: 1575617080
+  paths:
+    - /etc/fonts/conf.d/README
+- cmd: ls /etc/fonts/conf.d/
+  when: 1575617109
+  paths:
+    - /etc/fonts/conf.d/
+- cmd: sudo nano /etc/fonts/conf.d/75-blobmoji.conf
+  when: 1575617417
+- cmd: git ca
+  when: 1575620240
+- cmd: git ps -f
+  when: 1575620243
+- cmd: yay flash
+  when: 1575624032
+- cmd: yay -S flash
+  when: 1575624041
+- cmd: yay -F pepper-flash
+  when: 1575624554
+- cmd: yay -Q pepper-flash -h
+  when: 1575624563
+- cmd: ln -s /lib/PepperFlash/ PepperFlas
+  when: 1575625444
+  paths:
+    - /lib/PepperFlash/
+- cmd: sudo ln -s /lib/PepperFlash/ PepperFlash
+  when: 1575625446
+  paths:
+    - /lib/PepperFlash/
+- cmd: rm PepperFlash/ -r
+  when: 1575625511
+  paths:
+    - PepperFlash/
+- cmd: sudo rm PepperFlash/ -r
+  when: 1575625514
+  paths:
+    - PepperFlash/
+- cmd: sudo rm PepperFlash -r
+  when: 1575625519
+  paths:
+    - PepperFlash
+- cmd: yay -Rsn flashpugin
+  when: 1575625558
+- cmd: yay -Ql pepper-flash
+  when: 1575625572
+- cmd: yay -S pepper-flash
+  when: 1575625578
+- cmd: ln -s /lib/PepperFlash/ PepperFlash
+  when: 1575625641
+  paths:
+    - /lib/PepperFlash/
+- cmd: rm PepperFlash/
+  when: 1575625672
+  paths:
+    - PepperFlash/
+- cmd: rm PepperFlash
+  when: 1575625674
+  paths:
+    - PepperFlash
+- cmd: yay -Rsn flashplugin
+  when: 1575625742
+- cmd: ldd -h
+  when: 1575626136
+- cmd: ldd --hlep
+  when: 1575626139
+- cmd: ldd --help
+  when: 1575626141
+- cmd: ldd /lib/PepperFlash/libpepflashplayer.so
+  when: 1575626152
+  paths:
+    - /lib/PepperFlash/libpepflashplayer.so
+- cmd: sudo ldd /lib/PepperFlash/libpepflashplayer.so
+  when: 1575626157
+  paths:
+    - /lib/PepperFlash/libpepflashplayer.so
+- cmd: yay -Q glibc
+  when: 1575626235
+- cmd: ln -s -h
+  when: 1575627805
+- cmd: lh -h
+  when: 1575627807
+- cmd: ln -s /lib/PepperFlash/ 32.0.0.293
+  when: 1575629459
+  paths:
+    - /lib/PepperFlash/
+- cmd: rm 32.0.0.293/
+  when: 1575629550
+  paths:
+    - 32.0.0.293/
+- cmd: rm 32.0.0.293
+  when: 1575629551
+  paths:
+    - 32.0.0.293
+- cmd: yay -S google-chrome-beta
+  when: 1575631985
+- cmd: yay -Q flashpugin
+  when: 1575632010
+- cmd: yay -Q pepper-flash
+  when: 1575632017
+- cmd: cd 32.0.0.293/
+  when: 1575632174
+  paths:
+    - 32.0.0.293/
+- cmd: ls a
+  when: 1575632176
+- cmd: yay -S chromium
+  when: 1575632368
+- cmd: yay -Rsn chrome-beta
+  when: 1575632514
+- cmd: yay google-chrome
+  when: 1575632720
+- cmd: yay -Q fprint
+  when: 1575632908
+- cmd: yay -S fprint
+  when: 1575632911
+- cmd: yay -S flashplugin
+  when: 1575633620
+- cmd: yay -Rsn google-chrome-beta
+  when: 1575633722
+- cmd: yay -Rsn chromium
+  when: 1575633726
+- cmd: yay -Rsn pepper-flash
+  when: 1575633736
+- cmd: yay -Q flashplugin
+  when: 1575633743
+- cmd: cat yarn-error.log
+  when: 1575634715
+  paths:
+    - yarn-error.log
+- cmd: rm yarn-error.log
+  when: 1575634736
+  paths:
+    - yarn-error.log
+- cmd: cat debug.log
+  when: 1575634757
+  paths:
+    - debug.log
+- cmd: rm debug.log
+  when: 1575634762
+  paths:
+    - debug.log
+- cmd: yay -S fprintd
+  when: 1575643124
+- cmd: fprintd-enroll
+  when: 1575643232
+- cmd: lsusb
+  when: 1575643319
+- cmd: lspci
+  when: 1575643329
+- cmd: yay -Rsn fprint
+  when: 1575643343
+- cmd: ls OneDrive
+  when: 1575643847
+- cmd: touch -h
+  when: 1575644087
+- cmd: touch --help
+  when: 1575644089
+- cmd: yay -Q wine-gecko
+  when: 1575647250
+- cmd: yay -S wine-mono
+  when: 1575647271
+- cmd: yay -Q winetricks
+  when: 1575647279
+- cmd: yay -Q wine
+  when: 1575647383
+- cmd: wine regedit
+  when: 1575647952
+- cmd: winecfg
+  when: 1575647979
+- cmd: wine notepad
+  when: 1575647989
+- cmd: yay -Qd firefox
+  when: 1575709976
+- cmd: yay -Q ffmpeg
+  when: 1575709985
+- cmd: yay -Qd ffmpeg
+  when: 1575709989
+- cmd: yay -Qd gcc
+  when: 1575709998
+- cmd: cat /etc/shells
+  when: 1575718259
+  paths:
+    - /etc/shells
+- cmd: l
+  when: 1575718472
+- cmd: ls --classify
+  when: 1575718499
+- cmd: ls --file-type
+  when: 1575718529
+- cmd: ls --directory
+  when: 1575718560
+- cmd: ls --numeric-uid-gid
+  when: 1575718584
+- cmd: ls -n
+  when: 1575718600
+- cmd: ls -l
+  when: 1575718614
+- cmd: proxychains yay -S antigen-git
+  when: 1575719525
+- cmd: proxychains -h
+  when: 1575719541
+- cmd: proxychains --help
+  when: 1575719543
+- cmd: proxychains fish
+  when: 1575719548
+- cmd: proxychains git cl https://github.com/zsh-users/antigen
+  when: 1575719593
+- cmd: yay -S antigen-git
+  when: 1575719604
+- cmd: zsh
+  when: 1575719746
+- cmd: yay -Q antigen-git
+  when: 1575720064
+- cmd: yay -S zsh
+  when: 1575720355
+- cmd: chsh
+  when: 1575720420
+- cmd: yay -Rsn zs
+  when: 1575725585
+- cmd: yay -Q python
+  when: 1575725608
+- cmd: yay -Q pkgfile
+  when: 1575725613
+- cmd: yay -Rsn antigen-git
+  when: 1575725630
+- cmd: yay -Rsn antibody-bin
+  when: 1575725633
+- cmd: yay -Rsn zstd
+  when: 1575725636
+- cmd: yay -Rsn zsh
+  when: 1575725638
+- cmd: omf l
+  when: 1575725685
+- cmd: cd Desktop/
+  when: 1575725973
+  paths:
+    - Desktop/
+- cmd: yay -Q fisher
+  when: 1575726084
+- cmd: yay -Ql fisher
+  when: 1575726089
+- cmd: fisher self-uninstall
+  when: 1575726462
+- cmd: omf destory
+  when: 1575726506
+- cmd: yay -Rsn oh-my-fish
+  when: 1575726545
+- cmd: yay -Rsn fisher
+  when: 1575726547
+- cmd: yay -Rsn fish
+  when: 1575726551
+- cmd: yay -S fisher
+  when: 1575726640
+- cmd: cd refined-github/
+  when: 1575726710
+  paths:
+    - refined-github/
+- cmd: fisher -h
+  when: 1575726766
+- cmd: fisher --version
+  when: 1575726789
+- cmd: fisher add thefuck
+  when: 1575726964
+- cmd: fisher -l
+  when: 1575726979
+- cmd: fisher add oh-my-fish/plugin-thefuck
+  when: 1575727045
+- cmd: fisher add iamruinous/plugin-yarn-binpath
+  when: 1575727101
+- cmd: now -h
+  when: 1575727174
+- cmd: fisher add skywind3000/z.lua
+  when: 1575727202
+- cmd: echo $XDG_DATA_HOME
+  when: 1575727469
+- cmd: $HOME
+  when: 1575727478
+- cmd: echo $HOME
+  when: 1575727480
+- cmd: z
+  when: 1575727544
+- cmd: fishetr
+  when: 1575727567
+- cmd: fisher rm skywind3000/z.lua
+  when: 1575727627
+- cmd: fisher add jethrokuan/z
+  when: 1575727654
+- cmd: z pro
+  when: 1575727674
+- cmd: sleep 6
+  when: 1575728963
+- cmd: od
+  when: 1575729229
+- cmd: od -h
+  when: 1575729236
+- cmd: whereis od
+  when: 1575729242
+- cmd: yay -S fzr
+  when: 1575729340
+- cmd: yay -S fzf
+  when: 1575729342
+- cmd: fisher add jethrokuan/fzf
+  when: 1575729366
+- cmd: odr
+  when: 1575729374
+- cmd: cd odr
+  when: 1575729376
+- cmd: yay ls
+  when: 1575729423
+- cmd: fisher rm jethrokuan/fzf
+  when: 1575729437
+- cmd: cd .config
+  when: 1575729479
+  paths:
+    - .config
+- cmd: yay -Rsn fzf
+  when: 1575729591
+- cmd: cd Projects/
+  when: 1575729644
+  paths:
+    - Projects/
+- cmd: cd dw
+  when: 1575729761
+- cmd: cd Dw
+  when: 1575729768
+- cmd: cd Downloads/
+  when: 1575729771
+  paths:
+    - Downloads/
+- cmd: cd Videos/
+  when: 1575729785
+  paths:
+    - Videos/
+- cmd: fisher ;=ls
+  when: 1575729836
+- cmd: z p
+  when: 1575729942
+- cmd: cd nc
+  when: 1575729949
+- cmd: z nc
+  when: 1575729953
+- cmd: cd /
+  when: 1575729955
+  paths:
+    - /
+- cmd: cd ~
+  when: 1575729958
+- cmd: history
+  when: 1575729989
+- cmd: spark
+  when: 1575730074
+- cmd: seq -h
+  when: 1575730090
+- cmd: seq --help
+  when: 1575730093
+- cmd: seq 80
+  when: 1575730100
+- cmd: sort -h
+  when: 1575730105
+- cmd: sort --help
+  when: 1575730109
+- cmd: seq 80 | sort -R
+  when: 1575730135
+- cmd: !!
+  when: 1575730511
+- cmd: !
+  when: 1575730513
+- cmd: p/x
+  when: 1575730745
+- cmd: P/x
+  when: 1575730753
+- cmd: cd P/x
+  when: 1575730755
+- cmd: portablectl
+  when: 1575730766
+- cmd: Projects/
+  when: 1575730768
+- cmd: ncuos-fe/
+  when: 1575730772
+- cmd: portablectl -h
+  when: 1575730778
+- cmd: portablectl list
+  when: 1575730788
+- cmd: git cl git@github.com:kidonng/xn.git
+  when: 1575734325
+- cmd: code xn
+  when: 1575734332
+  paths:
+    - xn
+- cmd: git br
+  when: 1575734350
+- cmd: git co patch-1
+  when: 1575734359
+- cmd: git reset --hard HEAD~
+  when: 1575734523
+- cmd: git co bucket/Sarasa-Gothic.json HEAD~
+  when: 1575734575
+  paths:
+    - bucket/Sarasa-Gothic.json
+- cmd: git co HEAD~ bucket/Sarasa-Gothic.json
+  when: 1575734582
+  paths:
+    - bucket/Sarasa-Gothic.json
+- cmd: git reset bucket/Sarasa-Gothic.json HEAD~
+  when: 1575734607
+  paths:
+    - bucket/Sarasa-Gothic.json
+- cmd: git reset HEAD~ bucket/Sarasa-Gothic.json
+  when: 1575734612
+  paths:
+    - bucket/Sarasa-Gothic.json
+- cmd: git diff
+  when: 1575734617
+- cmd: git co .
+  when: 1575734624
+  paths:
+    - .
+- cmd: git co --staged .
+  when: 1575734633
+  paths:
+    - .
+- cmd: git add .
+  when: 1575734734
+  paths:
+    - .
+- cmd: git ci
+  when: 1575734738
+- cmd: git ps
+  when: 1575734754
+- cmd: git sp
+  when: 1575734757
+- cmd: git restore
+  when: 1575734922
+- cmd: git b
+  when: 1575734942
+- cmd: git
+  when: 1575734952
+- cmd: gi
+  when: 1575734953
+- cmd: g
+  when: 1575735103
+- cmd: g b
+  when: 1575735108
+- cmd: g s
+  when: 1575735109
+- cmd: git branch  -v
+  when: 1575735238
+- cmd: git branch -v
+  when: 1575735243
+- cmd: yay -Rsn wine
+  when: 1575735370
+- cmd: update-mime-database
+  when: 1575735545
+- cmd: yay -Rsn python
+  when: 1575737803
+- cmd: yay -Rsn bind-tools
+  when: 1575737827
+- cmd: yay -Rsn trash-cli
+  when: 1575737837
+- cmd: yay -Rsn smbclient
+  when: 1575737849
+- cmd: yay -Rsn thefuck
+  when: 1575737862
+- cmd: pip
+  when: 1575737865
+- cmd: .We
+  when: 1575738086
+- cmd: .webSt
+  when: 1575738094
+- cmd: .conf
+  when: 1575738102
+- cmd: .confi
+  when: 1575738107
+- cmd: trash .webstor/
+  when: 1575738140
+  paths:
+    - .webstor/
+- cmd: yay -S yarn
+  when: 1575769361
+- cmd: a
+  when: 1575769371
+- cmd: nano /etc/pacman.conf
+  when: 1575769555
+  paths:
+    - /etc/pacman.conf
+- cmd: bat /etc/pacman.d/mirrorlist
+  when: 1575769646
+  paths:
+    - /etc/pacman.d/mirrorlist
+- cmd: yay -Q lib32-alsa-lib
+  when: 1575769678
+- cmd: yay -Rsn lib32-alsa-lib
+  when: 1575769697
+- cmd: yay -Rsn lib32-libcanberra
+  when: 1575769702
+- cmd: yay -Rsn lib32-gtk3
+  when: 1575769706
+- cmd: yay -Rsn lib32-libdbusmenu-gtk3
+  when: 1575769713
+- cmd: yay -Rsn lib32-libdbusmenu-gtk2
+  when: 1575769902
+- cmd: yay -Rsn lib32-libdbusmenu-glib
+  when: 1575769914
+- cmd: yay -S appmenu-gtk-module gmenu-dbusmenu-proxy
+  when: 1575769947
+- cmd: pacman -Ssq libdbusmenu
+  when: 1575770008
+- cmd: yay -S (yay -Ssq libdbusmenu)
+  when: 1575770072
+- cmd: yay -S appmenu-gtk-module
+  when: 1575770088
+- cmd: yay -Rsn gmenu-dbusmenu-proxy
+  when: 1575770134
+- cmd: pkgfile
+  when: 1575770474
+- cmd: zfs
+  when: 1575770618
+- cmd: ntpd
+  when: 1575770627
+- cmd: pkgfile ntpd
+  when: 1575770646
+- cmd: yay -S bind-tools
+  when: 1575770659
+- cmd: yay -Rsn dnsutils
+  when: 1575770674
+- cmd: pkgfile dig
+  when: 1575770687
+- cmd: yay -Rsn epic4
+  when: 1575770692
+- cmd: yay -Q -h
+  when: 1575770708
+- cmd: yay -S dnsutils
+  when: 1575770848
+- cmd: yay -Q >> packages.txt
+  when: 1575771221
+- cmd: bat packages.txt
+  when: 1575771230
+  paths:
+    - packages.txt
+- cmd: yay -Q > packages.txt
+  when: 1575771240
+- cmd: yay -Rsn adobe-source-code-pro-fonts
+  when: 1575771280
+- cmd: curl
+  when: 1575771322
+- cmd: curl --help
+  when: 1575771324
+- cmd: curl --version
+  when: 1575771327
+- cmd: exut
+  when: 1575771436
+- cmd: aria2c -d
+  when: 1575771454
+- cmd: aria2c -h
+  when: 1575771466
+- cmd: aria2c --version
+  when: 1575771510
+- cmd: yay -Rsn ebook-tools
+  when: 1575771711
+- cmd: yay -Rsn fprintd
+  when: 1575771727
+- cmd: yay -S lzop
+  when: 1575772463
+- cmd: yay -Rsn arc-kde
+  when: 1575772874
+- cmd: yay -Rsn kvantum-
+  when: 1575772881
+- cmd: yay -Rsn kvantum-qt5
+  when: 1575772886
+- cmd: yay -Rsn kvantum-theme-arc
+  when: 1575772890
+- cmd: yay -S adapta-kde
+  when: 1575773493
+- cmd: yay -S adapta-gtk-theme kvantum-theme-adapta
+  when: 1575773517
+- cmd: yay -S papirus-icon-theme
+  when: 1575773593
+- cmd: pkgfile linguist
+  when: 1575775765
+- cmd: yay -Rsn qt5-tools
+  when: 1575775773
+- cmd: startplasma-x11
+  when: 1575777101
+- cmd: plasmashell-h
+  when: 1575777125
+- cmd: plasmashell -h
+  when: 1575777127
+- cmd: plasmashell
+  when: 1575777143
+- cmd: yay -S applet-window-appmenu
+  when: 1575781447
+- cmd: yay applet-window-appmenu
+  when: 1575781457
+- cmd: yay -S plasma5-applets-window-appmenu
+  when: 1575781506
+- cmd: yay -S plasma5-applets-window-buttons
+  when: 1575781751
+- cmd: yay -S plasma5-applets-window-title
+  when: 1575781772
+- cmd: yay -Rsn latte-dock
+  when: 1575788317
+- cmd: cd ncuos-fe/
+  when: 1575788965
+  paths:
+    - ncuos-fe/
+- cmd: yarn dev
+  when: 1575788974
+- cmd: now dev
+  when: 1575789012
+- cmd: yarn start
+  when: 1575789049
+- cmd: yay -S latte-dock
+  when: 1575790717
+- cmd: yay -Q plasma
+  when: 1575791910
+- cmd: yay -Q | grep plasma5
+  when: 1575791918
+- cmd: yay -S Kickoff
+  when: 1575798154
+- cmd: yay -S kompare
+  when: 1575798348
+- cmd: yay -Q kompare
+  when: 1575799006
+- cmd: yay -S kdiff3
+  when: 1575799009
+- cmd: yay -S kimagemapeditor
+  when: 1575800157
+- cmd: yay -S kiten
+  when: 1575800245
+- cmd: yay -Rsn kompare
+  when: 1575800693
+- cmd: yay -S ffmpegthumbs
+  when: 1575800871
+- cmd: yay -S partitionmanager
+  when: 1575801544
+- cmd: yay -Rsn e2fsprogs
+  when: 1575801567
+- cmd: yay -Rsn xfsprogs
+  when: 1575801580
+- cmd: yay -Rsn ntfs-3g
+  when: 1575801595
+- cmd: yay -rsn dosfstools
+  when: 1575801604
+- cmd: yay -Rsn dosfstools
+  when: 1575801615
+- cmd: yay -S Inkscape
+  when: 1575802339
+- cmd: yay -S inkscape
+  when: 1575802349
+- cmd: yay -S kdenlive
+  when: 1575802671
+- cmd: kdevlive
+  when: 1575802681
+- cmd: kdenlive
+  when: 1575802683
+- cmd: cd Documents/
+  when: 1575803488
+  paths:
+    - Documents/
+- cmd: fusermount -u ~/OneDrive
+  when: 1575804864
+- cmd: yarn global list
+  when: 1575814573
+- cmd: uname -a
+  when: 1575852297
+- cmd: ex
+  when: 1575852340
+- cmd: yay -Q latte-dock
+  when: 1575853327
+- cmd: yay -Rsn firefox-i18n-zh-cn
+  when: 1575856049
+- cmd: lsmod | grep snd_pcm_oss
+  when: 1575856487
+- cmd: yay -Q appmenu-gtk-module
+  when: 1575857941
+- cmd: yay -S firefox-appmenu
+  when: 1575858358
+- cmd: ks
+  when: 1575858945
+- cmd: lsmod
+  when: 1575858949
+- cmd: iptables -h
+  when: 1575858952
+- cmd: yay -Rsn firefox
+  when: 1575862689
+- cmd: yay -S firefox-appmenu-bin
+  when: 1575862698
+- cmd: yay -Rsn kiten
+  when: 1575863606
+- cmd: yay -U linux-zen-5.3.13.1-1-x86_64.pkg.tar.xz
+  when: 1575868840
+  paths:
+    - linux-zen-5.3.13.1-1-x86_64.pkg.tar.xz
+- cmd: aria2c -D
+  when: 1575869005
+- cmd: chmod +x aria2.sh
+  when: 1575869014
+  paths:
+    - aria2.sh
+- cmd: ./aria2.sh
+  when: 1575869045
+- cmd: yay -Q babl
+  when: 1575869329
+- cmd: yay -Rsn babl
+  when: 1575869332
+- cmd: yay -Rsn gstreamer
+  when: 1575869625
+- cmd: yay -Rsn gst-plugins-base
+  when: 1575869632
+- cmd: yay -Rsn gst-plugins-base-libs
+  when: 1575869635
+- cmd: yay -Rsn qt5-webkit
+  when: 1575869651
+- cmd: yay -Rsn signon-ui
+  when: 1575869657
+- cmd: yay -Rsn kaccounts-integration
+  when: 1575869665
+- cmd: yay -Rsn purpose
+  when: 1575869671
+- cmd: yay -Rsn kcmshell
+  when: 1575869699
+- cmd: yay -Rsn ksplash
+  when: 1575869776
+- cmd: yay -Rsn kwin
+  when: 1575869793
+- cmd: yay -Rsn systemsettings
+  when: 1575869944
+- cmd: yay -Q dconf
+  when: 1575870328
+- cmd: n -h
+  when: 1575870536
+- cmd: sudo mv 75-blobmoji.conf ../conf.avail/
+  when: 1575870680
+  paths:
+    - 75-blobmoji.conf
+    - ../conf.avail/
+- cmd: cd conf.
+  when: 1575870684
+- cmd: cd conf.avail/
+  when: 1575870751
+  paths:
+    - conf.avail/
+- cmd: ln -sf 75-blobmoji.conf ../conf.avail/75-blobmoji.conf
+  when: 1575870771
+  paths:
+    - 75-blobmoji.conf
+    - ../conf.avail/75-blobmoji.conf
+- cmd: cd conf.d
+  when: 1575870786
+  paths:
+    - conf.d
+- cmd: ls -h
+  when: 1575870889
+- cmd: ls --help
+  when: 1575870890
+- cmd: cd conf.d/
+  when: 1575870953
+  paths:
+    - conf.d/
+- cmd: la
+  when: 1575871018
+- cmd: yay -Rsn libaccounts-
+  when: 1575871571
+- cmd: yay -Rsn libaccounts-glib
+  when: 1575871575
+- cmd: yay -Rsn libaccounts-qt
+  when: 1575871578
+- cmd: yay -Rsn kwallet
+  when: 1575872201
+- cmd: trash -h
+  when: 1575872422
+- cmd: fc-cache -f
+  when: 1575872638
+- cmd: yay -Rsn ttf-dejavu
+  when: 1575872819
+- cmd: 7z l cn_windows_10_consumer_editions_version_1909_x64_dvd_76365bf8.wim
+  when: 1575873191
+  paths:
+    - cn_windows_10_consumer_editions_version_1909_x64_dvd_76365bf8.wim
+- cmd: 7z -h
+  when: 1575873200
+- cmd: 7z x -h
+  when: 1575873236
+- cmd: yay -Rsn ttf-hack
+  when: 1575874204
+- cmd: yay -S peazip
+  when: 1575874207
+- cmd: yay -Q lrzip
+  when: 1575874570
+- cmd: yay -Q lzop
+  when: 1575874573
+- cmd: yay -Q unarchiver
+  when: 1575874579
+- cmd: yay -Q unrar
+  when: 1575874582
+- cmd: yay -Q p7zip
+  when: 1575874595
+- cmd: fc-cache
+  when: 1575876227
+- cmd: sudo nano /etc/pacman.conf
+  when: 1575879586
+  paths:
+    - /etc/pacman.conf
+- cmd: yay -S deepin.com.qq.im
+  when: 1575879625
+- cmd: yay -Q freetype2
+  when: 1575879755
+- cmd: yay -Rsn freetype2
+  when: 1575879766
+- cmd: pwd
+  when: 1575879794
+- cmd: chmod +x gsd-xsettings.sh
+  when: 1575879914
+  paths:
+    - gsd-xsettings.sh
+- cmd: whereis gsd-xsettings
+  when: 1575880054
+- cmd: ./gsd-xsettings.sh
+  when: 1575880066
+- cmd: gpg -h
+  when: 1575881513
+- cmd: yay -Rsn kcookiejar
+  when: 1575881741
+- cmd: yay -Q
+  when: 1575881753
+- cmd: yay -Rsn kscreen
+  when: 1575882085
+- cmd: kscreen-console -h
+  when: 1575882102
+- cmd: kscreen-console json
+  when: 1575882112
+- cmd: yay -Rsn ksysguard
+  when: 1575882131
+- cmd: yay -Rsn kxmlgui
+  when: 1575882274
+- cmd: whereis aria2c
+  when: 1575885270
+- cmd: dconf-editor
+  when: 1575886007
+- cmd: sudo nano xdg.sh
+  when: 1575887143
+- cmd: yarn global lsit
+  when: 1575887167
+- cmd: yarn global upgrade-interactive &
+  when: 1575887172
+- cmd: chmod +x xdg.sh
+  when: 1575887239
+  paths:
+    - xdg.sh
+- cmd: sudo chmod +x xdg.sh
+  when: 1575887241
+  paths:
+    - xdg.sh
+- cmd: bat plasma.desktop
+  when: 1575888071
+  paths:
+    - plasma.desktop
+- cmd: ;s
+  when: 1575888166
+- cmd: yay -Rsn gnome-settings-daemon
+  when: 1575888561
+- cmd: deepin-wine -h
+  when: 1575888720
+- cmd: $WINEPREFIX
+  when: 1575888903
+- cmd: echo $WINEPREFIX
+  when: 1575888906
+- cmd: deepin-winecfg
+  when: 1575888913
+- cmd: set WINEPREFIX /home/kid/.deepinwine/
+  when: 1575889466
+  paths:
+    - /home/kid/.deepinwine/
+- cmd: deepin-wine regedit
+  when: 1575889467
+- cmd: yay -Q deepin-wine
+  when: 1575889686
+- cmd: yay -S gnome-settings-daemon
+  when: 1575891875
+- cmd: xdg-settings
+  when: 1575892100
+- cmd: dconf -h
+  when: 1575892794
+- cmd: cd dconf/
+  when: 1575892806
+  paths:
+    - dconf/
+- cmd: dconf list
+  when: 1575892818
+- cmd: dconf list ..
+  when: 1575892822
+  paths:
+    - ..
+- cmd: dconf list ../dconf/
+  when: 1575892827
+  paths:
+    - ../dconf/
+- cmd: dconf list ../dconf
+  when: 1575892831
+  paths:
+    - ../dconf
+- cmd: dconf help
+  when: 1575892861
+- cmd: dconf help list
+  when: 1575892867
+- cmd: dconf list /org
+  when: 1575892883
+- cmd: dconf list /
+  when: 1575892901
+  paths:
+    - /
+- cmd: dconf list /system
+  when: 1575892903
+- cmd: dconf list /system.
+  when: 1575892905
+- cmd: dconf list /system/
+  when: 1575892906
+- cmd: dconf list /org/
+  when: 1575892910
+- cmd: dconf list /org/gtk/
+  when: 1575892912
+- cmd: dconf list /org/gtk/settings/
+  when: 1575892915
+- cmd: dconf list /org/gnome/
+  when: 1575892922
+- cmd: dconf list /org/gnome/desktop/
+  when: 1575892925
+- cmd: dconf list /org/gnome/desktop/interface/text-scaling-facotr
+  when: 1575892938
+- cmd: dconf list /org/gnome/desktop/interface/text-scaling-factor/
+  when: 1575892940
+- cmd: dconf read /org/gnome/desktop/interface/text-scaling-factor/
+  when: 1575892953
+- cmd: dconf
+  when: 1575893086
+- cmd: dconf help write
+  when: 1575893091
+- cmd: dconf list /org/gnome/desktop/interface/
+  when: 1575893113
+- cmd: dconf list /org/gnome/desktop/interface/cursor-size
+  when: 1575893117
+- cmd: whereis startplasma-x11
+  when: 1575898027
+- cmd: startx
+  when: 1575898813
+- cmd: xinitrcsession-helper -h
+  when: 1575899130
+- cmd: whereis xinitrcsession-helper
+  when: 1575899229
+- cmd: sddm -h
+  when: 1575899253
+- cmd: yay -S sddm-kcm
+  when: 1575899382
+- cmd: yay -Ql sddm-kcm
+  when: 1575899400
+- cmd: yay -S sddm-config-editor-git
+  when: 1575899440
+- cmd: yay -Ql gnome-settings-daemon
+  when: 1575899977
+- cmd: . .xsession
+  when: 1575900151
+  paths:
+    - .xsession
+- cmd: chmod +x .xsession
+  when: 1575900163
+  paths:
+    - .xsession
+- cmd: yay -S dconf-editor
+  when: 1575900304
+- cmd: yay -S xinit-xsession
+  when: 1575901848
+- cmd: sudo rm /var/lib/pacman/db.lck
+  when: 1575901905
+  paths:
+    - /var/lib/pacman/db.lck
+- cmd: yay -Ql xinit-xsession
+  when: 1575902270
+- cmd: xdg-settings &
+  when: 1575902591
+- cmd: /lib/gsd-xsettings &
+  when: 1575902624
+- cmd: dconf read /org/gnome/desktop/interface/cursor-size
+  when: 1575902678
+- cmd: dconf read /org/gnome/desktop/interface/text-scaling-factor
+  when: 1575902683
+- cmd: dconf write /org/gnome/desktop/interface/text-scaling-factor 1.5
+  when: 1575902718
+- cmd: dconf write /org/gnome/desktop/interface/cursor-size 36
+  when: 1575902741
+- cmd: yay -Rsn dconf-editor
+  when: 1575902798
+- cmd: yay -Rsn dcofn
+  when: 1575902840
+- cmd: yay -Rsn dconf
+  when: 1575902842
+- cmd: sysctl
+  when: 1575904844
+- cmd: sysctl -a
+  when: 1575904848
+- cmd: sudo cp plasma.desktop plasma-wayland.desktop
+  when: 1575905945
+  paths:
+    - plasma.desktop
+- cmd: startplasma-wayland
+  when: 1575906215
+- cmd: yay -S plasma-wayland-session
+  when: 1575906290
+- cmd: yay -Ql plasma-wayland-session
+  when: 1575906525
+- cmd: yay -Rsn xinit-xsession
+  when: 1575907271
+- cmd: yay -Rsn plasma-workspace-wallpapers
+  when: 1575907277
+- cmd: yay -Rsn plasma-wayland-session
+  when: 1575907281
+- cmd: yay -S lib32-freetype2-infinality-ultimate
+  when: 1575961350
+- cmd: yay -Q base
+  when: 1575963199
+- cmd: yay -S fcitx5-chinese-addons-git
+  when: 1575970268
+- cmd: python
+  when: 1575972010
+- cmd: rm .python_history
+  when: 1575972033
+  paths:
+    - .python_history
+- cmd: yay -S fcitx5-rime-git
+  when: 1575972733
+- cmd: yay -S fcitx5-rime
+  when: 1575972742
+- cmd: yay -Rsn fcitx5-rime-git
+  when: 1575973439
+- cmd: cd ../../.local/share/
+  when: 1575973721
+  paths:
+    - ../../.local/share/
+- cmd: git clone https://github.com/hosxy/Fcitx5-Material-Color.git ~/.local/share/fcitx5/themes/Material-Color
+  when: 1575973753
+- cmd: cd .config/
+  when: 1575973778
+  paths:
+    - .config/
+- cmd: cd fcitx5/
+  when: 1575973783
+  paths:
+    - fcitx5/
+- cmd: ln -sf ./panel-origin.png panel.png
+  when: 1575974132
+  paths:
+    - ./panel-origin.png
+- cmd: ln -sf ./highlight-origin.png highlight.png
+  when: 1575974179
+  paths:
+    - ./highlight-origin.png
+- cmd: kill 4496
+  when: 1575974274
+- cmd: kill 5239
+  when: 1575974279
+- cmd: fcitx5 &
+  when: 1575974331
+- cmd: yay -Rsn libglvnd
+  when: 1575980483
+- cmd: yay -S adb
+  when: 1575980508
+- cmd: adb -h
+  when: 1575981131
+- cmd: adb help
+  when: 1575981134
+- cmd: adb shell setprop persist.log.tag.NotificationService DEBUG
+  when: 1575981357
+- cmd: adb shell pm grant com.oasisfeng.nevo android.permission.READ_LOGS
+  when: 1575981360
+- cmd: adb shell dumpsys account
+  when: 1575982634
+- cmd: adb shell dpm set-device-owner cf.playhi.freezeyou/.DeviceAdminReceiver
+  when: 1575982697
+- cmd: adb devices
+  when: 1575983773
+- cmd: adb shell ls /data/adb
+  when: 1575983783
+- cmd: adb shell ls /sdcard/
+  when: 1575983790
+- cmd: adb shell rm /sdcard/mm
+  when: 1575983798
+- cmd: poweroff
+  when: 1575989755
+- cmd: sudo rm /swapfile
+  when: 1576024111
+  paths:
+    - /swapfile
+- cmd: sudo truncate -s 0 /swapfile
+  when: 1576024123
+- cmd: sudo chattr +C /swapfile
+  when: 1576024128
+  paths:
+    - /swapfile
+- cmd: sudo btrfs property set /swapfile compression none
+  when: 1576024135
+  paths:
+    - /swapfile
+- cmd: sudo fallocate -l 4G /swapfile
+  when: 1576024140
+  paths:
+    - /swapfile
+- cmd: sudo chmod 600 /swapfile
+  when: 1576024145
+  paths:
+    - /swapfile
+- cmd: sudo mkswap /swapfile
+  when: 1576024150
+  paths:
+    - /swapfile
+- cmd: sudo swapon /swapfile
+  when: 1576024153
+  paths:
+    - /swapfile
+- cmd: sudo btrfs subvolume status /
+  when: 1576024321
+  paths:
+    - /
+- cmd: compsize /
+  when: 1576024431
+  paths:
+    - /
+- cmd: rclone mount cache:/ ~/OneDrive
+  when: 1576024626
+- cmd: yay -S neofetch
+  when: 1576028713
+- cmd: yay -S screenfetch
+  when: 1576028719
+- cmd: yay -S screenfetch neofetch
+  when: 1576028816
+- cmd: yay -Rsn screenfetch
+  when: 1576029075
+- cmd: scrot
+  when: 1576030255
+- cmd: screenfetch
+  when: 1576030264
+- cmd: yay -Rsn xorg-xdpyinfo
+  when: 1576030316
+- cmd: curl ip.sb
+  when: 1576031310
+- cmd: curl -4 ip.sb
+  when: 1576031316
+- cmd: disown 9215
+  when: 1576031634
+- cmd: yay -Rsn sddm-config-editor-git
+  when: 1576033508
+- cmd: neofetch --test
+  when: 1576033724
+- cmd: neofetch --help
+  when: 1576033747
+- cmd: neofetch --ascii
+  when: 1576033755
+- cmd: yay -S w3,
+  when: 1576034170
+- cmd: yay -S w3m
+  when: 1576034172
+- cmd: yay -S imagemagick
+  when: 1576034187
+- cmd: yay -S xorg-xinfo
+  when: 1576034857
+- cmd: w3m-image
+  when: 1576035072
+- cmd: w3m -h
+  when: 1576035077
+- cmd: w3m ip.sb
+  when: 1576037147
+- cmd: w3m pixiv.cat/reverseproxy.html
+  when: 1576037491
+- cmd: yay -Rsn imlib2
+  when: 1576037625
+- cmd: yay -S imlib2
+  when: 1576037699
+- cmd: proxychains w3m https://en.wikipedia.org/wiki/xterm
+  when: 1576037705
+- cmd: yay -S feh
+  when: 1576037908
+- cmd: feh -h
+  when: 1576037920
+- cmd: yay -Rsn xorg-xprop
+  when: 1576038093
+- cmd: yay -Rsn xorg-utils
+  when: 1576038098
+- cmd: yay -Rsn xorg-xwininfo
+  when: 1576038111
+- cmd: yay -S xorg-xwininfo
+  when: 1576038126
+- cmd: yay -S nitrogen
+  when: 1576039620
+- cmd: w3m https://pixiv.cat/56901029.jpg
+  when: 1576040214
+- cmd: yay -Q feh
+  when: 1576040387
+- cmd: yay -Q nitrogen
+  when: 1576040391
+- cmd: nitrogen -h
+  when: 1576040396
+- cmd: qdbus org.kde.plasma-desktop /MainApplication reparseConfiguration
+  when: 1576041007
+- cmd: qdbus org.kde.plasmashell /MainApplication reparseConfiguration
+  when: 1576041030
+- cmd: qdbus org.kde.plasmashell /PlasmaShell
+  when: 1576041344
+- cmd: qdbus org.kde.plasmashell /PlasmaShell activateLauncherMenu
+  when: 1576041375
+- cmd: qdbus org.kde.plasmashell /PlasmaShell activateLauncherMen
+  when: 1576041448
+- cmd: qdbus org.kde.plasmashell /MainApplication
+  when: 1576041464
+- cmd: yay -Rsn feh
+  when: 1576052599
+- cmd: yay -Rsn nitrogen
+  when: 1576052605
+- cmd: systemctl status fstrim.timer
+  when: 1576058091
+- cmd: yay -Rsn python2
+  when: 1576058849
+- cmd: dmesg
+  when: 1576059009
+- cmd: nano /tmp/id.ts
+  when: 1576060518
+- cmd: deno Videos/
+  when: 1576060792
+  paths:
+    - Videos/
+- cmd: deno /tmp/id.ts
+  when: 1576060801
+  paths:
+    - /tmp/id.ts
+- cmd: nano /tmp/detect-hardware-issue.py
+  when: 1576060852
+- cmd: python /tmp/detect-hardware-issue.py
+  when: 1576060861
+  paths:
+    - /tmp/detect-hardware-issue.py
+- cmd: nano /tmp/test.py
+  when: 1576061142
+- cmd: python /tmp/test.py
+  when: 1576061148
+  paths:
+    - /tmp/test.py
+- cmd: proxychains deno https://gist.github.com/kidonng/d1dfc5060b91fe02964d1e4304b51ab4/raw/3568bcf21d607e3a7637b6b9d42c38bb59f3a1f7/yes-or-no.ts
+  when: 1576061312
+- cmd: deno https://gist.github.com/kidonng/d1dfc5060b91fe02964d1e4304b51ab4/raw/3568bcf21d607e3a7637b6b9d42c38bb59f3a1f7/yes-or-no.ts
+  when: 1576061345
+- cmd: nano /tmp/tmp1.ts
+  when: 1576061375
+- cmd: deno /tmp/tmp1.ts
+  when: 1576061408
+  paths:
+    - /tmp/tmp1.ts
+- cmd: deno /tmp/tmp1.ts --allow-net
+  when: 1576061414
+  paths:
+    - /tmp/tmp1.ts
+- cmd: deno https://gist.github.com/kidonng/d1dfc5060b91fe02964d1e4304b51ab4/raw/3568bcf21d607e3a7637b6b9d42c38bb59f3a1f7/yes-or-no.ts --allow-net
+  when: 1576061450
+- cmd: proxychains deno https://gist.github.com/kidonng/d1dfc5060b91fe02964d1e4304b51ab4/raw/3568bcf21d607e3a7637b6b9d42c38bb59f3a1f7/yes-or-no.ts --allow-net
+  when: 1576061470
+- cmd: curl https://yesno.wtf/api
+  when: 1576061526
+- cmd: jq -h
+  when: 1576061544
+- cmd: proxychains curl https://yesno.wtf/api
+  when: 1576061555
+- cmd: proxychains curl https://yesno.wtf/api | jq
+  when: 1576061560
+- cmd: deno /tmp/tmp2.ts --allow-net
+  when: 1576061703
+  paths:
+    - /tmp/tmp2.ts
+- cmd: nano /tmp/tmp2.ts
+  when: 1576061740
+- cmd: deno -h
+  when: 1576062313
+- cmd: nano /tmp/tmp3.ts
+  when: 1576063212
+- cmd: deno /tmp/tmp3.ts --allow-net
+  when: 1576063221
+  paths:
+    - /tmp/tmp3.ts
+- cmd: nano /tmp/tmp4.ts
+  when: 1576063477
+- cmd: deno /tmp/tmp4.ts --allow-net
+  when: 1576063482
+  paths:
+    - /tmp/tmp4.ts
+- cmd: proxychains deno /tmp/tmp4.ts --allow-net
+  when: 1576063496
+  paths:
+    - /tmp/tmp4.ts
+- cmd: whereis dig
+  when: 1576063713
+- cmd: yay -Rsn binutils
+  when: 1576063734
+- cmd: yay -Ql bind-tools
+  when: 1576063746
+- cmd: yay -Rsn winetricks
+  when: 1576063838
+- cmd: yay -Rsn pulseaudio
+  when: 1576063878
+- cmd: yay -Q fzf
+  when: 1576064084
+- cmd: lzop
+  when: 1576064097
+- cmd: efibootmgr
+  when: 1576064276
+- cmd: kiten
+  when: 1576064304
+- cmd: yay -Rsn kdenlive
+  when: 1576064398
+- cmd: yay -S gmenu-dbusmenu-proxy
+  when: 1576064462
+- cmd: yay -Q gnome-settings-daemon
+  when: 1576064505
+- cmd: yay -Q sddm-kcm
+  when: 1576064528
+- cmd: yay -Rsn sddm-kcm
+  when: 1576064532
+- cmd: systemctl status sddm
+  when: 1576064567
+- cmd: disown 1843
+  when: 1576065048
+- cmd: fisher rm rafaelrinaldi/pure
+  when: 1576069048
+- cmd: fisher add rafaelrinaldi/pure
+  when: 1576069091
+- cmd: fisher rm jethrokuan/z
+  when: 1576069128
+- cmd: neofetch
+  when: 1576069183
+- cmd: yay -Rsn adapta-kde
+  when: 1576070587
+- cmd: yay -Rsn adapta-gtk-theme
+  when: 1576070663
+- cmd: yay -Rsn kvantum-theme-adapta
+  when: 1576070672
+- cmd: yay -Rsn papirus-icon-theme
+  when: 1576070686
+- cmd: git log
+  when: 1576071111
+- cmd: git lg
+  when: 1576071113
+- cmd: git remote
+  when: 1576071166
+- cmd: yay
+  when: 1576071212
+- cmd: hub clone n4n0GH/hello
+  when: 1576071341
+- cmd: proxychains hub clone n4n0GH/hello
+  when: 1576071409
+- cmd: proxychains curl -4 ip.sb
+  when: 1576071422
+- cmd: yay -S hello-kde-git -h
+  when: 1576071645
+- cmd: yay -h
+  when: 1576071722
+- cmd: yay -Y -h
+  when: 1576071754
+- cmd: cmake -DCMAKE_INSTALL_PREFIX=/usr ..\nmake\nsudo make install
+  when: 1576071857
+  paths:
+    - ..
+- cmd: kwin_x11 --replace &\nplasmashell --replace &
+  when: 1576071961
+- cmd: yay -Rsn breeze
+  when: 1576072164
+- cmd: yay -Rsn oxygen
+  when: 1576072168
+- cmd: yay -Rsn kdecoration
+  when: 1576072313
+- cmd: yay -Rsn qt5-declarative
+  when: 1576072318
+- cmd: yay -Rsn qt5-x11extras
+  when: 1576072323
+- cmd: cd .cache/yay/
+  when: 1576072345
+  paths:
+    - .cache/yay/
+- cmd: cd hello-kde-git/
+  when: 1576072347
+  paths:
+    - hello-kde-git/
+- cmd: cd hello/
+  when: 1576072352
+  paths:
+    - hello/
+- cmd: git remote -v
+  when: 1576072354
+- cmd: git pull
+  when: 1576072361
+- cmd: git log --pretty=oneline --abbrev-commit --graph
+  when: 1576072374
+- cmd: rm -r build
+  when: 1576072391
+  paths:
+    - build
+- cmd: sudo rm -r build
+  when: 1576072399
+  paths:
+    - build
+- cmd: mkdir build
+  when: 1576072405
+- cmd: cd build
+  when: 1576072407
+  paths:
+    - build
+- cmd: cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+  when: 1576072415
+  paths:
+    - ..
+- cmd: make
+  when: 1576072505
+- cmd: kwin_x11 --replace
+  when: 1576072726
+- cmd: kwin_x11 --replace &
+  when: 1576072760
+- cmd: plasmashell --replace &
+  when: 1576072775
+- cmd: disown 4810 4764
+  when: 1576072788
+- cmd: sudo make uninstall
+  when: 1576072858
+- cmd: sudo efibootmgr -o 0001
+  when: 1576116572
+- cmd: yay -S compsize
+  when: 1576116606
+- cmd: sudo compsize -x /
+  when: 1576116612
+  paths:
+    - /
+- cmd: yay -Rsn compsize
+  when: 1576116630
+- cmd: sudo btrfs filesystem usage /
+  when: 1576116680
+  paths:
+    - /
+- cmd: disown 1714
+  when: 1576116832
+- cmd: yarn global upgrade-interactive
+  when: 1576116847
+- cmd: fisher
+  when: 1576116849
+- cmd: fisher ls
+  when: 1576116871
+- cmd: npm list -g
+  when: 1576116883
+- cmd: npm list -g --depth=0
+  when: 1576116894
+- cmd: sudo ls /root -a
+  when: 1576116933
+- cmd: sudo rm /root/.bash_history
+  when: 1576116944
+- cmd: sudo ls /root/.cache -a
+  when: 1576116951
+- cmd: sudo ls /root/.config -a
+  when: 1576116959
+- cmd: exec -h
+  when: 1576116966
+- cmd: neofetch --w3m --source Pictures/电脑壁纸.png
+  when: 1576117084
+  paths:
+    - Pictures/电脑壁纸.png
+- cmd: sudo rm -r zsh
+  when: 1576117191
+  paths:
+    - zsh
+- cmd: pkgfile -h
+  when: 1576117250
+- cmd: pkgfile -u
+  when: 1576117259
+- cmd: sudo pkgfile -u
+  when: 1576117268
+- cmd: sudo ls ldconfig/
+  when: 1576117290
+  paths:
+    - ldconfig/
+- cmd: wget
+  when: 1576117336
+- cmd: /usr/share/man/man1/wget.1.gz
+  when: 1576117352
+- cmd: yay -Rsn google-chrome
+  when: 1576117526
+- cmd: yay -S google-chrome
+  when: 1576117530
+- cmd: yay -Rsn gtk3-print-backends
+  when: 1576117558
+- cmd: yay -Rsn xdg-utils
+  when: 1576117576
+- cmd: yay -Sc
+  when: 1576117617
+- cmd: sudo ls /lost+found/
+  when: 1576117676
+  paths:
+    - /lost+found/
+- cmd: sudo ls /lost+found/ -a
+  when: 1576117681
+  paths:
+    - /lost+found/
+- cmd: fuck
+  when: 1576117777
+- cmd: sudo mv _os_linux.png os_linux.png
+  when: 1576117787
+  paths:
+    - _os_linux.png
+- cmd: whoami
+  when: 1576118312
+- cmd: users
+  when: 1576118320
+- cmd: lslogins
+  when: 1576118334
+- cmd: cd tmp
+  when: 1576119048
+  paths:
+    - tmp
+- cmd: proxychains git clone https://github.com/n4n0GH/hello
+  when: 1576119055
+- cmd: yay -S hello-kde-git
+  when: 1576119074
+- cmd: cp /tmp/hello/.git hello
+  when: 1576119581
+  paths:
+    - /tmp/hello/.git
+- cmd: cp /tmp/hello/.git hello -r
+  when: 1576119583
+  paths:
+    - /tmp/hello/.git
+- cmd: yay -S hello-kde-git --editmenu
+  when: 1576119657
+- cmd: git st
+  when: 1576119740
+- cmd: cd ..
+  when: 1576119750
+  paths:
+    - ..
+- cmd: git statsu
+  when: 1576119753
+- cmd: yay -S tele-icon-theme
+  when: 1576119933
+- cmd: yay -S tele-icon-theme-git
+  when: 1576119942
+- cmd: yay tele-icon-theme-git --editmenu
+  when: 1576119964
+- cmd: yay tela-icon-theme-git --editmenu
+  when: 1576119969
+- cmd: yay -Q tela-icon-theme-git
+  when: 1576120093
+- cmd: yay -S capitaine-cursors
+  when: 1576120128
+- cmd: yay Qogir
+  when: 1576120208
+- cmd: yay Qogir --editmenu
+  when: 1576120257
+- cmd: yay -S kvantum-qt5
+  when: 1576120360
+- cmd: yay dracula
+  when: 1576120639
+- cmd: ls -a
+  when: 1576120774
+- cmd: git cl https://github.com/nopain2110/Chrome-OS-kde.git
+  when: 1576120895
+- cmd: git clone https://github.com/nopain2110/Chrome-OS-kde.git
+  when: 1576120898
+- cmd: clear
+  when: 1576120996
+- cmd: theme
+  when: 1576121014
+- cmd: mkdir theme
+  when: 1576121026
+- cmd: git cl https://github.com/psifidotos/plasma-systray-latte-tweaks
+  when: 1576121042
+- cmd: git clone https://github.com/psifidotos/plasma-systray-latte-tweaks
+  when: 1576121045
+- cmd: ln -h
+  when: 1576121068
+- cmd: ln -s ./org.kde.plasma.private.systemtray ~/.local/share/plasma/plasmoids/
+  when: 1576121131
+  paths:
+    - ./org.kde.plasma.private.systemtray
+- cmd: rm ~/.local/share/plasma/plasmoids/org.kde.plasma.private.systemtray
+  when: 1576121168
+- cmd: ln -s ./org.kde.plasma.private.systemtray/ ~/.local/share/plasma/plasmoids/org.kde.plasma.private.systemtray
+  when: 1576121217
+  paths:
+    - ./org.kde.plasma.private.systemtray/
+- cmd: ll
+  when: 1576121230
+- cmd: rm org.kde.plasma.private.systemtray
+  when: 1576121244
+- cmd: ln -s ~/.local/share/theme/plasma-systray-latte-tweaks/org.kde.plasma.private.systemtray/ ~/.local/share/plasma/plasmoids
+  when: 1576121277
+- cmd: ln -s ~/.local/share/theme/plasma-systray-latte-tweaks/org.kde.plasma.systemtray/ ~/.local/share/plasma/plasmoids/
+  when: 1576121326
+- cmd: ln --help
+  when: 1576121331
+- cmd: git status
+  when: 1576121344
+- cmd: kill 906
+  when: 1576121388
+- cmd: yay -S latte
+  when: 1576121524
+- cmd: yay latte
+  when: 1576121531
+- cmd: yay latte spacer
+  when: 1576121542
+- cmd: yay -Q hello-kde-git
+  when: 1576121702
+- cmd: bat kpluginindex.json
+  when: 1576121830
+  paths:
+    - kpluginindex.json
+- cmd: ln -s ~/.local/share/theme/Chrome-OS-kde/Kvantum/ Kvantum
+  when: 1576122189
+- cmd: rm Kvantum/
+  when: 1576122320
+  paths:
+    - Kvantum/
+- cmd: rm Kvantum
+  when: 1576122321
+  paths:
+    - Kvantum
+- cmd: ln -s ~/.local/share/theme/Chrome-OS-kde/Kvantum/Chrome-OS .
+  when: 1576122418
+  paths:
+    - .
+- cmd: kill 36133
+  when: 1576122481
+- cmd: ln -s ~/.local/share/theme/Chrome-OS-kde/plasma/desktoptheme/ .
+  when: 1576122802
+  paths:
+    - .
+- cmd: timedatectl
+  when: 1576122933
+- cmd: date
+  when: 1576122936
+- cmd: yay -Q qogir-kde-theme-git
+  when: 1576123083
+- cmd: yay qogir
+  when: 1576123115
+- cmd: yay qogir --editmenu
+  when: 1576123142
+- cmd: ls
+  when: 1576123972
+- cmd: ./install-arch-deps.sh
+  when: 1576126429
+- cmd: mkdir build\ncd build\ncmake ..\nmake\nsudo make install
+  when: 1576126449
+  paths:
+    - ..
+- cmd: sudo make install
+  when: 1576126465
+- cmd: yay virtual
+  when: 1576126482
+- cmd: yay -Rsn (yay -Qdtq)
+  when: 1576145219
+- cmd: yay -Syu --ignore linux-zen
+  when: 1576145227
+- cmd: yay -Scc
+  when: 1576145232
+- cmd: disown 2995
+  when: 1576145277
+- cmd: reboo
+  when: 1576145308
+- cmd: t
+  when: 1576145309
+- cmd: reboot
+  when: 1576145311
+- cmd: rclone mount cache:/ ~/OneDrive &
+  when: 1576147086
+- cmd: disown 3676
+  when: 1576147094
+- cmd: exit
+  when: 1576147109
+- cmd: ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+  when: 1576155391
+- cmd: hwclock --systohc
+  when: 1576155391
+- cmd: pacman -S nano sudo netctl dialog
+  when: 1576155391
+- cmd: pacman -S wpa_supplicant dhcpcd
+  when: 1576155391
+- cmd: nano /etc/locale.gen
+  when: 1576155391
+- cmd: locale-gen
+  when: 1576155391
+- cmd: nano /etc/locale.conf
+  when: 1576155391
+- cmd: nano /etc/hostname
+  when: 1576155391
+- cmd: nano /etc/hosts
+  when: 1576155391
+- cmd: passwd
+  when: 1576155391
+- cmd: pacman -S intel-ucode
+  when: 1576155391
+- cmd: pacman -S refind-efi
+  when: 1576155391
+- cmd: pacman -S ntfs-3g
+  when: 1576155391
+- cmd: refind-install
+  when: 1576155391
+- cmd: ls /dev/disk/by-label/
+  when: 1576155391
+- cmd: ls /dev/disk/by-label/ -a
+  when: 1576155391
+- cmd: ls /dev/disk/by-partlab -a
+  when: 1576155391
+- cmd: ls /dev/disk/by-partlabek -a
+  when: 1576155391
+- cmd: ls /dev/disk/by-partlabel -a
+  when: 1576155391
+- cmd: ls /dev/disk/by-uuid -a
+  when: 1576155391
+- cmd: ls /dev/disk/by-partuuid -a
+  when: 1576155391
+- cmd: pacman -S btrfs-progs
+  when: 1576155391
+- cmd: ls /dev/disk/by-label -l
+  when: 1576155391
+- cmd: ls /dev/disk/by-partuuid -l
+  when: 1576155391
+- cmd: nano /boot/EFI/refind/refind.conf
+  when: 1576155391
+- cmd: nano /boot/refind_linux.conf
+  when: 1576155391
+- cmd: mount /dev/sd4 /mnt
+  when: 1576155391
+- cmd: fdisk -l
+  when: 1576155391
+- cmd: mount /dev/sda4 /mnt
+  when: 1576155391
+- cmd: pacman -U /mnt/linux-zen-5.3.13.1-1-x86_64.pkg.tar.xz
+  when: 1576155391
+- cmd: pacman -Rsn linux
+  when: 1576155391
+- cmd: truncate -s 0 /swapfile
+  when: 1576155391
+- cmd: chattr +C /swapfile
+  when: 1576155391
+- cmd: btrfs property set /swapfile compression none
+  when: 1576155391
+- cmd: fallocate -l 4G /swapfile
+  when: 1576155391
+- cmd: chmod 600 /swapfile
+  when: 1576155391
+- cmd: mkswap /swapfile
+  when: 1576155391
+- cmd: swapon /swapfile
+  when: 1576155391
+- cmd: nano /etc/fstab
+  when: 1576155391
+- cmd: useradd -m -G wheel kid
+  when: 1576155391
+- cmd: passwd kid
+  when: 1576155391
+- cmd: nano /etc/sudoers
+  when: 1576155391
+- cmd: nano /etc/pacman.conf
+  when: 1576155391
+- cmd: pacman -S plasma-desktop
+  when: 1576155391
+- cmd: sudo pacman -S plasma-desktop
+  when: 1576155391
+- cmd: sudo pacman -Sy plasma-desktop
+  when: 1576155391
+- cmd: pacman -Q sddm
+  when: 1576155391
+- cmd: pacman -S dolphin kate konsole
+  when: 1576155391
+- cmd: sudo pacman -S dolphin kate konsole
+  when: 1576155391
+- cmd: pacman -S bat
+  when: 1576155391
+- cmd: sudo pacman -S bat
+  when: 1576155391
+- cmd: sudo ls /root
+  when: 1576155391
+- cmd: sudo ls /root/.gnupg -a
+  when: 1576155391
+- cmd: sudo rm -r /root/.gnupg
+  when: 1576155391
+- cmd: sudo bat /root/.bash_history
+  when: 1576155391
+- cmd: pacman -Q networkmanager
+  when: 1576155391
+- cmd: pacman -Q | grep net
+  when: 1576155391
+- cmd: startplasma-x11
+  when: 1576155391
+- cmd: pacman -Q xorg-server
+  when: 1576155391
+- cmd: pacman -S sddm
+  when: 1576155391
+- cmd: sudo install sddm
+  when: 1576155391
+- cmd: sudo pacman -S sddm
+  when: 1576155391
+- cmd: systemctl enable sddm
+  when: 1576155391
+- cmd: pacman -Q kwin
+  when: 1576155391
+- cmd: pacman -S fish
+  when: 1576155391
+- cmd: sudo pacman -S fish
+  when: 1576155391
+- cmd: chsh
+  when: 1576155391
+- cmd: sudo pacman -S pkgfile
+  when: 1576155391
+- cmd: pacman -S tlp
+  when: 1576155391
+- cmd: sudo pacman -S tlp
+  when: 1576155391
+- cmd: sudo cat /root/.bash_history
+  when: 1576155391
+- cmd: sudo rm /root/.bash_history
+  when: 1576155391
+- cmd: pacman -S bluedevil
+  when: 1576155391
+- cmd: sudo pacman -S bluedevil
+  when: 1576155391
+- cmd: bluedevil-wizard
+  when: 1576155412
+- cmd: rm .bash_history
+  when: 1576155446
+  paths:
+    - .bash_history
+- cmd: rm .bash*
+  when: 1576155451
+- cmd: systemctl enable bluetooth
+  when: 1576155473
+- cmd: systemctl start bluetooth.service
+  when: 1576155484
+- cmd: pacman -S plasma-nm
+  when: 1576155555
+- cmd: wifi-menu
+  when: 1576155576
+- cmd: sudo wifi-menuO
+  when: 1576155579
+- cmd: sudo wifi-menu
+  when: 1576155580
+- cmd: sudo pacman -S plasma-nm
+  when: 1576155603
+- cmd: systemctl start  NetworkManager
+  when: 1576155704
+- cmd: systemctl enable   NetworkManager
+  when: 1576155711
+- cmd: pacman -S plasma-pa
+  when: 1576155868
+- cmd: sudo pacman -S plasma-pa
+  when: 1576155874
+- cmd: systemctl status wpa_supplicant
+  when: 1576155901
+- cmd: cat fish_history | grep pacman
+  when: 1576155964
+  paths:
+    - fish_history
+- cmd: netctl
+  when: 1576156002
+- cmd: pacman -Rsn netctl dialog dhcpcd
+  when: 1576156018
+- cmd: sudo pacman -Rsn netctl dialog dhcpcd
+  when: 1576156021
+- cmd: pacman -S noto-fonts-cjk
+  when: 1576156147
+- cmd: sudo pacman -S noto-fonts-cjk
+  when: 1576156152
+- cmd: btrfs filesystem label /dev/nvme0n1p4 "ArchLinux"
+  when: 1576156184
+- cmd: sudo btrfs filesystem label /dev/nvme0n1p4 "ArchLinux"
+  when: 1576156191
+  paths:
+    - /dev/nvme0n1p4
+- cmd: sudo rm netctl/ -r
+  when: 1576156262
+  paths:
+    - netctl/
+- cmd: sudo nano /etc/locale.conf
+  when: 1576156414
+  paths:
+    - /etc/locale.conf
+- cmd: efibootmgr -h
+  when: 1576156542
+- cmd: sudo efibootmgr -O 0003 2001 3000 3003
+  when: 1576156572
+- cmd: sudo efibootmgr -O 0003
+  when: 1576156584
+- cmd: sudo efibootmgr -O 2001
+  when: 1576156589
+- cmd: sudo efibootmgr -O 3000
+  when: 1576156591
+- cmd: sudo efibootmgr -O 3003
+  when: 1576156593
+- cmd: sudo efibootmgr -B 3003
+  when: 1576156617
+- cmd: sudo efibootmgr -B Boot0003
+  when: 1576156632
+- cmd: sudo efibootmgr -b
+  when: 1576156636
+- cmd: sudo efibootmgr -b 0003 -B
+  when: 1576156650
+- cmd: sudo efibootmgr -b 3000 -B
+  when: 1576156657
+- cmd: sudo efibootmgr -b 3003 -B
+  when: 1576156658
+- cmd: pacman -S yakuake
+  when: 1576156713
+- cmd: pacman -S peek spectacle
+  when: 1576156895
+- cmd: sudo pacman -S peek spectacle
+  when: 1576156897
+- cmd: pacman -S gifski
+  when: 1576156993
+- cmd: sudo pacman -S gifski
+  when: 1576156996
+- cmd: sudo pacman -S thefuck
+  when: 1576157003
+- cmd: pacman -S fishe
+  when: 1576157014
+- cmd: sudo pacman -S fisher
+  when: 1576157016
+- cmd: sudo pacman -S archlinuxcn-keyring
+  when: 1576157036
+- cmd: sudo pacman -Sy archlinuxcn-keyring
+  when: 1576157114
+- cmd: sudo pacman -S yay
+  when: 1576157152
+- cmd: yay fisher
+  when: 1576157184
+- cmd: pacman -S google-chrome
+  when: 1576157274
+- cmd: sudo pacman -S google-chrome
+  when: 1576157277
+- cmd: fisher oh-my-fish/plugin-thefuck
+  when: 1576157414
+- cmd: fisher add oh-my-fish/plugin-thefuck
+  when: 1576157420
+- cmd: pacman -S nodejs npm yarn
+  when: 1576157436
+- cmd: sudo pacman -S nodejs npm yarn
+  when: 1576157438
+- cmd: fisher add iamruinous/plugin-yarn-binpath rafaelrinaldi/theme-pure
+  when: 1576157496
+- cmd: bat /etc/pacman.conf
+  when: 1576157879
+  paths:
+    - /etc/pacman.conf
+- cmd: yarn global add now
+  when: 1576157904
+- cmd: pacman -Sy
+  when: 1576158044
+- cmd: sudo pacman -Syu
+  when: 1576158088
+- cmd: pacman -S neofetch
+  when: 1576158177
+- cmd: sudo pacman -S neofetch
+  when: 1576158179
+- cmd: pacman -S fcitx5-git
+  when: 1576158236
+- cmd: sudo pacman -S fcitx5-git
+  when: 1576158239
+- cmd: pacman -S fcitx5-gtk-git fcitx5-qt5-git fcitx5-chinese-addons-git
+  when: 1576158392
+- cmd: sudo pacman -S fcitx5-gtk-git fcitx5-qt5-git fcitx5-chinese-addons-git
+  when: 1576158395
+- cmd: kill 11542
+  when: 1576158480
+- cmd: kill 11699
+  when: 1576158520
+- cmd: kill 11770
+  when: 1576158562
+- cmd: kill 11858
+  when: 1576158637
+- cmd: pacman -S kcm-fcitx5-git
+  when: 1576158788
+- cmd: sudo pacman -S kcm-fcitx5-git
+  when: 1576158790
+- cmd: kill 12008
+  when: 1576158798
+- cmd: kill 12396
+  when: 1576158915
+- cmd: kill 12489
+  when: 1576158931
+- cmd: kill 12548
+  when: 1576159065
+- cmd: pacman -Rsn kcm-fcitx5-git
+  when: 1576159083
+- cmd: sudo pacman -Rsn kcm-fcitx5-git
+  when: 1576159085
+- cmd: kill 1103
+  when: 1576159273
+- cmd: disown 1309
+  when: 1576159308
+- cmd: pacman -S ark
+  when: 1576159569
+- cmd: sudo pacman -S ark
+  when: 1576159571
+- cmd: sudo pacman -S p7zip
+  when: 1576159579
+- cmd: sudo pacman -S unrar
+  when: 1576159591
+- cmd: pacman -S ksystemlog
+  when: 1576159721
+- cmd: sudo pacman -S ksystemlog
+  when: 1576159723
+- cmd: pacman -S kde-gtk-config
+  when: 1576159858
+- cmd: sudo pacman -S kde-gtk-config
+  when: 1576159861
+- cmd: pacman -S kinfocenter
+  when: 1576159977
+- cmd: sudo pacman -S kinfocenter
+  when: 1576159979
+- cmd: sudo pacman -S kscreen
+  when: 1576160055
+- cmd: pacman -S sddm-kcm
+  when: 1576160130
+- cmd: sudo pacman -S sddm-kcm
+  when: 1576160133
+- cmd: sudo pacman -S user-manager
+  when: 1576160161
+- cmd: pacman -S gimp inkscape
+  when: 1576160281
+- cmd: sudo pacman -S gimp inkscape
+  when: 1576160283
+- cmd: sudo pacman -S vlc netease-cloud-music
+  when: 1576160389
+- cmd: yay -S visual-studio-code-bin webstorm webstorm-jre
+  when: 1576160464
+- cmd: pacman -S latte-dock
+  when: 1576160538
+- cmd: sudo pacman -S latte-dock
+  when: 1576160541
+- cmd: sudo pacman -S proxychains-ng
+  when: 1576160552
+- cmd: sudo pacman -S openssh
+  when: 1576160576
+- cmd: dig
+  when: 1576160578
+- cmd: pacman -S bind-tools
+  when: 1576160583
+- cmd: sudo pacman -S bind-tools
+  when: 1576160586
+- cmd: systemctl status tlp
+  when: 1576160598
+- cmd: systemctl enable tlp
+  when: 1576160604
+- cmd: systemctl start tlp
+  when: 1576160615
+- cmd: systemctl status  tlp
+  when: 1576160621
+- cmd: systemctl list-units
+  when: 1576160774
+- cmd: systemctl list-units --all
+  when: 1576160791
+- cmd: systemctl list-units --all > /tmp/unit.txt
+  when: 1576160807
+- cmd: systemctl list-units --all | grep inactive > /tmp/unit2.txt
+  when: 1576160857
+- cmd: systemctl -h
+  when: 1576160891
+- cmd: systemctl status fstrim.timer
+  when: 1576160921
+- cmd: systemctl enable fstrim.timer
+  when: 1576160927
+- cmd: systemctl start fstrim.timer
+  when: 1576160933
+- cmd: systemctl status  fstrim.timer
+  when: 1576160939
+- cmd: timedatectl
+  when: 1576161007
+- cmd: sudo pacman -S kimagemapeditor
+  when: 1576161215
+- cmd: sudo pacman -S gwenview
+  when: 1576161247
+- cmd: sudo pacman -S qt5-imageformats
+  when: 1576161273
+- cmd: sudo pacman -S KColorChooser
+  when: 1576161283
+- cmd: sudo pacman -S kcolorchooser kruler
+  when: 1576161299
+- cmd: sudo pacman -S kdeconnect
+  when: 1576161410
+- cmd: sudo pacman -S ffmpegthumbs
+  when: 1576161422
+- cmd: sudo pacman -S wps-office
+  when: 1576161437
+- cmd: sudo pacman -S partitionmanager
+  when: 1576161540
+- cmd: sudo pacman -S kdf
+  when: 1576161608
+- cmd: sudo pacman -S exfat-utils
+  when: 1576161682
+- cmd: sudo pacman -S dolphin-plugins filestash
+  when: 1576161802
+- cmd: sudo pacman -S dolphin-plugins
+  when: 1576161843
+- cmd: sudo pacman -S filelight
+  when: 1576161869
+- cmd: sudo pacman -S kcalc kcharselect kfind krename
+  when: 1576161976
+- cmd: sudo pacman -S rcl
+  when: 1576162023
+- cmd: sudo pacman -S rclone
+  when: 1576162025
+- cmd: gpg -K
+  when: 1576162118
+- cmd: uname -a
+  when: 1576162232
+- cmd: sudo pacman -S telegram-desktop
+  when: 1576162244
+- cmd: sysctl
+  when: 1576162401
+- cmd: lsmod | grep brr
+  when: 1576162563
+- cmd: modprobe tcp_bbr
+  when: 1576162605
+- cmd: sudo modprobe tcp_bbr
+  when: 1576162608
+- cmd: sudo echo "tcp_bbr" > /etc/modules-load.d/bbr.conf
+  when: 1576162627
+- cmd: sysctl -p /etc/sysctl.d/bbr.conf
+  when: 1576162793
+  paths:
+    - /etc/sysctl.d/bbr.conf
+- cmd: sudo sysctl -p /etc/sysctl.d/bbr.conf
+  when: 1576162796
+  paths:
+    - /etc/sysctl.d/bbr.conf
+- cmd: lsmod | grep bbr
+  when: 1576162802
+- cmd: sysctl net
+  when: 1576162806
+- cmd: sysctl net | grep tcp_avail
+  when: 1576162817
+- cmd: sysctl net | grep tcp_conge
+  when: 1576162827
+- cmd: pkgfile -u
+  when: 1576162879
+- cmd: kwalletd5 -h
+  when: 1576162936
+- cmd: kwalletd5 --help
+  when: 1576162941
+- cmd: gpg -h
+  when: 1576162969
+- cmd: gpg --quick-generate-key
+  when: 1576162992
+- cmd: gpg --quick-generate-key --quick-add-uid
+  when: 1576163010
+- cmd: gpg --generate-key
+  when: 1576163021
+- cmd: pacman -S kgamma5
+  when: 1576163438
+- cmd: sudo pacman -S kgamma5
+  when: 1576163440
+- cmd: sudo pacman -Rsn kgamma5
+  when: 1576163554
+- cmd: sudo pacman -S powerdevil
+  when: 1576163646
+- cmd: yay v2raya
+  when: 1576163983
+- cmd: sudo efibootmgr -b 0002 -B
+  when: 1576204739
+- cmd: sudo efibootmgr -b 2001 -B
+  when: 1576204743
+- cmd: sudo efibootmgr -b 3002 -B
+  when: 1576204746
+- cmd: pacman -Syu --ignore=linux-zen
+  when: 1576205064
+- cmd: pacman -Rsn (pacman -Qdtq)
+  when: 1576205478
+- cmd: sudo pkgfile
+  when: 1576205664
+- cmd: yay -Rsn
+  when: 1576205718
+- cmd: sudo btrfs filesystem usage /
+  when: 1576205792
+  paths:
+    - /
+- cmd: sudo pacman -S compsize
+  when: 1576205825
+- cmd: compsize -h
+  when: 1576205830
+- cmd: compsize --help
+  when: 1576205833
+- cmd: sudo compsize /
+  when: 1576205840
+  paths:
+    - /
+- cmd: sudo compsize / -x
+  when: 1576205845
+  paths:
+    - /
+- cmd: sudo pacman -Rsn compsize
+  when: 1576205877
+- cmd: systemctl status bluetooth
+  when: 1576205946
+- cmd: systemctl status NetworkManager
+  when: 1576205951
+- cmd: ps
+  when: 1576206244
+- cmd: ps aux
+  when: 1576206250
+- cmd: systemctl status v2raya.service
+  when: 1576206737
+- cmd: echo $PATH
+  when: 1576206752
+- cmd: pacman -Q v2raya
+  when: 1576206797
+- cmd: ping 2400:6180:0:d1::7fb:9001:22223
+  when: 1576207026
+- cmd: ps aux | grep v2
+  when: 1576207437
+- cmd: pacman -Ql v2ray
+  when: 1576208466
+- cmd: pacman -Ql v2raya
+  when: 1576208475
+- cmd: sudo pacman -Q v2ray-domain-list-community
+  when: 1576208490
+- cmd: bluetooth off
+  when: 1576208735
+- cmd: rm yarn-error.log
+  when: 1576209815
+  paths:
+    - yarn-error.log
+- cmd: sudo pacman -Rsn v2raya
+  when: 1576210526
+- cmd: systemctl status v2raya
+  when: 1576210580
+- cmd: sudo pacman -S v2ray
+  when: 1576210734
+- cmd: sudo pacman -Ql v2ray
+  when: 1576210769
+- cmd: sudo rm v2raya.json
+  when: 1576210784
+  paths:
+    - v2raya.json
+- cmd: v2ctl -h
+  when: 1576211916
+- cmd: v2ray
+  when: 1576211924
+- cmd: systemctl enable v2ray
+  when: 1576212093
+- cmd: ln -s /etc/environment .
+  when: 1576213019
+  paths:
+    - /etc/environment
+    - .
+- cmd: bat environment
+  when: 1576213040
+  paths:
+    - environment
+- cmd: ln -s /etc/pacman.conf .
+  when: 1576213065
+  paths:
+    - /etc/pacman.conf
+    - .
+- cmd: ln -s /etc/pacman.d/mirrorlist .
+  when: 1576213072
+  paths:
+    - /etc/pacman.d/mirrorlist
+    - .
+- cmd: bat pacman.conf
+  when: 1576213074
+  paths:
+    - pacman.conf
+- cmd: bat mirrorlist
+  when: 1576213084
+  paths:
+    - mirrorlist
+- cmd: ln -s /etc/hosts .
+  when: 1576213126
+  paths:
+    - /etc/hosts
+    - .
+- cmd: ln -s /etc/fstab .
+  when: 1576213129
+  paths:
+    - /etc/fstab
+    - .
+- cmd: bat hosts
+  when: 1576213139
+  paths:
+    - hosts
+- cmd: bat fstab
+  when: 1576213143
+  paths:
+    - fstab
+- cmd: ln -s /etc/modules-load.d .
+  when: 1576213164
+  paths:
+    - /etc/modules-load.d
+    - .
+- cmd: ln -s /etc/sysctl.d .
+  when: 1576213172
+  paths:
+    - /etc/sysctl.d
+    - .
+- cmd: fuck
+  when: 1576213535
+- cmd: cd rEFInd-minimal/
+  when: 1576213549
+  paths:
+    - rEFInd-minimal/
+- cmd: ln /boot/EFI/refind/themes/rEFInd-minimal/ .
+  when: 1576213593
+  paths:
+    - /boot/EFI/refind/themes/rEFInd-minimal/
+    - .
+- cmd: ln -s /boot/EFI/refind/themes/rEFInd-minimal/ .
+  when: 1576213597
+  paths:
+    - /boot/EFI/refind/themes/rEFInd-minimal/
+    - .
+- cmd: git clone https://github.com/hosxy/Fcitx5-Material-Color.git
+  when: 1576213609
+- cmd: mkdir themes
+  when: 1576213633
+- cmd: cd themes/
+  when: 1576213635
+  paths:
+    - themes/
+- cmd: ln -s ~/Documents/Theme/Fcitx5-Material-Color/ .
+  when: 1576213652
+  paths:
+    - .
+- cmd: kill 1225
+  when: 1576213777
+- cmd: ln panel-blue.png panel.png
+  when: 1576213877
+  paths:
+    - panel-blue.png
+- cmd: rm highlight.pn
+  when: 1576213888
+- cmd: httping
+  when: 1576213896
+- cmd: cd ~/.local/share/fcitx5/themes/
+  when: 1576213925
+- cmd: cd Fcitx5-Material-Color/
+  when: 1576213928
+  paths:
+    - Fcitx5-Material-Color/
+- cmd: rm highlight.png
+  when: 1576213933
+  paths:
+    - highlight.png
+- cmd: cd ~/Documents/Theme/Fcitx5-Material-Color/
+  when: 1576214006
+- cmd: rm panel.pn
+  when: 1576214041
+- cmd: rm panel.png
+  when: 1576214042
+  paths:
+    - panel.png
+- cmd: ln -s panel-blue.png panel.png
+  when: 1576214064
+  paths:
+    - panel-blue.png
+    - panel.png
+- cmd: ln -s highlight-blue.png highlight.png
+  when: 1576214071
+  paths:
+    - highlight-blue.png
+- cmd: ls -l
+  when: 1576214074
+- cmd: kill 20332
+  when: 1576214118
+- cmd: kill 21812
+  when: 1576214162
+- cmd: kill 21908
+  when: 1576214252
+- cmd: kill 21951
+  when: 1576214271
+- cmd: kill 21991
+  when: 1576214285
+- cmd: fcitx5 &
+  when: 1576214287
+- cmd: yarn global ist
+  when: 1576233585
+- cmd: efibootmgr
+  when: 1576234099
+- cmd: sudo efibootmgr -O 0001
+  when: 1576234109
+- cmd: sudo efibootmgr -o 0001
+  when: 1576234114
+- cmd: bat /etc/v2ray/vpoint_socks_vmess.json
+  when: 1576235605
+  paths:
+    - /etc/v2ray/vpoint_socks_vmess.json
+- cmd: bat /etc/v2ray/vpoint_vmess_freedom.json
+  when: 1576235622
+  paths:
+    - /etc/v2ray/vpoint_vmess_freedom.json
+- cmd: cd Documents/Backup/
+  when: 1576235654
+  paths:
+    - Documents/Backup/
+- cmd: ln -s /etc/v2ray/config.json .
+  when: 1576235664
+  paths:
+    - /etc/v2ray/config.json
+    - .
+- cmd: bat config.json
+  when: 1576235674
+  paths:
+    - config.json
+- cmd: ping 2400:6180:0:d1::7fb:9001
+  when: 1576235716
+- cmd: ping ::1
+  when: 1576235734
+- cmd: systemctl stop v2ray.service
+  when: 1576235913
+- cmd: Kid
+  when: 1576235960
+- cmd: sudo nano config.json
+  when: 1576236080
+  paths:
+    - config.json
+- cmd: ping 240c::6666
+  when: 1576236163
+- cmd: ping qq.com
+  when: 1576236172
+- cmd: rclone mount cache: /mnt
+  when: 1576236687
+  paths:
+    - /mnt
+- cmd: sudo rclone mount cache: /mnt
+  when: 1576236696
+  paths:
+    - /mnt
+- cmd: ls /root -a
+  when: 1576236725
+  paths:
+    - /root
+- cmd: sudo rclone mount cache: ~/OneDrive
+  when: 1576236797
+- cmd: sudo rm /root/.config/rclone -r
+  when: 1576236805
+- cmd: sudo ls /root/.config -a
+  when: 1576236808
+- cmd: sudo ls /root -a
+  when: 1576236814
+- cmd: sudo ls /root/.cache -a
+  when: 1576236816
+- cmd: rclone mount cache: ~/OneDrive
+  when: 1576236822
+- cmd: sudo pacman -Scc
+  when: 1576237530
+- cmd: bat .config/plasma-org.kde.plasma.desktop-appletsrc
+  when: 1576238521
+  paths:
+    - .config/plasma-org.kde.plasma.desktop-appletsrc
+- cmd: yay noto-fonts-blob
+  when: 1576246522
+- cmd: yay noto-fonts-emoji
+  when: 1576246529
+- cmd: yay noto-fonts-emoji --editmenu
+  when: 1576247018
+- cmd: sudo pacman -Ql noto-fonts-emoji-blob
+  when: 1576247348
+- cmd: sudo pacman -S plasma-browser-integration
+  when: 1576247534
+- cmd: exot
+  when: 1576247537
+- cmd: plasma-browser-integration-host
+  when: 1576247544
+- cmd: sudo pacman -Ql plasma-browser-integration
+  when: 1576247571
+- cmd: yay --aururl "https://aur.tuna.tsinghua.edu.cn" --save
+  when: 1576299239
+- cmd: disown 1836
+  when: 1576299627
+- cmd: yay -S plasma5-applets-window-appmenu
+  when: 1576299963
+- cmd: sudo pkgfile -h
+  when: 1576300579
+- cmd: sudo pacman -Rsn appmenu-gtk-module
+  when: 1576300936
+- cmd: pacman -Q | grep kcm
+  when: 1576301217
+- cmd: pacman -Q | grep gtk
+  when: 1576301233
+- cmd: ln -s /etc/fonts/conf.avail/75-blobmoji.conf /etc/fonts/conf.d/
+  when: 1576301545
+  paths:
+    - /etc/fonts/conf.avail/75-blobmoji.conf
+    - /etc/fonts/conf.d/
+- cmd: sudo ln -s /etc/fonts/conf.avail/75-blobmoji.conf /etc/fonts/conf.d/
+  when: 1576301549
+  paths:
+    - /etc/fonts/conf.avail/75-blobmoji.conf
+    - /etc/fonts/conf.d/
+- cmd: ls /etc/fonts/conf.d
+  when: 1576301555
+  paths:
+    - /etc/fonts/conf.d
+- cmd: fc-cache -h
+  when: 1576301574
+- cmd: fc-cache -f
+  when: 1576301587
+- cmd: yay -S plasma5-applets-window-title
+  when: 1576318660
+- cmd: disown 17453
+  when: 1576318753
+- cmd: uname -r
+  when: 1576321873
+- cmd: sudo pacman -Ql kdf
+  when: 1576329121
+- cmd: pacman -Ql kdf
+  when: 1576329126
+- cmd: sudo nano /etc/fstab
+  when: 1576329482
+  paths:
+    - /etc/fstab
+- cmd: pacman -Q | grep dbus
+  when: 1576333323
+- cmd: sudo pacman -Rsn libdbusmenu-qt5
+  when: 1576333374
+- cmd: sudo pacman -Rsn knotifications
+  when: 1576333384
+- cmd: sudo pacman -Rsn kruler
+  when: 1576333387
+- cmd: sudo pacman -Rsn kwallet
+  when: 1576333391
+- cmd: sudo pacman -Rsn kio
+  when: 1576333394
+- cmd: pacman -Ssq libdbusmenu
+  when: 1576333469
+- cmd: sudo pacman -S libdbusmenu-glib
+  when: 1576333482
+- cmd: bat thefuck
+  when: 1576333822
+  paths:
+    - thefuck
+- cmd: yay
+  when: 1576333840
+- cmd: bat babl-fishes
+  when: 1576333914
+  paths:
+    - babl-fishes
+- cmd: disown 6208
+  when: 1576334084
+- cmd: kill 6208
+  when: 1576334206
+- cmd: ls ~
+  when: 1576334420
+- cmd: ls ~ -a
+  when: 1576334422
+- cmd: cat fish_history | grep ssh
+  when: 1576334550
+  paths:
+    - fish_history
+- cmd: ssh-agent -s
+  when: 1576334570
+- cmd: set SSH_AUTH_SOCK /tmp/ssh-K3ra5kPpNY83/agent.7467
+  when: 1576334611
+  paths:
+    - /tmp/ssh-K3ra5kPpNY83/agent.7467
+- cmd: set SSH_AGENT_PID 7468
+  when: 1576334624
+- cmd: chmod 400 .ssh/id_rsa
+  when: 1576334631
+  paths:
+    - .ssh/id_rsa
+- cmd: ls .ssh
+  when: 1576334634
+  paths:
+    - .ssh
+- cmd: kill 7468
+  when: 1576334675
+- cmd: eval (ssh-agent -s)
+  when: 1576334681
+- cmd: set SSH_AGENT_PID 7858
+  when: 1576334689
+- cmd: set SSH_AUTH_SOCK /tmp/ssh-pOgBQo09jgjA/agent.7857
+  when: 1576334696
+  paths:
+    - /tmp/ssh-pOgBQo09jgjA/agent.7857
+- cmd: ssh-add .ssh/id_rsa
+  when: 1576334700
+  paths:
+    - .ssh/id_rsa
+- cmd: disown 6608
+  when: 1576334709
+- cmd: git clone ssh://git@git.ncuos.com:8082/ncuos/ncuos-fe.git
+  when: 1576334751
+- cmd: sudo pacman -S libdbusmenu-gtk3
+  when: 1576335211
+- cmd: sudo pacman -S appmenu-gtk-module
+  when: 1576335233
+- cmd: sudo pacman -Rsn libdbusmenu-gtk3
+  when: 1576335274
+- cmd: pacman -Q | grep dbusmenu
+  when: 1576335311
+- cmd: pacman -Q | grep menu
+  when: 1576335320
+- cmd: sudo pacman -S breeze-gtk
+  when: 1576335587
+- cmd: sudo pacman -S adb
+  when: 1576335789
+- cmd: sudo pacman -S baidunetdisk-bin
+  when: 1576335823
+- cmd: sudo pacman -S deno
+  when: 1576335843
+- cmd: plasmashell &
+  when: 1576373941
+- cmd: systemctl status v2ray
+  when: 1576374388
+- cmd: systemctl stop v2ray
+  when: 1576374392
+- cmd: eit
+  when: 1576374430
+- cmd: yarn global list
+  when: 1576374446
+- cmd: systemctl start v2ray
+  when: 1576374783
+- cmd: curl ip.sb
+  when: 1576374805
+- cmd: curl -6 ip.sb
+  when: 1576374833
+- cmd: curl -4 ip.sb
+  when: 1576374841
+- cmd: bluetooth
+  when: 1576380103
+- cmd: bluetooth on
+  when: 1576380107
+- cmd: bat .config/yakuakerc
+  when: 1576380344
+  paths:
+    - .config/yakuakerc
+- cmd: nano .config/yakuakerc
+  when: 1576380426
+  paths:
+    - .config/yakuakerc
+- cmd: sudo nano /etc/pacman.conf
+  when: 1576380680
+- cmd: sudo pacman -Sy
+  when: 1576380697
+- cmd: sudo pkgfile -u
+  when: 1576380720
+- cmd: sudo pacman -S deepin.com.qq.im
+  when: 1576380766
+- cmd: gnome-settings-daemon
+  when: 1576381866
+- cmd: gsd-xsettings
+  when: 1576381915
+- cmd: sudo pacman -Qsl gnome-settings-daemon
+  when: 1576381940
+- cmd: sudo pacman -S gnome-settings-daemon
+  when: 1576381947
+- cmd: sudo pacman -Ql gnome-settings-daemon
+  when: 1576381967
+- cmd: pacman -Ql gnome-settings-daemon | grep xdg
+  when: 1576381981
+- cmd: pacman -Ql gnome-settings-daemon | grep xdg-settings
+  when: 1576382031
+- cmd: pacman -Q -h
+  when: 1576382037
+- cmd: pacman -Qo /etc/xdg-settings
+  when: 1576382055
+- cmd: pacman -Qo /etc/xdg-open
+  when: 1576382060
+- cmd: pacman -Qo /bin/xdg-open
+  when: 1576382065
+  paths:
+    - /bin/xdg-open
+- cmd: pacman -Qo /bin/xdg-settings
+  when: 1576382069
+  paths:
+    - /bin/xdg-settings
+- cmd: pacman -Qo /lib/gsd-xsettings
+  when: 1576382160
+  paths:
+    - /lib/gsd-xsettings
+- cmd: /lib/gsd-xsettings &
+  when: 1576382257
+- cmd: dconf write /org/gnome/desktop/interface/text-scaling-factor 1.5
+  when: 1576382282
+- cmd: disown 24995
+  when: 1576382323
+- cmd: /opt/deepinwine/tools/run_v2.sh Deepin-QQ regedit
+  when: 1576382566
+- cmd: /opt/deepinwine/tools/run_v2.sh Deepin-QQ 9.1.8deepin0 regedit
+  when: 1576382615
+- cmd: fisher rm rafaelrinaldi/theme-pure
+  when: 1576382919
+- cmd: exexit
+  when: 1576382924
+- cmd: rm fish_variables
+  when: 1576382941
+  paths:
+    - fish_variables
+- cmd: sudo rm fish_variables
+  when: 1576382944
+  paths:
+    - fish_variables
+- cmd: sudo ln -s ~/.config/fish/fish_variables /opt/webstorm/plugins/terminal/fish/fish_variables
+  when: 1576382970
+- cmd: fisher add rafaelrinaldi/theme-pure
+  when: 1576383004
+- cmd: fisher ls
+  when: 1576383026
+- cmd: fisher
+  when: 1576383027
+- cmd: yarn global upgrade-interactive
+  when: 1576383036
+- cmd: sudo pacman -S lib32-freetype2-infinality-ultimate
+  when: 1576383139
+- cmd: bat /etc/mtab
+  when: 1576383249
+  paths:
+    - /etc/mtab
+- cmd: disown 1510
+  when: 1576383296
+- cmd: sudo pacman -S lib32-freetype2
+  when: 1576383445
+- cmd: dconf write /org/gnome/desktop/interface/cursor-size 36
+  when: 1576384268
+- cmd: bat .config/fontconfig/
+  when: 1576384720
+  paths:
+    - .config/fontconfig/
+- cmd: bat .config/fontconfig/fonts.conf
+  when: 1576384726
+  paths:
+    - .config/fontconfig/fonts.conf
+- cmd: ls /etc/fonts/conf.avail/
+  when: 1576385083
+  paths:
+    - /etc/fonts/conf.avail/
+- cmd: ls /etc/fonts/conf.d/
+  when: 1576385103
+  paths:
+    - /etc/fonts/conf.d/
+- cmd: bat /etc/fonts/conf.avail/70-noto-cjk.conf
+  when: 1576385136
+  paths:
+    - /etc/fonts/conf.avail/70-noto-cjk.conf
+- cmd: pacman --version
+  when: 1576385571
+- cmd: clear
+  when: 1576385640
+- cmd: kill 1074
+  when: 1576389496
+- cmd: yay BreezeEnhanced
+  when: 1576390027
+- cmd: ln -s /etc/fonts/conf.d .
+  when: 1576390456
+  paths:
+    - /etc/fonts/conf.d
+    - .
+- cmd: ln /etc/proxychains.conf
+  when: 1576390470
+  paths:
+    - /etc/proxychains.conf
+- cmd: ln -s /etc/proxychains.conf .
+  when: 1576390485
+  paths:
+    - /etc/proxychains.conf
+    - .
+- cmd: proxychains git clone https://github.com/tsujan/BreezeEnhanced
+  when: 1576390545
+- cmd: mv .git .git
+  when: 1576390579
+  paths:
+    - .git
+    - .git
+- cmd: mv .git .git1
+  when: 1576390580
+  paths:
+    - .git
+- cmd: disown 1416
+  when: 1576391480
+- cmd: yay breeze-enhanced-git
+  when: 1576391511
+- cmd: yay breeze-enhanced-git --editmenu
+  when: 1576391537
+- cmd: sudo pacman -S capitaine-cursors
+  when: 1576392119
+- cmd: yay -S SierraBreeze
+  when: 1576392474
+- cmd: yay SierraBreeze
+  when: 1576392490
+- cmd: yay -S breezemite-yakuake-git
+  when: 1576392524
+- cmd: sudo pacman -Rsn breeze-enhanced-git
+  when: 1576392840
+- cmd: kill 1113
+  when: 1576393500
+- cmd: kill 14501
+  when: 1576393737
+- cmd: kill 1416
+  when: 1576394318
+- cmd: rclone mount cache: ~/OneDrive &
+  when: 1576394329
+- cmd: bat 0
+  when: 1576394390
+  paths:
+    - 0
+- cmd: kill 16237
+  when: 1576394430
+- cmd: fusermount -u ~/OneDrive
+  when: 1576394434
+- cmd: sudo pacman -S kvantum-qt5
+  when: 1576394817
+- cmd: yay McMojave
+  when: 1576394861
+- cmd: yay -S McMojave --editmenu
+  when: 1576394900
+- cmd: yay -Y McMojave --editmenu
+  when: 1576394913
+- cmd: yay -S mcmojave-circle-icon-theme-git
+  when: 1576395213
+- cmd: yay -S mojave-gtk-theme-git
+  when: 1576395497
+- cmd: yay -S mojave-gtk-theme-git --editmenu
+  when: 1576395511
+- cmd: bat PKGBUILD
+  when: 1576395766
+  paths:
+    - PKGBUILD
+- cmd: cd ..
+  when: 1576396110
+  paths:
+    - ..
+- cmd: cd models/
+  when: 1576396113
+  paths:
+    - models/
+- cmd: bat /etc/fstab
+  when: 1576396133
+  paths:
+    - /etc/fstab
+- cmd: chmod 755 b8373e4b.tabninemodel
+  when: 1576396140
+  paths:
+    - b8373e4b.tabninemodel
+- cmd: sudo pacman -S la-capitaine-icon-theme
+  when: 1576397498
+- cmd: yay la-capitaine-icon-theme
+  when: 1576397505
+- cmd: yay la-capitaine-icon-theme --editmenu
+  when: 1576397552
+- cmd: pacman -S albert
+  when: 1576398094
+- cmd: sudo pacman -S albert
+  when: 1576398097
+- cmd: sudo pacman -Rsn albert
+  when: 1576398431
+- cmd: git status
+  when: 1576399084
+- cmd: git co .
+  when: 1576399085
+  paths:
+    - .
+- cmd: exec
+  when: 1576399490
+- cmd: sudo pacman -Rsn breeze-gtk
+  when: 1576399563
+- cmd: sudo pacman -Rsn breeze
+  when: 1576399572
+- cmd: sudo pacman -S kdeplasma-addons
+  when: 1576399731
+- cmd: sudo pacman -S flameshot
+  when: 1576404498
+- cmd: kill 1137
+  when: 1576404787
+- cmd: kill 1086
+  when: 1576404943
+- cmd: latte-dock &
+  when: 1576404946
+- cmd: pacman -Rsn adwaita-icon-theme
+  when: 1576404974
+- cmd: sudo pacman -Rsn adwaita-icon-theme
+  when: 1576404977
+- cmd: sudo pacman -Rsn breeze-icons
+  when: 1576404994
+- cmd: pacman -Rsn hicolor-icon-theme
+  when: 1576405002
+- cmd: sudo pacman -Rsn hicolor-icon-theme
+  when: 1576405004
+- cmd: sudo pacman -Rsn kemoticons
+  when: 1576405018
+- cmd: sudo pacman -Rsn kdelibs4support
+  when: 1576405029
+- cmd: sudo pacman -Rsn mcmojave-circle-icon-theme-git
+  when: 1576405043
+- cmd: disown 54353
+  when: 1576405185
+- cmd: yay kwin-effects-yet-another-magic-lamp
+  when: 1576405321
+- cmd: yay -P -g
+  when: 1576405374
+- cmd: yay catalina
+  when: 1576406040
+- cmd: yay mojave
+  when: 1576406166
+- cmd: yay breeze
+  when: 1576406748
+- cmd: yay kwin-decoration-sierra-breeze-enhanced-git --editmenu
+  when: 1576406867
+- cmd: pacman -Q
+  when: 1576407482
+- cmd: bre
+  when: 1576407565
+- cmd: sudo pacman -S kontact
+  when: 1576408856
+- cmd: sudo pacman -Rsn kontact
+  when: 1576409002
+- cmd: bat random_seed
+  when: 1576410383
+  paths:
+    - random_seed
+- cmd: gpg --list-keys
+  when: 1576410410
+- cmd: sudo pacman -S kmail
+  when: 1576410982
+- cmd: sudo pacman -Rsn kmail
+  when: 1576412363
+- cmd: yay -Rsn (yay -Qdtq)
+  when: 1576413336
+- cmd: yay -Scc
+  when: 1576413340
+- cmd: sudo pacman -S thunderbird
+  when: 1576413529
+- cmd: sudo pacman -Rsn sierrabreeze-kwin-decoration-git
+  when: 1576414528
+- cmd: kill 1123
+  when: 1576415689
+- cmd: kill 72
+  when: 1576415705
+- cmd: neofetch
+  when: 1576417031
+- cmd: sudo pacman -Rsn spectacle
+  when: 1576417939
+- cmd: sudo nano Documents/Backup/config.json
+  when: 1576423206
+  paths:
+    - Documents/Backup/config.json
+- cmd: kate Documents/Backup/config.json
+  when: 1576423221
+  paths:
+    - Documents/Backup/config.json
+- cmd: code config.json
+  when: 1576423253
+  paths:
+    - config.json
+- cmd: systemctl restart v2ray
+  when: 1576423295
+- cmd: yay -Syu --ignore=linux-zen
+  when: 1576460115
+- cmd: sudo pacman -S spectacle
+  when: 1576460378
+- cmd: -a
+  when: 1576461990
+- cmd: ls -a
+  when: 1576461991
+- cmd: sudo pacman -Rsn flameshot
+  when: 1576462270
+- cmd: ex
+  when: 1576462488
+- cmd: pacman -Ql yakuake
+  when: 1576462543
+- cmd: kill 1173
+  when: 1576462606
+- cmd: sudo pacman -U yakuake-19.08.3-1-x86_64.pkg.tar.xz
+  when: 1576462809
+  paths:
+    - yakuake-19.08.3-1-x86_64.pkg.tar.xz
+- cmd: dconf read /org/gnome/desktop/interface/cursor-size
+  when: 1576462997
+- cmd: sudo pacman -Rsn yakuake
+  when: 1576463154
+- cmd: pacman -Q kdeplasma-addons
+  when: 1576463458
+- cmd: sudo pacman -Q
+  when: 1576463475
+- cmd: sudo pacman -Syu --ignore=linux-zen
+  when: 1576463497
+- cmd: sudo pacman -Rsn (pacman -Qdtq)
+  when: 1576463502
+- cmd: sudo pacman -S yakuake
+  when: 1576463525
+- cmd: ls
+  when: 1576463547
+- cmd: kill 1194
+  when: 1576463569
+- cmd: dconf write /org/gnome/desktop/interface/text-scaling-factor 1
+  when: 1576463684
+- cmd: sudo pacman -Rsn dconf
+  when: 1576463771
+- cmd: sudo pacman -Rsn gnome-settings-daemon
+  when: 1576463779
+- cmd: dconf read /org/gnome/desktop/interface/text-scaling-factor
+  when: 1576463788
+- cmd: sudo pacman -S dconf-editor
+  when: 1576463798
+- cmd: reboot
+  when: 1576463980
+- cmd: rm fstab
+  when: 1576464325
+  paths:
+    - fstab
+- cmd: cp /etc/v2ray/config.json .
+  when: 1576464426
+  paths:
+    - /etc/v2ray/config.json
+    - .
+- cmd: exit
+  when: 1576464428
+- cmd: cp /etc/environment .
+  when: 1576464462
+  paths:
+    - /etc/environment
+    - .
+- cmd: cp /etc/fstab .
+  when: 1576464467
+  paths:
+    - /etc/fstab
+    - .
+- cmd: cp /etc/hosts .
+  when: 1576464473
+  paths:
+    - /etc/hosts
+    - .
+- cmd: cp /etc/pacman.d/mirrorlist .
+  when: 1576464478
+  paths:
+    - /etc/pacman.d/mirrorlist
+    - .
+- cmd: cp /etc/pacman.conf .
+  when: 1576464484
+  paths:
+    - /etc/pacman.conf
+    - .
+- cmd: cp file:///home/kid/Documents/Backup/proxychains.conf .
+  when: 1576464491
+  paths:
+    - .
+- cmd: cp /etc/proxychains.conf .
+  when: 1576464507
+  paths:
+    - /etc/proxychains.conf
+    - .
+- cmd: exit
+  when: 1576464509
+- cmd: yay -Syu --ignore=linux-zen
+  when: 1576464535
+- cmd: yay
+  when: 1576464543
+- cmd: pacman -Q > packages.txt
+  when: 1576464580
+- cmd: exit
+  when: 1576464585
+- cmd: reboot
+  when: 1576464605
+- cmd: exit
+  when: 1576464630

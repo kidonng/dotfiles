@@ -1,0 +1,19 @@
+[http]
+	proxy = socks5://127.0.0.1:1080
+[user]
+	email = kidonng@gmail.com
+	name = Kid
+[alias]
+	br = branch
+	ca = commit --amend
+	ci = commit
+	cl = clone
+	co = checkout
+	lg = log --pretty=oneline --abbrev-commit --graph
+	ps = push
+	pu = pull
+	rb = rebase
+	re = restore
+	rs = reset
+	st = status
+	sw = switch

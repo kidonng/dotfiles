@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "flow-bin": "^0.114.0",
+    "now": "^16.7.0",
+    "typescript-language-server": "^0.4.0",
+    "vscode-css-languageserver-bin": "^1.4.0",
+    "vscode-html-languageserver-bin": "^1.4.0"
+  }
+}

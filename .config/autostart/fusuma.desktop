@@ -1,0 +1,19 @@
+[Desktop Entry]
+Comment[zh_CN]=
+Comment=
+Exec=/bin/fusuma
+GenericName[zh_CN]=
+GenericName=
+Icon=system-run
+MimeType=
+Name[zh_CN]=fusuma
+Name=fusuma
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

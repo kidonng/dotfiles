@@ -1,0 +1,29 @@
+{
+  "version": "2.1.22",
+  "hide_promotional_message": false,
+  "beta_enabled": "Yes",
+  "ignore_all_lsp": false,
+  "creation_time": "2019-12-17T02:37:34.378883180Z",
+  "semantic_status": {
+    "css": "Enabled",
+    "typescript": "Enabled",
+    "scss": "Enabled",
+    "html": "Enabled",
+    "javascript": "Enabled"
+  },
+  "disable_auto_update": false,
+  "user_understands_that_enabling_tabnine_cloud_sends_code_to_tabnine_servers": true,
+  "hosted_deep_completions_enabled": "Enabled",
+  "tabnine_cloud_host": null,
+  "tabnine_cloud_port": null,
+  "cloud_whitelist": [],
+  "api_key": "islpuuvqwkdescaouaegfmtszhipeh",
+  "api_key_service_level": "Cloud",
+  "api_base_url": null,
+  "local_enabled": "Unset",
+  "disable_local_when_using_battery": true,
+  "hide_deep_information_message": false,
+  "enable_power_saving_mode": false,
+  "rate_limit_interval_seconds": null,
+  "rate_limit_amount": null
+}

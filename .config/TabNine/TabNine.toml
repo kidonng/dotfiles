@@ -1,0 +1,24 @@
+[language.javascript]
+command = "flow"
+args = ["lsp"]
+install = [["yarn", "global", "add", "flow-bin"]]
+
+[language.typescript]
+command = "typescript-language-server"
+args = ["--stdio"]
+install = [["yarn", "global", "add", "typescript-language-server"]]
+
+[language.html]
+command = "html-languageserver"
+args = ["--stdio"]
+install = [["yarn", "global", "add", "vscode-html-languageserver-bin"]]
+
+[language.css]
+command = "css-languageserver"
+args = ["--stdio"]
+install = [["yarn", "global", "add", "vscode-css-languageserver-bin"]]
+
+[language.scss]
+command = "css-languageserver"
+args = ["--stdio"]
+install = [["yarn", "global", "add", "vscode-css-languageserver-bin"]]
