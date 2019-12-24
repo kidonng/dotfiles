@@ -115,10 +115,12 @@ File1[$e]=trash:/0-wineQQ9.0.3.23729.tar.xz
 File2[$e]=/var/cache/pkgfile/core.files
 File3[$e]=/var/lib/pacman/local/zstd-1.4.4-1/mtree
 File4[$e]=$HOME/.cache/rclone/cache-backend/cache/校园/English Coversation.docx/0
+File5[$e]=$HOME/Downloads/macOS-Catalina-Wallpapers.zip
 Name1[$e]=0-wineQQ9.0.3.23729.tar.xz
 Name2[$e]=core.files
 Name3[$e]=mtree
 Name4[$e]=0
+Name5[$e]=macOS-Catalina-Wallpapers.zip
 
 [Viewer]
 Height 720=495

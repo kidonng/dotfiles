@@ -14,6 +14,6 @@ gtk-icon-theme-name="la-capitaine-icon-theme"
 
 gtk-theme-name="Mojave-light"
 
-gtk-font-name="Cantarell Regular 10"
+gtk-font-name="SF Pro Text Regular 10"
 
 gtk-modules=appmenu-gtk-module

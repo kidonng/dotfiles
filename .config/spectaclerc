@@ -1,13 +1,13 @@
 [General]
 lastSaveAsFile=file:///home/kid/Pictures/Screenshot_20191223_212407.png
-lastSaveFile=file:///home/kid/Pictures/Screenshot_20191223_212407.png
+lastSaveFile=file:///home/kid/Pictures/Screenshot_20191224_213241.png
 
 [GuiConfig]
 captureModeIndex=3
-cropRegion=965,0,955,732
+cropRegion=0,0,0,0
 includePointer=false
 lastUsedSaveMode=0
-window-position=25,24
+window-position=22,41
 
 [KFileDialog Settings]
 Recent Files[$e]=file:$HOME/Pictures/Screenshot_20191223_212407.png,file:$HOME/Pictures/Screenshot_20191223_212407.png

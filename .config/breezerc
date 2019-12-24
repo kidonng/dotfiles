@@ -1,4 +1,5 @@
 [Windeco]
+BackgroundOpacity=50
 ButtonStyle=macSierra
-DrawTitleBarSeparator=false
 HideTitleBar=MaximizedWindows
+OpaqueTitleBar=false

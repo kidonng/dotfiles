@@ -9,6 +9,9 @@ Id_1=70d95015-4428-4b78-824a-7a25adba4090
 Number=1
 Rows=1
 
+[Effect-Blur]
+NoiseStrength=0
+
 [Effect-CoverSwitch]
 TabBox=false
 TabBoxAlternative=false
@@ -52,6 +55,7 @@ TopRight=None
 
 [Plugins]
 blurEnabled=true
+contrastEnabled=true
 cubeEnabled=true
 highlightwindowEnabled=true
 kwin4_effect_dimscreenEnabled=true
@@ -103,8 +107,8 @@ ElectricBorderTiling=true
 ElectricBorders=0
 
 [org.kde.kdecoration2]
-BorderSize=Normal
-BorderSizeAuto=true
+BorderSize=None
+BorderSizeAuto=false
 ButtonsOnLeft=XIA
 ButtonsOnRight=
 CloseOnDoubleClickOnMenu=false

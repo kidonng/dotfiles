@@ -111,11 +111,11 @@ Replace History=binding="same",Hack
 Search History=Walk Through Desktop List,alt+tab,ctrl+tab,Expose,invokeShortcut,ModifierOnlyShortcuts,[Compositing]\n,opengl,noto sans cjk sc,Apple,apple color emoji,binding="strong",zh,<match,match,embolden,rgba,antialias,contains,Meslo LG L DZ,meslo,patch ,lake,whi,hmem_repo,you might,patch,neofetch,Image=,Wallpaper,Image,answer,Microarchitecture$default,microarchitecture,rm ,rm,ssh,cmd_size = sizeof(struct iwl_scan_config_v1),pulse,qalc,exec,copy,A5E9288C4FA415FA,F470A5E9288C4FA415FA,0A5E9288C4FA415FA,meta,ctrl,linux,install,linux.install,validpgpkeys,RE,RD,RB,RA,R0,R9,R8,R7,R6,R5,R4,D3,R3,font,pacman -S,pacman,yay
 
 [MainWindow]
-Height 720=480
+Height 720=447
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAABQAAAAK4AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAHgAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-Width 1280=636
+Width 1280=639
 
 [filetree]
 editShade=179,218,246

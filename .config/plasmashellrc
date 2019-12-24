@@ -13,8 +13,8 @@ Width 1920=700
 Number of Actions=0
 
 [KFileDialog Settings]
-Recent Files[$e]=wallpaper.png,file:$HOME/.local/theme/wallpaper.png
-Recent URLs[$e]=file:$HOME/.local/theme/
+Recent Files[$e]=wallpaper.png,file:$HOME/Downloads/catalina-wallpaper-dark-mode-droidviews.png,file:$HOME/Downloads/catalina-wallpaper-droidviews.png,file:$HOME/.local/theme/wallpaper.png
+Recent URLs[$e]=file:$HOME/Downloads/
 detailViewIconSize=0
 
 [PlasmaRunnerManager]

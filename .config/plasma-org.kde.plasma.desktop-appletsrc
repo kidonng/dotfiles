@@ -53,6 +53,7 @@ DialogWidth=1120
 containmentType=Plasma
 fillWidth=true
 spacing=10
+toggleMaximizedOnDoubleClick=true
 
 [Containments][2][Applets][19]
 immutability=1
@@ -89,7 +90,7 @@ immutability=1
 plugin=org.kde.plasma.eventcalendar
 
 [Containments][2][Applets][23][Configuration]
-PreloadWeight=59
+PreloadWeight=43
 
 [Containments][2][Applets][23][Configuration][Calendar]
 firstDayOfWeek=1
@@ -120,7 +121,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
-PreloadWeight=92
+PreloadWeight=100
 
 [Containments][2][Applets][3][Configuration][ConfigDialog]
 DialogHeight=840
@@ -184,7 +185,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][7][Applets][12][Configuration]
-PreloadWeight=74
+PreloadWeight=68
 
 [Containments][7][Applets][13][Configuration]
 PreloadWeight=42
@@ -201,7 +202,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][7][Applets][15][Configuration]
-PreloadWeight=60
+PreloadWeight=64
 
 [Containments][7][Applets][16]
 immutability=1
@@ -222,7 +223,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][7][Applets][22][Configuration]
-PreloadWeight=54
+PreloadWeight=58
 
 [Containments][7][Applets][23]
 immutability=1
@@ -248,4 +249,4 @@ immutability=2
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/kidonng,0,desktop:/ncu-net-monorepo,0,desktop:/readhub,0,desktop:/ncu-net,0,desktop:/cherry,0,desktop:/demo,0,desktop:/aur,0,desktop:/ncuos-fe,0
+screenMapping=desktop:/aur,0,desktop:/readhub,0,desktop:/ncu-net,0,desktop:/cherry,0,desktop:/demo,0,desktop:/ncuos-fe,0,desktop:/kidonng,0,desktop:/ncu-net-monorepo,0

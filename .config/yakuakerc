@@ -1,3 +1,8 @@
+[Appearance]
+BackgroundColorOpacity=80
+Blur=true
+Translucency=true
+
 [Desktop Entry]
 DefaultProfile=
 
