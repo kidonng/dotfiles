@@ -1,0 +1,34 @@
+[ActionsWidget]
+ColumnState=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAboAAAACAQAAAQAAAAAAAAAAAAAAAJb/////AAAAgQAAAAAAAAACAAAA+gAAAAEAAAAAAAAAwAAAAAEAAAAAAAAD6AAAAACW
+
+[ConfigDialog]
+Height 1080=571
+Width 1920=721
+
+[DownloadDialog Settings]
+Height 1080=460
+Width 1920=700
+
+[General]
+Number of Actions=0
+
+[KFileDialog Settings]
+Recent Files[$e]=wallpaper.png,file:$HOME/.local/theme/wallpaper.png
+Recent URLs[$e]=file:$HOME/.local/theme/
+detailViewIconSize=0
+
+[PlasmaRunnerManager]
+LaunchCounts=1 services_libreoffice-calc.desktop
+pluginWhiteList=desktopsessions,services,places,PowerDevil,calculator,unitconverter,shell,bookmarks,recentdocuments,locations,baloosearch
+
+[PlasmaViews][Panel 2][Defaults]
+thickness=36
+
+[PlasmaViews][Panel 2][Horizontal1920]
+thickness=36
+
+[ScreenConnectors]
+0=eDP-1
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js

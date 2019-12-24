@@ -1,0 +1,8 @@
+[Added Associations]
+application/xml=org.kde.kate.desktop;
+
+[Default Applications]
+application/xml=org.kde.kate.desktop;
+text/html=google-chrome.desktop
+x-scheme-handler/mailto=google-chrome.desktop
+x-scheme-handler/webcal=google-chrome.desktop

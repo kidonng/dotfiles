@@ -1,0 +1,15 @@
+[General]
+lastSaveAsFile=file:///home/kid/Pictures/Screenshot_20191223_212407.png
+lastSaveFile=file:///home/kid/Pictures/Screenshot_20191223_212407.png
+
+[GuiConfig]
+captureModeIndex=3
+cropRegion=965,0,955,732
+includePointer=false
+lastUsedSaveMode=0
+window-position=25,24
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Pictures/Screenshot_20191223_212407.png,file:$HOME/Pictures/Screenshot_20191223_212407.png
+Recent URLs[$e]=file:$HOME/Pictures/
+detailViewIconSize=0

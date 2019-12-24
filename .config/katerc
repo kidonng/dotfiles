@@ -1,0 +1,126 @@
+[Desktop Entry]
+DefaultProfile=
+
+[Favorite Profiles]
+Favorites=
+
+[General]
+Config Revision=10
+Days Meta Infos=30
+Save Meta Infos=true
+Show Full Path in Title=false
+Show Menu Bar=true
+Show Status Bar=true
+Show Tab Bar=true
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/.local/share/fish/fish_history,file:$HOME/.config/gtk-3.0/settings.ini,file:$HOME/.config/fusuma/config.yml,file:$HOME/.config/fontconfig/fonts.conf,file:///etc/fonts/conf.avail/70-noto-cjk.conf,file:///etc/fonts/conf.avail/70-no-bitmaps.conf,file:$HOME/Documents/桌面.txt,file:$HOME/.config/neofetch/config.conf,file:$HOME/.config/fcitx5/conf/classicui.conf,file:///tmp/latte-dock.kid.lock
+Recent URLs[$e]=file:$HOME/.config/gtk-3.0/,file:$HOME/.config/
+detailViewIconSize=0
+
+[KTextEditor Document]
+Allow End of Line Detection=true
+BOM=false
+Backup Local=false
+Backup Prefix=
+Backup Remote=false
+Backup Suffix=~
+Encoding=UTF-8
+End of Line=0
+Indent On Backspace=true
+Indent On Tab=true
+Indent On Text Paste=false
+Indentation Mode=normal
+Indentation Width=4
+Keep Extra Spaces=false
+Line Length Limit=10000
+Newline at End of File=true
+On-The-Fly Spellcheck=false
+Overwrite Mode=false
+PageUp/PageDown Moves Cursor=false
+Remove Spaces=0
+ReplaceTabsDyn=true
+Show Spaces=0
+Show Tabs=true
+Smart Home=true
+Swap Directory=
+Swap File Mode=1
+Swap Sync Interval=15
+Tab Handling=2
+Tab Width=4
+Trailing Marker Size=1
+Word Wrap=false
+Word Wrap Column=80
+
+[KTextEditor Editor]
+Encoding Prober Type=1
+Fallback Encoding=ISO 8859-15
+
+[KTextEditor Renderer]
+Animate Bracket Matching=false
+Schema=Normal
+Show Indentation Lines=false
+Show Whole Bracket Expression=false
+Word Wrap Marker=false
+
+[KTextEditor View]
+Allow Mark Menu=true
+Auto Brackets=false
+Auto Center Lines=0
+Auto Completion=true
+Backspace Remove Composed Characters=false
+Bookmark Menu Sorting=0
+Chars To Enclose Selection=
+Default Mark Type=1
+Dynamic Word Wrap=true
+Dynamic Word Wrap Align Indent=80
+Dynamic Word Wrap At Static Marker=false
+Dynamic Word Wrap Indicators=1
+Fold First Line=false
+Folding Bar=true
+Folding Preview=true
+Icon Bar=false
+Input Mode=0
+Keyword Completion=true
+Line Modification=true
+Line Numbers=true
+Maximum Search History Size=100
+Mouse Paste At Cursor Position=false
+Persistent Selection=false
+Scroll Bar Marks=false
+Scroll Bar Mini Map All=true
+Scroll Bar Mini Map Width=60
+Scroll Bar MiniMap=true
+Scroll Bar Preview=true
+Scroll Past End=false
+Search/Replace Flags=140
+Show Line Count=false
+Show Scrollbars=0
+Show Word Count=false
+Smart Copy Cut=false
+Text Drag And Drop=true
+User Sets Of Chars To Enclose Selection=
+Vi Input Mode Steal Keys=false
+Vi Relative Line Numbers=false
+Word Completion=true
+Word Completion Minimal Word Length=3
+Word Completion Remove Tail=true
+
+[KTextEditor::Search]
+Replace History=binding="same",Hack
+Search History=Walk Through Desktop List,alt+tab,ctrl+tab,Expose,invokeShortcut,ModifierOnlyShortcuts,[Compositing]\n,opengl,noto sans cjk sc,Apple,apple color emoji,binding="strong",zh,<match,match,embolden,rgba,antialias,contains,Meslo LG L DZ,meslo,patch ,lake,whi,hmem_repo,you might,patch,neofetch,Image=,Wallpaper,Image,answer,Microarchitecture$default,microarchitecture,rm ,rm,ssh,cmd_size = sizeof(struct iwl_scan_config_v1),pulse,qalc,exec,copy,A5E9288C4FA415FA,F470A5E9288C4FA415FA,0A5E9288C4FA415FA,meta,ctrl,linux,install,linux.install,validpgpkeys,RE,RD,RB,RA,R0,R9,R8,R7,R6,R5,R4,D3,R3,font,pacman -S,pacman,yay
+
+[MainWindow]
+Height 720=480
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABQAAAAK4AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1280=636
+
+[filetree]
+editShade=179,218,246
+listMode=false
+shadingEnabled=true
+showFullPathOnRoots=false
+sortRole=0
+viewShade=193,208,209

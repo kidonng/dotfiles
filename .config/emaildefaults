@@ -1,0 +1,10 @@
+[Defaults]
+Profile=默认
+
+[PROFILE_Default]
+EmailClient=/usr/bin/google-chrome-stable
+
+[PROFILE_默认]
+EmailAddress=
+FullName=
+ServerType=

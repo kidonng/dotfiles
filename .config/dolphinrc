@@ -1,0 +1,43 @@
+[CompactMode]
+FontWeight=50
+
+[Desktop Entry]
+DefaultProfile=
+
+[DetailsMode]
+FontWeight=50
+
+[Favorite Profiles]
+Favorites=
+
+[General]
+Version=200
+ViewPropsTimestamp=2019,12,16,4,34,54
+
+[IconsMode]
+FontWeight=50
+
+[KPropertiesDialog]
+Height 720=457
+Width 1280=413
+
+[MainWindow]
+Height 720=485
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAwAAAAAAAACiAAABtfwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAIA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAwAAABtQAAAFgA////AAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAAAgD///8AAAADAAACmQAAAL78AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAACmQAAAAIA////AAAB8AAAAbUAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1280=665
+
+[Open-with settings]
+CompletionMode=1
+History=kate,ark
+
+[PreviewSettings]
+Plugins=appimagethumbnail,blenderthumbnail,djvuthumbnail,exrthumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,imagethumbnail,fontthumbnail,directorythumbnail,comicbookthumbnail,ebookthumbnail,ffmpegthumbs,audiothumbnail
+
+[SettingsDialog]
+Height 720=419
+Width 1280=540
+
+[VersionControl]
+enabledPlugins=Git

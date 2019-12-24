@@ -1,0 +1,34 @@
+[KDiskFree]
+Device=100
+Free=80
+Full%=50
+HeaderSectionIndices=0,1,2,3,4,5,6,7
+Icon=39
+MountPoint=120
+Size=80
+SortColumn=0
+SortOrder=0
+Type=80
+UsageBar=210
+
+[KFileDialog Settings]
+Recent Files[$e]=头像.png,file:///bin/fusuma,file:$HOME/.local/theme/wallpaper.png
+Recent URLs[$e]=file:///bin/
+detailViewIconSize=0
+
+[KPropertiesDialog]
+Height 720=383
+Width 1280=368
+
+[MainWindow]
+Height 1080=700
+Height 720=644
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABAgAAAKEAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1280=1032
+Width 1920=1024
+
+[Open-with settings]
+CompletionMode=1
+History=/bin/fusuma,libin,fcit
