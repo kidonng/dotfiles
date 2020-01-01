@@ -1,7 +1,7 @@
 # GIMP user context
 
-(tool "gimp-pencil-tool")
-(paint-info "gimp-pencil")
+(tool "gimp-rect-select-tool")
+(paint-info "gimp-paintbrush")
 (foreground (color-rgb 1 0 0))
 (brush "2. Hardness 050")
 (dynamics "Dynamics Off")

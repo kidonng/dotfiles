@@ -9,7 +9,7 @@ Size=80
 SortColumn=0
 SortOrder=0
 Type=80
-UsageBar=210
+UsageBar=211
 
 [KFileDialog Settings]
 Recent Files[$e]=头像.png,file:///bin/fusuma,file:$HOME/.local/theme/wallpaper.png

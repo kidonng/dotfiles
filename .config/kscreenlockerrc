@@ -3,3 +3,6 @@ update_info=kscreenlocker.upd:0.1-autolock
 
 [Greeter]
 Theme=com.github.vinceliuice.McMojave-light
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=file:///home/kid/.local/theme/wallpaper.png

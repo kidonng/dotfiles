@@ -1177,7 +1177,7 @@
   <resource identifier="${gimp_data_dir}/gradients/Yellow_Orange.ggr" checksum="428584726006e23e260baa2a7d79f295">
   </resource>
 
-  <resource identifier="gimp-palette-color-history" checksum="a0a924c70a9b34fbda89a3fbb43b99d2">
+  <resource identifier="gimp-palette-color-history" checksum="2ab9c67c1cef3f9a4cea07c6190fa103">
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Bears.gpl" checksum="e71e4ea427ceeb262dfaf5bb5e139e8e">
@@ -1312,10 +1312,22 @@
   <resource identifier="等线 Light" checksum="(null)">
   </resource>
 
+  <resource identifier="方正正准黑_GBK" checksum="(null)">
+  </resource>
+
+  <resource identifier="方正中粗雅宋_GBK" checksum="(null)">
+  </resource>
+
   <resource identifier="仿宋" checksum="(null)">
   </resource>
 
   <resource identifier="黑体" checksum="(null)">
+  </resource>
+
+  <resource identifier="华康手札体W7-A" checksum="(null)">
+  </resource>
+
+  <resource identifier="华康圆体W7-A" checksum="(null)">
   </resource>
 
   <resource identifier="楷体" checksum="(null)">
@@ -1574,6 +1586,12 @@
   </resource>
 
   <resource identifier="DejaVu Serif Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="FOT-Skip Std Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="FOT-TelopMin ProN Ultra-Bold" checksum="(null)">
   </resource>
 
   <resource identifier="Georgia" checksum="(null)">

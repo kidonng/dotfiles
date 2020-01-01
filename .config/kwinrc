@@ -6,7 +6,8 @@ OpenGLIsUnsafe=false
 
 [Desktops]
 Id_1=70d95015-4428-4b78-824a-7a25adba4090
-Number=1
+Id_2=09e2d85c-8dc2-4899-9b1a-e86db187f9ee
+Number=2
 Rows=1
 
 [Effect-Blur]
@@ -33,8 +34,8 @@ TabBox=false
 TabBoxAlternative=false
 
 [Effect-PresentWindows]
-BorderActivate=9
-BorderActivateAll=0
+BorderActivate=0
+BorderActivateAll=9
 BorderActivateClass=9
 TouchBorderActivate=7
 TouchBorderActivateAll=9
@@ -57,12 +58,17 @@ TopRight=None
 blurEnabled=true
 contrastEnabled=true
 cubeEnabled=true
+desktopchangeosdEnabled=false
 highlightwindowEnabled=true
 kwin4_effect_dimscreenEnabled=true
 kwin4_effect_squashEnabled=false
 kwin4_effect_yetanothermagiclampEnabled=true
 mousemarkEnabled=true
 wobblywindowsEnabled=true
+
+[Script-desktopchangeosd]
+PopupHideDelay=1000
+TextOnly=false
 
 [TabBox]
 ActivitiesMode=1
@@ -105,6 +111,7 @@ ElectricBorderDelay=150
 ElectricBorderMaximize=true
 ElectricBorderTiling=true
 ElectricBorders=0
+RollOverDesktops=false
 
 [org.kde.kdecoration2]
 BorderSize=None

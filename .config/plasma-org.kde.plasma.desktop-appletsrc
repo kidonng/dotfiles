@@ -90,7 +90,7 @@ immutability=1
 plugin=org.kde.plasma.eventcalendar
 
 [Containments][2][Applets][23][Configuration]
-PreloadWeight=43
+PreloadWeight=15
 
 [Containments][2][Applets][23][Configuration][Calendar]
 firstDayOfWeek=1
@@ -104,8 +104,8 @@ clock_timeformat=M月d日 AP h:mm
 widget_show_timer=false
 
 [Containments][2][Applets][23][Configuration][Google Calendar]
-access_token=ya29.ImC2B7LpTg2QLksz3EkQt3YZqoVNRuFbTD8I9xZQRsJkwzPSUTKtZQsFf00CyJq8A1y5VgckqK2WcZEV11yEg4YwrLW3YpIPxHk5JR7vndVjgrQNvp988ILAyZAqlS38TJw
-access_token_expires_at=912908570
+access_token=ya29.ImC3B06X7HTk56QIQt-QFjYhLp-iClrCC0HZZ14dlewlLMyyl-RFzH6uM_YqJvj3xHRCsA_n8_QDcer5rSkBX412Vhrep6rFa1JfzodLxpVWvZkCLHI0g-LMNvU6Ih3HunI
+access_token_expires_at=1597448907
 access_token_type=Bearer
 calendar_id_list=kidonng@gmail.com,zh-cn.china#holiday@group.v.calendar.google.com,addressbook#contacts@group.v.calendar.google.com
 calendar_list=W3sia2luZCI6ImNhbGVuZGFyI2NhbGVuZGFyTGlzdEVudHJ5IiwiZXRhZyI6IlwiMTU2ODQ0MzYyMjU3NTAwMFwiIiwiaWQiOiJraWRvbm5nQGdtYWlsLmNvbSIsInN1bW1hcnkiOiLml6XnqIsiLCJ0aW1lWm9uZSI6IkFzaWEvU2hhbmdoYWkiLCJjb2xvcklkIjoiMTQiLCJiYWNrZ3JvdW5kQ29sb3IiOiIjOWZlMWU3IiwiZm9yZWdyb3VuZENvbG9yIjoiIzAwMDAwMCIsInNlbGVjdGVkIjp0cnVlLCJhY2Nlc3NSb2xlIjoib3duZXIiLCJkZWZhdWx0UmVtaW5kZXJzIjpbeyJtZXRob2QiOiJwb3B1cCIsIm1pbnV0ZXMiOjIwfV0sIm5vdGlmaWNhdGlvblNldHRpbmdzIjp7Im5vdGlmaWNhdGlvbnMiOlt7InR5cGUiOiJldmVudENyZWF0aW9uIiwibWV0aG9kIjoiZW1haWwifSx7InR5cGUiOiJldmVudENoYW5nZSIsIm1ldGhvZCI6ImVtYWlsIn0seyJ0eXBlIjoiZXZlbnRDYW5jZWxsYXRpb24iLCJtZXRob2QiOiJlbWFpbCJ9LHsidHlwZSI6ImV2ZW50UmVzcG9uc2UiLCJtZXRob2QiOiJlbWFpbCJ9XX0sInByaW1hcnkiOnRydWUsImNvbmZlcmVuY2VQcm9wZXJ0aWVzIjp7ImFsbG93ZWRDb25mZXJlbmNlU29sdXRpb25UeXBlcyI6WyJldmVudEhhbmdvdXQiXX19LHsia2luZCI6ImNhbGVuZGFyI2NhbGVuZGFyTGlzdEVudHJ5IiwiZXRhZyI6IlwiMTU3Njg1Mzk5ODM0MzAwMFwiIiwiaWQiOiJhZGRyZXNzYm9vayNjb250YWN0c0Bncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20iLCJzdW1tYXJ5IjoiQ29udGFjdHMiLCJ0aW1lWm9uZSI6IkFzaWEvU2hhbmdoYWkiLCJzdW1tYXJ5T3ZlcnJpZGUiOiLnlJ/ml6UiLCJjb2xvcklkIjoiMTMiLCJiYWNrZ3JvdW5kQ29sb3IiOiIjOTJlMWMwIiwiZm9yZWdyb3VuZENvbG9yIjoiIzAwMDAwMCIsInNlbGVjdGVkIjp0cnVlLCJhY2Nlc3NSb2xlIjoicmVhZGVyIiwiZGVmYXVsdFJlbWluZGVycyI6W10sImNvbmZlcmVuY2VQcm9wZXJ0aWVzIjp7ImFsbG93ZWRDb25mZXJlbmNlU29sdXRpb25UeXBlcyI6WyJldmVudEhhbmdvdXQiXX19LHsia2luZCI6ImNhbGVuZGFyI2NhbGVuZGFyTGlzdEVudHJ5IiwiZXRhZyI6IlwiMTU2ODQ0MzYyMjkwMTAwMFwiIiwiaWQiOiJ6aC1jbi5jaGluYSNob2xpZGF5QGdyb3VwLnYuY2FsZW5kYXIuZ29vZ2xlLmNvbSIsInN1bW1hcnkiOiLkuK3lm73oioLlgYfml6UiLCJ0aW1lWm9uZSI6IkFzaWEvU2hhbmdoYWkiLCJzdW1tYXJ5T3ZlcnJpZGUiOiLoioLml6UiLCJjb2xvcklkIjoiOCIsImJhY2tncm91bmRDb2xvciI6IiMxNmE3NjUiLCJmb3JlZ3JvdW5kQ29sb3IiOiIjMDAwMDAwIiwic2VsZWN0ZWQiOnRydWUsImFjY2Vzc1JvbGUiOiJyZWFkZXIiLCJkZWZhdWx0UmVtaW5kZXJzIjpbXSwiY29uZmVyZW5jZVByb3BlcnRpZXMiOnsiYWxsb3dlZENvbmZlcmVuY2VTb2x1dGlvblR5cGVzIjpbImV2ZW50SGFuZ291dCJdfX1d
@@ -144,7 +144,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=92
+PreloadWeight=100
 SystrayContainmentId=7
 
 [Containments][2][ConfigDialog]
@@ -171,21 +171,21 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][7][Applets][10][Configuration]
-PreloadWeight=0
+PreloadWeight=29
 
 [Containments][7][Applets][11]
 immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][7][Applets][11][Configuration]
-PreloadWeight=92
+PreloadWeight=100
 
 [Containments][7][Applets][12]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][7][Applets][12][Configuration]
-PreloadWeight=68
+PreloadWeight=100
 
 [Containments][7][Applets][13][Configuration]
 PreloadWeight=42
@@ -195,35 +195,39 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][7][Applets][14][Configuration]
-PreloadWeight=92
+PreloadWeight=100
 
 [Containments][7][Applets][15]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][7][Applets][15][Configuration]
-PreloadWeight=64
+PreloadWeight=100
 
 [Containments][7][Applets][16]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][7][Applets][16][Configuration]
-PreloadWeight=92
+PreloadWeight=100
 
 [Containments][7][Applets][17]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][7][Applets][17][Configuration]
-PreloadWeight=0
+PreloadWeight=57
+
+[Containments][7][Applets][17][Configuration][ConfigDialog]
+DialogHeight=780
+DialogWidth=1040
 
 [Containments][7][Applets][22]
 immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][7][Applets][22][Configuration]
-PreloadWeight=58
+PreloadWeight=100
 
 [Containments][7][Applets][23]
 immutability=1
@@ -249,4 +253,4 @@ immutability=2
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/aur,0,desktop:/readhub,0,desktop:/ncu-net,0,desktop:/cherry,0,desktop:/demo,0,desktop:/ncuos-fe,0,desktop:/kidonng,0,desktop:/ncu-net-monorepo,0
+screenMapping=desktop:/kidonng,0,desktop:/cherry,0,desktop:/ncu-net-monorepo,0,desktop:/aur,0,desktop:/ncu-net,0,desktop:/readhub,0,desktop:/demo,0,desktop:/scoop-docs,0,desktop:/progress,0,desktop:/ncuos-fe,0

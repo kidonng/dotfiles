@@ -1,22 +1,16 @@
 [$Version]
 update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update,gwenview.upd:DeleteThumbnailSetting_Rename
 
-[MainWindow]
-Height 720=480
-MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAAqQAAAGwAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
-ToolBarsMovable=Disabled
-Width 1280=676
+[KFileDialog Settings]
+detailViewIconSize=0
 
-[Recent Files]
-File1[$e]=$HOME/.face
-File2[$e]=$HOME/Pictures/caa9e3d47998b2c9c565ff6ea90a3e50.gif
-File3[$e]=$HOME/Pictures/Screenshot_20191224_212917.png
-File4[$e]=$HOME/Pictures/Screenshot_20191224_212917.png
-Name1[$e]=.face
-Name2[$e]=caa9e3d47998b2c9c565ff6ea90a3e50.gif
-Name3[$e]=Screenshot_20191224_212917.png
-Name4[$e]=Screenshot_20191224_212917.png
+[MainWindow]
+Height 720=432
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAGAAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1280=640
 
 [SideBar]
-SideBarSplitterSizes=152,515
+IsVisible ViewMode=false
+SideBarSplitterSizes=152,479

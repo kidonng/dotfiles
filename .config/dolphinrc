@@ -2,7 +2,7 @@
 FontWeight=50
 
 [Desktop Entry]
-DefaultProfile=
+DefaultProfile=Default.profile
 
 [DetailsMode]
 FontWeight=50
@@ -18,19 +18,22 @@ ViewPropsTimestamp=2019,12,16,4,34,54
 FontWeight=50
 
 [KPropertiesDialog]
-Height 720=357
-Width 1280=361
+Height 720=457
+Width 1280=413
 
 [MainWindow]
-Height 720=484
+Height 720=485
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAwAAAAAAAACiAAABtPwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAIA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAwAAABtAAAAFgA////AAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAAAgD///8AAAADAAACmAAAAL78AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAACmAAAAAIA////AAAB7wAAAbQAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+State=AAAA/wAAAAD9AAAAAwAAAAAAAABlAAABtfwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAwAAAAfgAAAAIA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAwAAABtQAAAFgA////AAAAAQAAALQAAAG1/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAADAAAAG1AAAAAgD///8AAAADAAACRwAAAL78AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAACRwAAAAIA////AAAB2wAAAbUAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
-Width 1280=664
+Width 1280=583
+
+[MainWindow][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
 
 [Open-with settings]
 CompletionMode=1
-History=kate,ark
+History=kate,ark,vlc
 
 [PreviewSettings]
 Plugins=appimagethumbnail,blenderthumbnail,djvuthumbnail,exrthumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,imagethumbnail,fontthumbnail,directorythumbnail,comicbookthumbnail,ebookthumbnail,ffmpegthumbs,audiothumbnail

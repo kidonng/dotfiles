@@ -1,21 +1,28 @@
 [Desktop Entry]
-DefaultProfile=
+DefaultProfile=Default.profile
 
 [Favorite Profiles]
 Favorites=
 
 [General]
+Close After Last=false
 Config Revision=10
 Days Meta Infos=30
+Modified Notification=false
+Quick Open List Mode=0
+Quick Open Search Mode=0
+Recent File List Entry Count=10
+Restore Window Configuration=true
 Save Meta Infos=true
 Show Full Path in Title=false
 Show Menu Bar=true
 Show Status Bar=true
 Show Tab Bar=true
+Startup Session=manual
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/.local/share/fish/fish_history,file:$HOME/.config/gtk-3.0/settings.ini,file:$HOME/.config/fusuma/config.yml,file:$HOME/.config/fontconfig/fonts.conf,file:///etc/fonts/conf.avail/70-noto-cjk.conf,file:///etc/fonts/conf.avail/70-no-bitmaps.conf,file:$HOME/Documents/桌面.txt,file:$HOME/.config/neofetch/config.conf,file:$HOME/.config/fcitx5/conf/classicui.conf,file:///tmp/latte-dock.kid.lock
-Recent URLs[$e]=file:$HOME/.config/gtk-3.0/,file:$HOME/.config/
+Recent Files[$e]=file:$HOME/.local/share/fish/fish_history,file:$HOME/.local/share/fish/fish_history,file:$HOME/.config/fontconfig/fonts.conf,file:$HOME/Desktop/ncuos-fe/src/global.tsx,file:$HOME/Documents/fontlink.reg,file:///etc/pacman.d/mirrorlist,file:$HOME/.config/gtk-3.0/settings.ini,file:$HOME/.config/fusuma/config.yml,file:///etc/fonts/conf.avail/70-noto-cjk.conf,file:///etc/fonts/conf.avail/70-no-bitmaps.conf,file:$HOME/Documents/桌面.txt,file:$HOME/.config/neofetch/config.conf,file:$HOME/.config/fcitx5/conf/classicui.conf,file:///tmp/latte-dock.kid.lock
+Recent URLs[$e]=file:$HOME/.local/share/fish/
 detailViewIconSize=0
 
 [KTextEditor Document]
@@ -108,14 +115,23 @@ Word Completion Remove Tail=true
 
 [KTextEditor::Search]
 Replace History=binding="same",Hack
-Search History=Walk Through Desktop List,alt+tab,ctrl+tab,Expose,invokeShortcut,ModifierOnlyShortcuts,[Compositing]\n,opengl,noto sans cjk sc,Apple,apple color emoji,binding="strong",zh,<match,match,embolden,rgba,antialias,contains,Meslo LG L DZ,meslo,patch ,lake,whi,hmem_repo,you might,patch,neofetch,Image=,Wallpaper,Image,answer,Microarchitecture$default,microarchitecture,rm ,rm,ssh,cmd_size = sizeof(struct iwl_scan_config_v1),pulse,qalc,exec,copy,A5E9288C4FA415FA,F470A5E9288C4FA415FA,0A5E9288C4FA415FA,meta,ctrl,linux,install,linux.install,validpgpkeys,RE,RD,RB,RA,R0,R9,R8,R7,R6,R5,R4,D3,R3,font,pacman -S,pacman,yay
+Search History=nvim,aria2c,e001,f2fs,sda,fish,install,china,simsun,宋体,Walk Through Desktop List,alt+tab,ctrl+tab,Expose,invokeShortcut,ModifierOnlyShortcuts,[Compositing]\n,opengl,noto sans cjk sc,Apple,apple color emoji,binding="strong",zh,<match,match,embolden,rgba,antialias,contains,Meslo LG L DZ,meslo,patch ,lake,whi,hmem_repo,you might,patch,neofetch,Image=,Wallpaper,Image,answer,Microarchitecture$default,microarchitecture,rm ,rm,ssh,cmd_size = sizeof(struct iwl_scan_config_v1),pulse,qalc,exec,copy,A5E9288C4FA415FA,F470A5E9288C4FA415FA,0A5E9288C4FA415FA,meta,ctrl,linux,linux.install,validpgpkeys,RE,RD,RB,RA,R0,R9,R8,R7,R6,R5,R4,D3,R3,font,pacman -S,pacman,yay
+
+[Konsole]
+AutoSyncronize=true
+RemoveExtension=false
+RunPrefix=
+SetEditor=false
 
 [MainWindow]
-Height 720=447
+Height 720=451
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAAoAAAAHgAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAAlkAAAHDAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-Width 1280=639
+Width 1280=601
+
+[UiSettings]
+ColorScheme=McMojaveLight
 
 [filetree]
 editShade=179,218,246

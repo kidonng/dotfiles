@@ -1,2 +1,5 @@
 [EmbedSettings]
 embed-application/xml=false
+embed-text/vnd.qt.linguist=false
+embed-video/mp4=false
+embed-video/x-matroska=false

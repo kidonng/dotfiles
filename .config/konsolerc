@@ -1,11 +1,18 @@
 [Desktop Entry]
-DefaultProfile=
+DefaultProfile=Default.profile
+
+[DownloadDialog Settings]
+Height 720=399
+Width 1280=699
 
 [Favorite Profiles]
-Favorites=
+Favorites=Default.profile
+
+[KonsoleWindow]
+AllowMenuAccelerators=true
 
 [MainWindow]
-Height 720=451
+Height 720=464
 State=AAAA/wAAAAD9AAAAAAAAAn8AAAG9AAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
-Width 1280=577
+Width 1280=579

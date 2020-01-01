@@ -11,7 +11,7 @@
 (monitor-yresolution 166)
 (toolbox-wilber no)
 (theme "System")
-(icon-theme "Symbolic-Inverted")
+(icon-theme "Color")
 (fill-options
     (style solid)
     (antialias yes)

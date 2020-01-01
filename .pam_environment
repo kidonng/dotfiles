@@ -1,4 +1,4 @@
-EDITOR=nano
+EDITOR=nvim
 
 INPUT_METHOD=fcitx5
 GTK_IM_MODULE=fcitx5

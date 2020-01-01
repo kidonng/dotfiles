@@ -2385,6 +2385,20 @@ qt-privacy-ask=0
 # CBR encoding (boolean)
 #sout-vorbis-cbr=0
 
+[twolame] # Libtwolame audio encoder
+
+# Encoding quality (float)
+#sout-twolame-quality=0.000000
+
+# Stereo mode (integer)
+#sout-twolame-mode=0
+
+# VBR mode (boolean)
+#sout-twolame-vbr=0
+
+# Psycho-acoustic model (integer)
+#sout-twolame-psy=3
+
 [ttml] # TTML subtitles decoder
 
 # Subtitle justification (integer)
@@ -3100,6 +3114,11 @@ qt-privacy-ask=0
 
 # RTP payload format assumed for dynamic payloads (string)
 #rtp-dynamic-pt=
+
+[nfs] # NFS input
+
+# Set NFS uid/guid automatically (boolean)
+#nfs-auto-guid=1
 
 [live555] # RTP/RTSP/SDP demuxer (using Live555)
 
