@@ -1,0 +1,6 @@
+[SambaLogFileSettings]
+SambaLogFile[$e]=/var/log/samba/log.smbd
+ShowConnectionClose=false
+ShowConnectionOpen=true
+ShowFileClose=false
+ShowFileOpen=true

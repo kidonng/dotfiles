@@ -1,3 +1,7 @@
+[FileDialogSize]
+Height 720=545
+Width 1280=824
+
 [KDiskFree]
 Device=100
 Free=80
@@ -12,8 +16,8 @@ Type=80
 UsageBar=211
 
 [KFileDialog Settings]
-Recent Files[$e]=头像.png,file:///bin/fusuma,file:$HOME/.local/theme/wallpaper.png
-Recent URLs[$e]=file:///bin/
+Recent Files[$e]=头像.png,file:$HOME/.local/theme/wallpaper.png,file:///bin/fusuma
+Recent URLs[$e]=file:$HOME/.local/theme/,file:$HOME/Pictures/
 detailViewIconSize=0
 
 [KPropertiesDialog]
@@ -22,11 +26,17 @@ Width 1280=368
 
 [MainWindow]
 Height 1080=700
-Height 720=635
+Height 675=593
+Height 720=629
+Height 771=694
+Height 831=703
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAABAkAAAJ7AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABAAAAAJ1AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-Width 1280=1033
+Width 1200=1024
+Width 1280=1024
+Width 1371=1024
+Width 1477=1024
 Width 1920=1024
 
 [Open-with settings]

@@ -1,14 +1,14 @@
 [CreateDialog]
-LastMimeType=application/x-7z-compressed
+LastMimeType=application/x-zstd-compressed-tar
 
 [ExtractDialog]
-DirHistory[$e]=$HOME/.cache/yay/linux-xanmod/src/,$HOME/Downloads/,$HOME/Desktop/temp/
+DirHistory[$e]=$HOME/.local/share/fonts/Bangumi/,$HOME/.cache/yay/linux-xanmod/src/,$HOME/Downloads/,$HOME/Desktop/temp/
 Height 720=480
 Width 1280=879
 
 [KFileDialog Settings]
 Recent Files[$e]=file:$HOME
-Recent URLs[$e]=file:$HOME/.cache/yay/linux-xanmod/src/
+Recent URLs[$e]=file:$HOME/.local/share/fonts/Bangumi/,file:$HOME/.local/share/fonts/,file:$HOME/Videos/
 detailViewIconSize=0
 
 [KTextEditor Document]
@@ -101,14 +101,17 @@ Word Completion Remove Tail=true
 
 [MainWindow]
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAAoAAAAGwAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
-StatusBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAGPAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 splitterSizes=422,211
 
 [Open-with settings]
 CompletionMode=1
 History=kate
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/data.tar.xz
+Name1[$e]=data.tar.xz
 
 [Viewer]
 Height 720=495

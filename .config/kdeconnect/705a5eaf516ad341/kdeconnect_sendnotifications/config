@@ -1,3 +1,4 @@
 [applications]
 1\value=@Variant(\0\0\0\x7f\0\0\0\x15NotifyingApplication\0\0\0\0\x16\0P\0l\0\x61\0s\0m\0\x61\0 ]\xe5O\\zz\x95\xf4\0\0\0\x18\0\x64\0i\0\x61\0l\0o\0g\0-\0\x65\0r\0r\0o\0r\x1\xff\xff\xff\xff)
-size=1
+2\value=@Variant(\0\0\0\x7f\0\0\0\x15NotifyingApplication\0\0\0\0\b\x7fQ~\xdc{\xa1t\x6\0\0\0:\0n\0\x65\0t\0w\0o\0r\0k\0-\0w\0i\0r\0\x65\0l\0\x65\0s\0s\0-\0\x64\0i\0s\0\x63\0o\0n\0n\0\x65\0\x63\0t\0\x65\0\x64\x1\xff\xff\xff\xff)
+size=2

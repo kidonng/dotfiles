@@ -1,3 +1,8 @@
+[FileDialogSize]
+Height 720=545
+Width 1280=824
+
 [KFileDialog Settings]
-Recent URLs[$e]=file:$HOME/Pictures/
+Recent Files[$e]=Avatar (Transparent).png,file:$HOME/Downloads/Avatar.png,file:$HOME/Downloads/Avatar (Transparent).png
+Recent URLs[$e]=file:$HOME/Downloads/
 detailViewIconSize=0

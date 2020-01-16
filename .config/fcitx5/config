@@ -1,5 +1,6 @@
-[Hotkey/AltTriggerKeys]
-#0=Shift_L
+[Hotkey]
+# 额外切换输入法
+AltTriggerKeys=
 
 [Behavior]
 # 切换输入法时显示输入法信息

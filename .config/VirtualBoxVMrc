@@ -1,0 +1,8 @@
+[FileDialogSize]
+Height 720=565
+Width 1280=791
+
+[KFileDialog Settings]
+Recent Files[$e]=cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24.iso,file:$HOME/Downloads/openSUSE-Tumbleweed-DVD-x86_64-Current.iso
+Recent URLs[$e]=file:$HOME/Downloads/
+detailViewIconSize=0

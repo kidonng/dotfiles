@@ -1,5 +1,6 @@
 [EmbedSettings]
 embed-application/xml=false
+embed-audio/x-vorbis+ogg=false
 embed-text/vnd.qt.linguist=false
 embed-video/mp4=false
 embed-video/x-matroska=false

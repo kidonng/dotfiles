@@ -623,7 +623,7 @@
 [freetype] # Freetype2 font renderer
 
 # Font (string)
-#freetype-font=Serif Bold
+freetype-font=苹方-简
 
 # Monospace Font (string)
 #freetype-monofont=Monospace
@@ -2128,10 +2128,10 @@ qt-privacy-ask=0
 #sout-x264-stats=x264_2pass.log
 
 # Default preset setting used (string)
-#sout-x264-preset=
+sout-x264-preset=ultrafast
 
 # Default tune setting used (string)
-#sout-x264-tune=
+sout-x264-tune=film
 
 # x264 advanced options (string)
 #sout-x264-options=
@@ -3115,11 +3115,6 @@ qt-privacy-ask=0
 # RTP payload format assumed for dynamic payloads (string)
 #rtp-dynamic-pt=
 
-[nfs] # NFS input
-
-# Set NFS uid/guid automatically (boolean)
-#nfs-auto-guid=1
-
 [live555] # RTP/RTSP/SDP demuxer (using Live555)
 
 # Use RTP over RTSP (TCP) (boolean)
@@ -3597,7 +3592,7 @@ qt-privacy-ask=0
 #deinterlace-mode=auto
 
 # Video output module (string)
-#vout=
+vout=any
 
 # Video filter module (string)
 #video-filter=

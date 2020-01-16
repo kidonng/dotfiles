@@ -5,11 +5,11 @@
   "ignore_all_lsp": false,
   "creation_time": "2019-12-17T02:37:34.378883180Z",
   "semantic_status": {
+    "typescript": "Enabled",
+    "scss": "Enabled",
     "html": "Enabled",
     "css": "Enabled",
-    "javascript": "Enabled",
-    "typescript": "Enabled",
-    "scss": "Enabled"
+    "javascript": "Enabled"
   },
   "disable_auto_update": false,
   "user_understands_that_enabling_tabnine_cloud_sends_code_to_tabnine_servers": true,

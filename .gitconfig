@@ -1,5 +1,5 @@
 [http]
-	proxy = socks5://127.0.0.1:1080
+	proxy = http://127.0.0.1:1081
 [user]
 	email = kidonng@gmail.com
 	name = Kid

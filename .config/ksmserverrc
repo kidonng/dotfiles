@@ -1,0 +1,34 @@
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=10cae1d2dc000157647060500000009590004
+clientId2=10cae1d2dc000157897631200000052380005
+clientId3=10cae1d2dc000157845799000000013400019
+clientId4=10cae1d2dc000157897631200000052380008
+count=4
+discardCommand1[$e]=rm,$HOME/.config/session/kwin_10cae1d2dc000157647060500000009590004_1578976568_87075
+discardCommand3[$e]=rm,$HOME/.config/session/yakuake_10cae1d2dc000157845799000000013400019_1578976568_39111
+program1=/usr/bin/kwin_x11
+program2=/usr/bin/latte-dock
+program3=/usr/bin/yakuake
+program4=pulseaudio
+restartCommand1=/usr/bin/kwin_x11,-session,10cae1d2dc000157647060500000009590004_1578976568_87075
+restartCommand2=/usr/bin/latte-dock,-session,10cae1d2dc000157897631200000052380005_1578976568_67445
+restartCommand3=/usr/bin/yakuake,-session,10cae1d2dc000157845799000000013400019_1578976568_39111
+restartCommand4=
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+restartStyleHint4=0
+userId1=kid
+userId2=kid
+userId3=kid
+userId4=kid
+wasWm1=true
+wasWm2=false
+wasWm3=false
+wasWm4=false
+
+[SubSession: 6cc4dd96-3161-4489-a533-9c8b320f4263]
+count=0

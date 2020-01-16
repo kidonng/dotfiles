@@ -1,9 +1,9 @@
 [ActionsWidget]
-ColumnState=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAboAAAACAQAAAQAAAAAAAAAAAAAAAJb/////AAAAgQAAAAAAAAACAAAA+gAAAAEAAAAAAAAAwAAAAAEAAAAAAAAD6AAAAACW
+ColumnState=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlIAAAACAQAAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAACAAAA+gAAAAEAAAAAAAABWAAAAAEAAAAAAAAD6AAAAACW
 
 [ConfigDialog]
-Height 1080=571
-Width 1920=721
+Height 1080=593
+Width 1920=729
 
 [DownloadDialog Settings]
 Height 1080=460
@@ -17,15 +17,22 @@ Recent Files[$e]=wallpaper.png,file:$HOME/Downloads/catalina-wallpaper-dark-mode
 Recent URLs[$e]=file:$HOME/Downloads/
 detailViewIconSize=0
 
+[KPropertiesDialog]
+Height 1080=462
+Width 1920=521
+
 [PlasmaRunnerManager]
-LaunchCounts=1 services_libreoffice-calc.desktop,3 services_org.kde.partitionmanager.desktop,1 services_org.kde.kdenlive.desktop
+LaunchCounts=1 services_libreoffice-calc.desktop,1 services_nvim.desktop,1 services_org.kde.kiten.desktop,3 services_org.kde.partitionmanager.desktop,2 services_org.kde.krfb.desktop,1 services_org.kde.kdenlive.desktop,2 services_org.kde.kinfocenter.desktop,2 services_systemsettings.desktop,1 services_org.kde.konsole.desktop,1 services_telegramdesktop.desktop,1 services_fsearch.desktop,1 services_google-chrome.desktop
 pluginWhiteList=desktopsessions,services,places,PowerDevil,calculator,unitconverter,shell,bookmarks,recentdocuments,locations,baloosearch
 
 [PlasmaViews][Panel 2][Defaults]
-thickness=36
+thickness=32
 
 [PlasmaViews][Panel 2][Horizontal1920]
-thickness=36
+thickness=32
+
+[PlasmaViews][Panel 2][Horizontal2400]
+thickness=32
 
 [ScreenConnectors]
 0=eDP-1

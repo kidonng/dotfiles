@@ -1,3 +1,8 @@
+Height 720=461
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAwAAAAAAAABlAAABnfwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAwAAAAfgAAAAIA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAwAAABnQAAAFgA////AAAAAQAAALQAAAGd/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAADAAAAGdAAAAAgD///8AAAADAAACRwAAAL78AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAACRwAAAAIA////AAAB5wAAAZ0AAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+Width 1280=595
+
 [CompactMode]
 FontWeight=50
 
@@ -11,6 +16,7 @@ FontWeight=50
 Favorites=
 
 [General]
+ShowZoomSlider=false
 Version=200
 ViewPropsTimestamp=2019,12,16,4,34,54
 
@@ -19,28 +25,42 @@ FontWeight=50
 
 [KPropertiesDialog]
 Height 720=457
-Width 1280=413
+Height 771=474
+Width 1280=433
+Width 1371=511
 
 [MainWindow]
-Height 720=485
+Height 720=465
+Height 771=594
+Height 831=582
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAwAAAAAAAABlAAABtfwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAwAAAAfgAAAAIA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAwAAABtQAAAFgA////AAAAAQAAALQAAAG1/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAADAAAAG1AAAAAgD///8AAAADAAACRwAAAL78AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAACRwAAAAIA////AAAB2wAAAbUAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+State=AAAA/wAAAAD9AAAAAwAAAAAAAACJAAABofwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAwAAAAfgAAAAIA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAwAAABoQAAAFgA////AAAAAQAAALQAAAGd/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAADAAAAGdAAAAAgD///8AAAADAAACbAAAAL78AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAACbAAAAAIA////AAAB3AAAAaEAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
-Width 1280=583
+Width 1280=620
+Width 1371=618
+Width 1477=722
 
 [MainWindow][Toolbar mainToolBar]
 ToolButtonStyle=IconOnly
 
 [Open-with settings]
 CompletionMode=1
-History=kate,ark,vlc
+History=ark,kate,vlc,kat
 
 [PreviewSettings]
-Plugins=appimagethumbnail,blenderthumbnail,djvuthumbnail,exrthumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,imagethumbnail,fontthumbnail,directorythumbnail,comicbookthumbnail,ebookthumbnail,ffmpegthumbs,audiothumbnail
+Plugins=appimagethumbnail,blenderthumbnail,djvuthumbnail,exrthumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mltpreview,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,imagethumbnail,fontthumbnail,directorythumbnail,comicbookthumbnail,ebookthumbnail,ffmpegthumbs,audiothumbnail
+
+[Search]
+Location=Everywhere
 
 [SettingsDialog]
 Height 720=419
+Height 831=488
 Width 1280=540
+Width 1477=572
+
+[Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
 
 [VersionControl]
 enabledPlugins=Git

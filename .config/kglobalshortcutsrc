@@ -5,8 +5,8 @@ switch-to-activity-5dc99e6e-8423-436f-a1ec-2e4c8444e396=none,none,切换到活�
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
 Switch keyboard layout to 英语（美国）=none,none,切换到键盘布局 英语（美国）
-Switch to Next Keyboard Layout=Ctrl+Alt+K,none,切换到下一个键盘布局
-_k_friendly_name=KDE Daemon
+Switch to Next Keyboard Layout=none,none,切换到下一个键盘布局
+_k_friendly_name=系统设置
 
 [kaccess]
 Toggle Screen Reader On and Off=none,Meta+Alt+S,切换屏幕阅读器开关
@@ -43,11 +43,11 @@ _k_friendly_name=KRunner
 _launch=\t\tMeta+Space\tSearch,Alt+Space\tAlt+F2\tMeta+Space\tSearch,KRunner
 
 [ksmserver]
-Halt Without Confirmation=Ctrl+Alt+Shift+PgDown,none,关机前不确认
-Lock Session=Meta+L\tCtrl+Alt+L\tScreensaver,Meta+L\tCtrl+Alt+L\tScreensaver,锁定会话
-Log Out=Ctrl+Alt+Del,none,注销
-Log Out Without Confirmation=Ctrl+Alt+Shift+Del,none,注销前不确认
-Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp,none,重启前不确认
+Halt Without Confirmation=none,none,关机前不确认
+Lock Session=Meta+L\t\tScreensaver,Meta+L\tCtrl+Alt+L\tScreensaver,锁定会话
+Log Out=none,none,注销
+Log Out Without Confirmation=none,none,注销前不确认
+Reboot Without Confirmation=none,none,重启前不确认
 _k_friendly_name=ksmserver
 
 [kwin]
