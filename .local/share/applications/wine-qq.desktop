@@ -1,0 +1,10 @@
+[Desktop Entry]
+Categories=Network;InstantMessaging;
+Exec=wine ".wine/drive_c/Program Files/QQ/Bin/QQScLauncher.exe"
+Icon=qq
+Name=QQ
+NoDisplay=false
+StartupNotify=true
+Terminal=0
+Type=Application
+StartupWMClass=QQ.exe

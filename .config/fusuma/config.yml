@@ -1,0 +1,34 @@
+swipe:
+  3:
+    left:
+      command: 'xdotool key alt+Left'
+    right:
+      command: 'xdotool key alt+Right'
+    up:
+      command: 'qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invokeShortcut "ShowDesktopGrid"'
+    down:
+      command: 'qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invokeShortcut "Expose"'
+  4:
+    left:
+      command: 'qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invokeShortcut "Switch to Next Desktop"'
+    right:
+      command: 'qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invokeShortcut "Switch to Previous Desktop"'
+    up:
+      command: 'qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invokeShortcut "Window Fullscreen"'
+    down:
+      command: 'qdbus org.kde.kglobalaccel /component/yakuake org.kde.kglobalaccel.Component.invokeShortcut "toggle-window-state"'
+
+pinch:
+  2:
+    in:
+      command: 'xdotool key ctrl+equal'
+    out:
+      command: 'xdotool key ctrl+minus'
+
+threshold:
+  swipe: 0.1
+  pinch: 0.1
+
+interval:
+  swipe: 0.4
+  pinch: 1

@@ -1,0 +1,19 @@
+[Appearance]
+BackgroundColorOpacity=80
+Blur=true
+
+[Desktop Entry]
+DefaultProfile=Default.profile
+
+[Dialogs]
+FirstRun=false
+
+[Favorite Profiles]
+Favorites=
+
+[KFileDialog Settings]
+detailViewIconSize=0
+
+[Window]
+Height=40
+Width=80
