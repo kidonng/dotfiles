@@ -1,0 +1,12 @@
+{
+  "lastupdate": "258|2020-11-01 20:28:21",
+  "SCOOP_REPO": "https://github.com/Ash258/Scoop-Core",
+  "SCOOP_BRANCH": "master",
+  "alias": {
+    "ls": "scoop-ls",
+    "up": "scoop-up",
+    "st": "scoop-st",
+    "cl": "scoop-cl",
+    "cc": "scoop-cc"
+  }
+}

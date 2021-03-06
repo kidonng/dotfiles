@@ -1,0 +1,25 @@
+[user]
+    name = Kid
+    email = kidonng@gmail.com
+[alias]
+    br = branch
+    ca = commit --amend
+    ci = commit
+    cl = clone
+    co = checkout
+    lg = log --pretty=oneline --abbrev-commit --graph
+    ps = push
+    pu = pull
+    rb = rebase
+    re = restore
+    rs = reset
+    st = status
+    sw = switch
+[http]
+    proxy = 127.0.0.1:10809
+[pull]
+    rebase = true
+[core]
+	sshCommand = C:/Windows/System32/OpenSSH/ssh.exe
+[credential]
+	helper = manager
