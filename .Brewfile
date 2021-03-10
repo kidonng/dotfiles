@@ -41,6 +41,7 @@ brew "kidonng/malt/nali"
 brew "kidonng/malt/neofetch-optional-deps", args: ["without-imagemagick", "without-screenresolution"]
 brew "kidonng/malt/np"
 brew "kidonng/malt/typescript-language-server"
+brew "kidonng/malt/viu"
 brew "kidonng/malt/vscode-css-languageserver-bin"
 brew "kidonng/malt/vscode-html-languageserver-bin"
 brew "kidonng/malt/youtube-dl-mod"
