@@ -1,0 +1,43 @@
+[user]
+	name = Kid
+	email = kidonng@gmail.com
+[pull]
+	rebase = true
+	ff = only
+[alias]
+	a = add
+	br = branch
+	ca = commit --amend
+	ci = commit
+	cl = clone
+	co = checkout
+	cp = cherry-pick
+	di = diff
+	dt = difftool
+	fe = fetch
+	lg = log --oneline --graph
+	me = merge
+	ps = push
+	pu = pull
+	rb = rebase
+	re = restore
+	rs = reset
+	rt = remote
+	sh = stash
+	st = status
+	sw = switch
+[core]
+	autocrlf = input
+	pager = delta
+[diff]
+	tool = nvimdiff
+	algorithm = patience
+[include]
+	path = config.local
+[fetch]
+	prune = true
+[delta]
+	syntax-theme = OneHalfDark
+	line-numbers = true
+	hunk-header-style = omit
+

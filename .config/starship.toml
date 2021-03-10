@@ -1,0 +1,34 @@
+# [cmake]
+# https://github.com/starship/starship/pull/1787
+# symbol = "🔺 "
+
+[conda]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[git_branch]
+symbol = " "
+
+[hg_branch]
+symbol = " "
+
+[julia]
+symbol = " "
+
+[memory_usage]
+symbol = " "
+
+[nodejs]
+symbol = " "
+
+[status]
+# Adjust spacing
+symbol = "✖ "
+not_executable_symbol	= "🚫 "
+not_found_symbol = "🔍 "
+sigint_symbol = "🧱 "
+map_symbol = true
+disabled = false
+
