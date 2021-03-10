@@ -8,6 +8,7 @@ abbr tm time
 
 # Fish functions
 abbr bcat brew_cat
+abbr dot dotfiles
 abbr rm trash
 abbr shacp copy_sha256sum
 
