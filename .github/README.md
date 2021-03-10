@@ -2,7 +2,7 @@
 
 _There's no place like `$HOME`_.
 
-Managed with [Fish dotfiles](https://github.com/kidonng/fish-dotfiles), licensed under [MIT](https://opensource.org/licenses/MIT).
+Managed with [`dotfiles.fish`](dotfiles.md), licensed under [MIT](https://opensource.org/licenses/MIT).
 
 ## VSCode extensions
 
