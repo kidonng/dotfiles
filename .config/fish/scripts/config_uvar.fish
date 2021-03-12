@@ -5,7 +5,8 @@ if builtin functions -q plug
 
     if builtin contains kidonng/fish-proxy $plugins
         # ALL_PROXY: curl, Homebrew, etc.
-        set -U proxy_vars ALL_PROXY
+        # HTTPS_PROXY: Deno
+        set -U proxy_vars ALL_PROXY HTTPS_PROXY
         set -U proxy_launch
     end
 

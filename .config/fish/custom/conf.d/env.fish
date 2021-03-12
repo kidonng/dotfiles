@@ -1,11 +1,9 @@
+status is-interactive || exit
+
 fish_add_path -g /usr/local/sbin
 
 if command -sq brew
   set -x HOMEBREW_BOTTLE_DOMAIN https://mirrors.ustc.edu.cn/homebrew-bottles
-end
-
-if command -sq less
-  set -x LESS -R -i -M
 end
 
 if command -sq fzf
@@ -16,9 +14,21 @@ if command -sq fzf
   end
 end
 
+if command -sq less
+  set -x LESS -R -i -M
+end
+
 if command -sq nvim
   set -x EDITOR nvim
   # set -x DIFFPROG nvim -d
+end
+
+if command -sq starship
+  command starship init fish | builtin source
+end
+
+if command -sq zoxide
+  command zoxide init fish | builtin source
 end
 
 # set -l iterm_integration ~/.iterm2_shell_integration.fish

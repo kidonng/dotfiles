@@ -62,7 +62,7 @@ abbr bup brew update
 abbr bupg brew upgrade
 
 abbr dl curl -LOJR -C -
-abbr get curl -sSL
+abbr get curl -L
 abbr ip4 curl -sS4 ip.sb
 abbr ip6 curl -sS6 ip.sb
 
