@@ -68,7 +68,7 @@ abbr ip6 curl -sS6 ip.sb
 
 abbr ls exa
 abbr la exa -a
-abbr ll exa -l
+abbr ll exa -l --icons
 
 # Git
 # Derived from https://github.com/fish-shell/fish-shell/blob/9f4255ed76683d6772f354c1fb818a1655e877a0/share/completions/git.fish#L582-L604
