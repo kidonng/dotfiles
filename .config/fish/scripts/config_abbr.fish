@@ -61,10 +61,15 @@ abbr brm brew uninstall
 abbr bup brew update
 abbr bupg brew upgrade
 
-abbr dl curl -LOJR -C -
+abbr dl curl -LOR -C -
 abbr get curl -L
 abbr ip4 curl -sS4 ip.sb
 abbr ip6 curl -sS6 ip.sb
+
+for type in json yaml toml xml csv
+    set -l abbr (string sub -l 1 $type)q
+    abbr $abbr dasel select -p $type
+end
 
 abbr ls exa
 abbr la exa -a

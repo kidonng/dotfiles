@@ -1,6 +1,6 @@
 call plug#begin(stdpath('data').'/plugged')
 " bierner.markdown-emoji
-Plug 'iamcco/markdown-preview.nvim', { 'do': 'yarn --frozen-lockfile --cwd app'  }
+" Plug 'iamcco/markdown-preview.nvim', { 'do': 'yarn --frozen-lockfile --cwd app'  }
 " CoenraadS.bracket-pair-colorizer-2
 Plug 'luochen1990/rainbow'
 let g:rainbow_active = 1
