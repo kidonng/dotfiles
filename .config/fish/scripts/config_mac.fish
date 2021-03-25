@@ -6,3 +6,4 @@ for dir in glow qBittorrent qv2ray TabNine
     ln -s ~/.config/$dir ~/Library/Preferences/
 end
 
+ln -s (brew --prefix)/bin/{yt-dlp,youtube-dl}

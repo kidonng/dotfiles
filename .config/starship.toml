@@ -1,7 +1,3 @@
-# [cmake]
-# https://github.com/starship/starship/pull/1787
-# symbol = "🔺 "
-
 [conda]
 symbol = " "
 
@@ -20,8 +16,8 @@ symbol = " "
 [memory_usage]
 symbol = " "
 
-[nodejs]
-symbol = " "
+[scala]
+symbol = " "
 
 [status]
 # Adjust spacing

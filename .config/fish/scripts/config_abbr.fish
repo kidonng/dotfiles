@@ -48,7 +48,6 @@ abbr md glow -p
 abbr pc proxychains4
 abbr ps procs
 abbr vi nvim
-abbr ytdl youtube-dl
 
 abbr bbc brew bundle --global cleanup
 abbr bbd brew bundle --global dump
