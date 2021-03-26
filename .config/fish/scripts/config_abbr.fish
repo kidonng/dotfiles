@@ -45,7 +45,6 @@ abbr batman 'MANPAGER="col -bx | bat -l man -p" man'
 abbr co code
 abbr hex hexyl
 abbr md glow -p
-abbr pc proxychains4
 abbr ps procs
 abbr vi nvim
 
