@@ -2,5 +2,7 @@
   "npm.binPath": "yarn",
   "prettier.semi": false,
   "prettier.singleQuote": true,
+  "prettier.statusItemText": "",
+  "cSpell.showStatus": false,
   "explorer.icon.enableNerdfont": true
 }

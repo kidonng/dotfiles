@@ -22,7 +22,7 @@ symbol = " "
 [status]
 # Adjust spacing
 symbol = "✖ "
-not_executable_symbol	= "🚫 "
+not_executable_symbol = "🚫 "
 not_found_symbol = "🔍 "
 sigint_symbol = "🧱 "
 map_symbol = true
