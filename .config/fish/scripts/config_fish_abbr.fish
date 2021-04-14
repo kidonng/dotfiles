@@ -1,16 +1,7 @@
-# Fish built-in
-abbr com command
-abbr ct count
-abbr fun function
-abbr hist history
-abbr rand random
-abbr tm time
-
 # Fish functions
 abbr bcat brew_cat
 abbr dot dotfiles
 abbr rm trash
-abbr shacp copy_sha256sum
 
 # Common
 abbr df df -h
@@ -19,9 +10,9 @@ abbr du du -hcs
 abbr tmp mktemp
 abbr tmpd mktemp -d
 abbr tmpsh "HOME=(mktemp -d) fish"
+abbr sha shasum -a 256
 
 # macOS
-abbr base base64
 abbr cafe caffeinate
 abbr cap screencapture
 abbr ipc ipconfig getpacket en0
@@ -29,14 +20,10 @@ abbr mfd mdfind
 abbr op open
 abbr pcp pbcopy
 abbr pps pbpaste
-abbr quarantine xattr -d -r com.apple.quarantine
 
 abbr dls diskutil list
 abbr dmo sudo diskutil mount
 abbr dum diskutil unmount
-
-# Perl
-abbr sha shasum -a 256
 
 # Extra
 abbr cat bat -p
@@ -83,5 +70,14 @@ command git config --global -z --get-regexp "alias\..*" | while read -lz alias c
     abbr g$alias git $command
 end
 
+abbr ga git add
 abbr grm git rm
+
+# for command in F Q Qd Qdt Qe Qg Qi Ql Qm Qn Qo Qs Qt Qu Sg Si Sl Ss
+#     abbr $command pacman -$command
+# end
+
+# for command in D Fy Qk Qkk R Rs Rsn S Sc Scc Sw Syu U
+#     abbr $command sudo pacman -$command
+# end
 

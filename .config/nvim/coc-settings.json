@@ -4,5 +4,6 @@
   "prettier.singleQuote": true,
   "prettier.statusItemText": "",
   "cSpell.showStatus": false,
-  "explorer.icon.enableNerdfont": true
+  "explorer.icon.enableNerdfont": true,
+  "session.directory": "~/.local/share/nvim/session"
 }

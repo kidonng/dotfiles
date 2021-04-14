@@ -8,6 +8,7 @@ if builtin functions -q plug
         # HTTPS_PROXY: Deno
         set -U proxy_vars ALL_PROXY HTTPS_PROXY
         set -U proxy_launch
+        set -U proxy_launch_silent
     end
 
     if builtin contains PatrickF1/fzf.fish $plugins

@@ -1,6 +1,4 @@
 call plug#begin(stdpath('data').'/plugged')
-" bierner.markdown-emoji
-" Plug 'iamcco/markdown-preview.nvim', { 'do': 'yarn --frozen-lockfile --cwd app'  }
 " CoenraadS.bracket-pair-colorizer-2
 Plug 'luochen1990/rainbow'
 let g:rainbow_active = 1
@@ -10,11 +8,9 @@ Plug 'tpope/vim-fugitive'
 Plug 'editorconfig/editorconfig-vim'
 " formulahendry.auto-close-tag
 Plug 'alvan/vim-closetag'
-let g:closetag_filetypes = 'html,xhtml,vue,javascriptreact,typescriptreact'
+let g:closetag_filetypes = 'html,vue,javascriptreact,typescriptreact'
 " formulahendry.auto-rename-tag
 Plug 'AndrewRadev/tagalong.vim'
-" mhutchie.git-graph
-Plug 'rbong/vim-flog'
 " WakaTime.vscode-wakatime
 Plug 'wakatime/vim-wakatime'
 " WallabyJs.quokka-vscode
@@ -26,12 +22,10 @@ Plug 'sheerun/vim-polyglot'
 " Status
 Plug 'vim-airline/vim-airline'
 " Smooth scroll
-" Plug 'psliwka/vim-smoothie'
+Plug 'psliwka/vim-smoothie'
 " Zen mode
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
-" Motion
-Plug 'justinmk/vim-sneak'
 " Editing
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
@@ -45,23 +39,16 @@ let g:coc_global_extensions = [
       \ 'coc-git',
       \ 'coc-highlight',
       \ 'coc-html',
-      \ 'coc-html-css-support',
+      \ 'coc-lists',
       \ 'coc-json',
       \ 'coc-pairs',
       \ 'coc-prettier',
       \ 'coc-spell-checker',
       \ 'coc-tabnine',
-      \ 'coc-toml',
       \ 'coc-tsserver',
       \ 'coc-vetur',
-      \ 'coc-yaml'
       \ ]
 Plug 'mattn/emmet-vim'
-" Start screen
-Plug 'mhinz/vim-startify'
-" Search
-Plug 'junegunn/fzf'
-Plug 'junegunn/fzf.vim'
 " PKief.material-icon-theme
 Plug 'ryanoasis/vim-devicons'
 call plug#end()
@@ -86,15 +73,12 @@ set cursorline
 set nowrap
 set expandtab
 set tabstop=4
-set shiftwidth=2
+set shiftwidth=4
 set ignorecase smartcase
 set number relativenumber
 
-" Open explorer
+" coc-explorer
 nnoremap <space>e :CocCommand explorer<CR>
-
-" fzf.vim
-command! -bang -nargs=? -complete=dir Files call fzf#vim#files(<q-args>, fzf#vim#with_preview({ 'source' : 'fd --color=always', 'options': ['--ansi'] }), <bang>0)
 
 " coc-prettier
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
@@ -148,21 +132,4 @@ inoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? "\<c-r>=coc#float
 inoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? "\<c-r>=coc#float#scroll(0)\<cr>" : "\<Left>"
 vnoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\<C-f>"
 vnoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\<C-b>"
-
-" Smart backspace (ctf0.smart-delete)
-" Based on https://vim.fandom.com/wiki/Whitespace_hungry_backspace/delete
-" function! SmartBackspace()
-"   let line = getline('.')
-"   let column = col('.')
-"   let leading = line[0:column - 2]
-
-"   if column == 1 || leading =~ '^\s\+$'
-"     return "\<Esc>v?\\S\<CR>\<Right>d:nohls\<CR>i\<Space>"
-"   elseif leading =~ '\S\s\{2,}$'
-"     return "\<Esc>d?\\s\\+\<CR>:nohls\<CR>i"
-"   else
-"     return "\<BS>"
-"   endif
-" endfunction
-" inoremap <silent> <BS> <c-r>=SmartBackspace()<CR>
 
