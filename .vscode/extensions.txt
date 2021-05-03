@@ -16,7 +16,7 @@ matklad.rust-analyzer
 meganrogge.template-string-converter
 octref.vetur
 PKief.material-icon-theme
-pranaygp.vscode-css-peek
+pucelle.vscode-css-navigation
 streetsidesoftware.code-spell-checker
 TabNine.tabnine-vscode
 tombonnike.vscode-status-bar-format-toggle
