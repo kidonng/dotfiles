@@ -1,2 +1,2 @@
-command curl -sSL https://git.io/fish-plug | builtin source
+curl -sSL https://git.io/fish-plug | source
 plug install kidonng/fish-plug

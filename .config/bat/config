@@ -1,5 +1,0 @@
---theme OneHalfDark
---italic-text always
--m .Brewfile:Ruby
--m "**/git/config:Git Config"
--m "**/git/ignore:Git Ignore"

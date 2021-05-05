@@ -1,11 +1,8 @@
-set -l vim_plug https://github.com/junegunn/vim-plug/raw/master/plug.vim
-
 if test "$EDITOR" = nvim
-    if test -z "$XDG_DATA_HOME"
-        set XDG_DATA_HOME ~/.local/share
-    end
-
-    command curl $vim_plug --create-dirs -sSLo $XDG_DATA_HOME/nvim/site/autoload/plug.vim
+    test -z "$XDG_DATA_HOME" && set -l XDG_DATA_HOME ~/.local/share
+    set dir $XDG_DATA_HOME/nvim/site
 else
-    command curl $vim_plug --create-dirs -sSLo ~/.vim/autoload/plug.vim
+    set dir ~/.vim/autoload
 end
+
+curl https://github.com/junegunn/vim-plug/raw/master/plug.vim --create-dirs -sSLo $dir/autoload/plug.vim

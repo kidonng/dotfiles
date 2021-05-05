@@ -1,18 +1,8 @@
 set -U fish_greeting
 
-if builtin functions -q plug
-    set plugins (plug list -e)
+# ALL_PROXY: curl, Homebrew, etc.
+# HTTPS_PROXY: Deno
+set -U proxy_vars ALL_PROXY HTTPS_PROXY
 
-    if builtin contains kidonng/fish-proxy $plugins
-        # ALL_PROXY: curl, Homebrew, etc.
-        # HTTPS_PROXY: Deno
-        set -U proxy_vars ALL_PROXY HTTPS_PROXY
-        set -U proxy_launch
-        set -U proxy_launch_silent
-    end
-
-    if builtin contains PatrickF1/fzf.fish $plugins
-        set -U fzf_preview_dir_cmd exa
-    end
-end
+set -U fzf_preview_dir_cmd exa
 
