@@ -1,9 +1,6 @@
 {
-  "npm.binPath": "yarn",
-  "prettier.semi": false,
-  "prettier.singleQuote": true,
-  "prettier.statusItemText": "",
-  "cSpell.showStatus": false,
   "explorer.icon.enableNerdfont": true,
-  "session.directory": "~/.local/share/nvim/session"
+  "list.source.grep.args": ["--smart-case"],
+  "session.directory": "~/.local/share/nvim/sessions",
+  "suggest.noselect": false
 }
