@@ -8,9 +8,7 @@ abbr sha sha256sum
 abbr df df -h
 abbr di diff
 abbr du du -hcs
-abbr tmp mktemp
-abbr tmpd mktemp -d
-abbr tmpsh "HOME=(mktemp -d) fish -C cd"
+abbr tmp mktemp -d
 
 # macOS
 abbr cafe caffeinate
@@ -28,7 +26,6 @@ abbr dum diskutil unmount
 # Extra
 abbr cat bat -p
 abbr rat bat -l ruby
-abbr batman 'MANPAGER="col -bx | bat -l man -p" man'
 
 abbr md glow -p
 abbr vi nvim

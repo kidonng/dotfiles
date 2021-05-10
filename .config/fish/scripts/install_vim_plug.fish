@@ -1,3 +1,5 @@
+set -l dir
+
 if test "$EDITOR" = nvim
     test -z "$XDG_DATA_HOME" && set -l XDG_DATA_HOME ~/.local/share
     set dir $XDG_DATA_HOME/nvim/site

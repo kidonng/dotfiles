@@ -1,6 +1,8 @@
+set -l dir
+
 if test "$EDITOR" = nvim
-    test -z "$XDG_CONFIG_HOME" && set -l XDG_DATA_HOME ~/.config
-    set dir $XDG_DATA_HOME/nvim
+    test -z "$XDG_CONFIG_HOME" && set -l XDG_CONFIG_HOME ~/.config
+    set dir $XDG_CONFIG_HOME/nvim
 else
     set dir ~/.vim
 end
