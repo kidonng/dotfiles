@@ -1,5 +1,5 @@
-functions -q __zoxide_zi || exit
+command -sq zoxide || exit
 
 function zi
-	__zoxide_zi $argv
+	set dir (zoxide query -i -- $argv) && cd $dir
 end

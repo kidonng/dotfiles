@@ -3,9 +3,11 @@ functions -q plug && plug init
 
 status -i || exit
 
-functions -q set_proxy && set_proxy > /dev/null
-
-command -sq zoxide && zoxide init fish --no-aliases | source
+if command -sq zoxide
+    function __zoxide_hook --on-variable PWD
+        zoxide add $PWD
+    end
+end
 
 functions -q __fzf_search_current_dir && bind \e\cf __fzf_search_current_dir_all
 

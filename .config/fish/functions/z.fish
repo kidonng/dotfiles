@@ -1,5 +1,9 @@
-functions -q __zoxide_z || exit
+command -sq zoxide || exit
 
 function z
-	__zoxide_z $argv
+	if test -z "$argv" || test "$argv" = - || test -d $argv
+		cd $argv
+	else
+		set dir (zoxide query --exclude $PWD -- $argv) && cd $dir
+	end
 end
