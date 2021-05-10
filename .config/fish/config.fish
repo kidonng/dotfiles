@@ -10,7 +10,6 @@ functions -q set_proxy && set_proxy > /dev/null
 command -sq fzf && set -x FZF_DEFAULT_OPTS --cycle --layout=reverse --height=90% --preview-window=wrap --multi
 command -sq less && set -x LESS --RAW-CONTROL-CHARS --ignore-case --LONG-PROMPT
 command -sq nvim && set -x EDITOR nvim
-command -sq starship && starship init fish --print-full-init | source
 command -sq zoxide && zoxide init fish --no-aliases | source
 functions -q __fzf_search_current_dir && bind \e\cf __fzf_search_current_dir_all
 if functions -q __fzf_search_history
