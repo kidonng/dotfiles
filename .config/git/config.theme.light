@@ -1,0 +1,5 @@
+[core]
+    # https://github.com/dandavison/delta/issues/598
+    pager = delta --light
+[delta]
+    syntax-theme = TokyoNight-light

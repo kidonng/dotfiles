@@ -1,0 +1,113 @@
+# Template: https://github.com/sharkdp/vivid/blob/56e3f49042ec26de56a68575ac0fe122b017b3c8/themes/one-dark.yml
+# Palette: https://github.com/folke/tokyonight.nvim/blob/529e6d9f325c82c0b40f8d8b329c6c310a6114c3/extras/kitty_tokyonight_storm.conf
+
+colors:
+  background_color: '24283b'
+  white: '1D202F'
+  red: 'f7768e'
+  green: '9ece6a'
+  yellow: 'e0af68'
+  blue: '7aa2f7'
+  magenta: 'bb9af7'
+  cyan: '7dcfff'
+
+  black: '000000'
+  gray: '999999'
+  darkgray: '666666'
+  darkergray: '333333'
+
+core:
+  regular_file: {}
+
+  directory:
+    foreground: blue
+    font-style: bold
+
+  executable_file:
+    foreground: red
+    font-style: bold
+
+  symlink:
+    foreground: magenta
+
+  broken_symlink:
+    foreground: black
+    background: red
+  missing_symlink_target:
+    foreground: black
+    background: red
+
+  fifo:
+    foreground: black
+    background: blue
+
+  socket:
+    foreground: black
+    background: magenta
+
+  character_device:
+    foreground: magenta
+    background: darkergray
+
+  block_device:
+    foreground: cyan
+    background: darkergray
+
+  normal_text:
+    {}
+
+  other_writable:
+    {}
+
+  sticky:
+    {}
+
+  sticky_other_writable:
+    {}
+
+text:
+  special:
+    foreground: background_color
+    background: yellow
+
+  todo:
+    font-style: bold
+
+  licenses:
+    foreground: gray
+
+  configuration:
+    foreground: yellow
+
+  other:
+    foreground: yellow
+
+markup:
+  foreground: yellow
+
+programming:
+  source:
+    foreground: green
+
+  tooling:
+    foreground: green
+
+    continuous-integration:
+      foreground: green
+
+media:
+  foreground: magenta
+
+office:
+  foreground: red
+
+archives:
+  foreground: cyan
+  font-style: underline
+
+executable:
+  foreground: red
+  font-style: bold
+
+unimportant:
+  foreground: darkgray

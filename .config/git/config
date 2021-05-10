@@ -25,18 +25,18 @@
 	sh = stash
 	st = status
 	sw = switch
+	tl = rev-parse --show-toplevel
 [core]
 	autocrlf = input
-	pager = delta
 [diff]
 	tool = nvimdiff
 	algorithm = patience
 [include]
-	path = config.local
+    path = config.local
+    path = config.theme
 [fetch]
 	prune = true
 [delta]
-	syntax-theme = OneHalfDark
 	line-numbers = true
 	hunk-header-style = omit
 
