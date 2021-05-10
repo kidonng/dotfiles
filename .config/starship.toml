@@ -1,3 +1,6 @@
+[[battery.display]]
+threshold = 20
+
 [conda]
 symbol = " "
 
@@ -10,31 +13,18 @@ symbol = " "
 [hg_branch]
 symbol = " "
 
-[java]
-version_format = "${raw}"
-
-[julia]
-symbol = " "
-
 [memory_usage]
 symbol = " "
-
-[nodejs]
-version_format = "${raw}"
-
-[python]
-version_format = "${raw}"
-
-[ruby]
-version_format = "${raw}"
-
-[rust]
-version_format = "${raw}"
 
 [scala]
 symbol = " "
 
+[shlvl]
+symbol = "↕️ "
+disabled = false
+
 [status]
+symbol = "❌"
 map_symbol = true
 disabled = false
 
