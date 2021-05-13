@@ -1,3 +1,4 @@
+# https://github.com/fish-shell/fish-shell/pull/7908
 function fish_vi_key_bindings --description 'vi-like key bindings for fish'
     if contains -- -h $argv
         or contains -- --help $argv
