@@ -9,9 +9,17 @@ if command -sq zoxide
     end
 end
 
-functions -q __fzf_search_current_dir && bind \e\cf __fzf_search_current_dir_all
+if set -q fzf_search_vars_cmd
+    bind -M insert \cf __fzf_search_current_dir
+    bind -M insert \cr __fzf_search_history_no_timestamp
+    bind -M insert \cv $fzf_search_vars_cmd
+    bind -M insert \e\cl __fzf_search_git_log
+    bind -M insert \e\cs __fzf_search_git_status
+    bind -M insert \e\cf __fzf_search_current_dir_all
+    bind -M insert \e\cr __fzf_search_history
+end
 
-if functions -q __fzf_search_history
-    bind \cr __fzf_search_history_no_timestamp
-    bind \e\cr __fzf_search_history
+# https://github.com/nickeb96/puffer-fish/pull/5
+if functions -q puffer_fish_key_bindings_uninstall
+    bind -e . !
 end
