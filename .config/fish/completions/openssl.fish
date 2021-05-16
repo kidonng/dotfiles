@@ -1,3 +1,4 @@
+# Remove when Fish 3.3.0 releases
 # https://github.com/fish-shell/fish-shell/issues/7966
 if string match -q "OpenSSL*" (command openssl version)
     # This is real OpenSSL that has the list command.

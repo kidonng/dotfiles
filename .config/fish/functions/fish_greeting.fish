@@ -1,3 +1,4 @@
+# Remove when Fish 3.3.0 releases
 # https://github.com/fish-shell/fish-shell/issues/7974
 function fish_greeting
     if not set -q fish_greeting
