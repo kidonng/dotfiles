@@ -18,8 +18,3 @@ if set -q fzf_search_vars_cmd
     bind -M insert \e\cf __fzf_search_current_dir_all
     bind -M insert \e\cr __fzf_search_history
 end
-
-# https://github.com/nickeb96/puffer-fish/pull/5
-if functions -q puffer_fish_key_bindings_uninstall
-    bind -e . !
-end

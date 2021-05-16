@@ -2,10 +2,10 @@ function sha256sum -d "Print SHA-256 checksum"
   if isatty stdout
       openssl sha256 $argv
   else
-    if test -z "$argv"
-      openssl sha256
-    else
+    if isatty stdin
       openssl sha256 $argv | string split -f 2 " "
-    end | tr -d \n
+    else
+      openssl sha256
+    end | perl -pe "chomp if eof"
   end
 end

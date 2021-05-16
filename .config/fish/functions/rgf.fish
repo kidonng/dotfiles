@@ -1,18 +1,18 @@
 # Based on https://github.com/junegunn/fzf/issues/1598#issuecomment-719573480
-function rgf -d "ripgrep piped into fzf" -w rg
-    test -z "$argv" && set argv ""
-    set selection (rg --color always --line-number $argv |
-    fzf --ansi --delimiter : \
+function rgf -d "ripgrep love fzf" -w rg
+    set -q argv[1] || set argv ""
+    set selection (rg --color always -n $argv |
+    fzf --ansi -m -d : \
         --with-nth 1,3 \
         --preview 'bat --style header,numbers --color always --highlight-line {2} {1}' \
-        --preview-window ~1:+{2}-/2)
+        --preview-window ~1:+{2}-/2 |
+    string split -f 1 :)
 
-    test -z "$selection" && return
+    set -q selection[1] || return
 
-    set selection (string split -f 1 : $selection)
     if status is-command-substitution
         echo $selection
     else
-        commandline --current-token --replace -- (string escape -- $selection | string join ' ')
+        commandline -i -- (string escape -- $selection | string join ' ')
     end
 end

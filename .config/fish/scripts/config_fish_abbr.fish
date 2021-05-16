@@ -1,16 +1,13 @@
-# Fish functions
 abbr dot dotfiles
 abbr ql quicklook
 abbr rm trash
 abbr sha sha256sum
 
-# Common
 abbr df df -h
 abbr di diff
 abbr du du -hcs
 abbr tmp mktemp -d
 
-# macOS
 abbr cafe caffeinate
 abbr cap screencapture
 abbr ipc ipconfig getpacket en0
@@ -23,10 +20,12 @@ abbr dls diskutil list
 abbr dmo sudo diskutil mount
 abbr dum diskutil unmount
 
-# Extra
 abbr cat bat -p
-abbr rat bat -l ruby
+abbr html bat -l html
+abbr json bat -l json
+abbr rb bat -l ruby
 
+abbr icat kitty +icat
 abbr md glow -p
 abbr vi nvim
 
@@ -49,26 +48,22 @@ abbr ip6 curl -sS6 ip.sb
 
 abbr ls exa
 abbr la exa -a
-abbr ll exa -l
+abbr ll exa -l --icons
 
-# Git
-# Derived from https://github.com/fish-shell/fish-shell/blob/9f4255ed76683d6772f354c1fb818a1655e877a0/share/completions/git.fish#L582-L604
-git config --global -z --get-regexp "alias\..*" | while read -lz alias command
-    string match -q "!*" -- $command && continue
-
-    set -l alias (string replace 'alias.' '' -- $alias)
-
+# https://github.com/fish-shell/fish-shell/blob/9f4255ed76683d6772f354c1fb818a1655e877a0/share/completions/git.fish#L582-L604
+git config --global -z --get-regexp "alias\..*" | string replace alias. "" | while read -lz alias command
+    test -z "$alias" && continue
     abbr g$alias git $command
 end
 
 abbr ga git add
 abbr grm git rm
 
-# for command in F Q Qd Qdt Qe Qg Qi Ql Qm Qn Qo Qs Qt Qu Sg Si Sl Ss
+# for option in F Q Qd Qdt Qe Qg Qi Ql Qm Qn Qo Qs Qt Qu Sg Si Sl Ss
 #     abbr $command pacman -$command
 # end
 
-# for command in D Fy Qk Qkk R Rs Rsn S Sc Scc Sw Syu U
+# for option in D Fy Qk Qkk R Rs Rsn S Sc Scc Sw Syu U
 #     abbr $command sudo pacman -$command
 # end
 
