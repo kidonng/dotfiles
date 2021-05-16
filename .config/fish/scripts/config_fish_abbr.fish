@@ -51,8 +51,7 @@ abbr la exa -a
 abbr ll exa -l --icons
 
 # https://github.com/fish-shell/fish-shell/blob/9f4255ed76683d6772f354c1fb818a1655e877a0/share/completions/git.fish#L582-L604
-git config --global -z --get-regexp "alias\..*" | string replace alias. "" | while read -lz alias command
-    test -z "$alias" && continue
+git config --global --get-regexp "alias\..*" | string replace alias. "" | while read -l alias command
     abbr g$alias git $command
 end
 
