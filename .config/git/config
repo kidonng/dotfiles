@@ -1,9 +1,3 @@
-[user]
-	name = Kid
-	email = kidonng@gmail.com
-[pull]
-	rebase = true
-	ff = only
 [alias]
 	br = branch
 	ca = commit --amend
@@ -28,15 +22,20 @@
 	tl = rev-parse --show-toplevel
 [core]
 	autocrlf = input
-[diff]
-	tool = nvimdiff
-	algorithm = patience
-[include]
-    path = config.local
-    path = config.theme
-[fetch]
-	prune = true
 [delta]
 	line-numbers = true
 	hunk-header-style = omit
-
+[diff]
+	algorithm = patience
+[fetch]
+	prune = true
+[http]
+ 	proxy = 127.0.0.1:7890
+[include]
+    path = config.theme
+[pull]
+	rebase = true
+	ff = only
+[user]
+	name = Kid
+	email = kidonng@gmail.com
