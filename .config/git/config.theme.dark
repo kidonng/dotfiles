@@ -1,4 +1,2 @@
-[core]
-    pager = delta
 [delta]
     syntax-theme = TokyoNight-dark
