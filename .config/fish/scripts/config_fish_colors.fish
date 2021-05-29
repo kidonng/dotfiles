@@ -19,4 +19,3 @@ set -U fish_color_autosuggestion brblack
 set -U fish_pager_color_progress black --background=white
 set -U fish_pager_color_prefix --bold
 set -U fish_pager_color_description yellow
-

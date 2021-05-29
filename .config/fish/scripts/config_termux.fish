@@ -6,4 +6,3 @@ touch ~/.hushlogin
 
 # Remove unused vendor packages
 apt remove nano game-repo science-repo
-

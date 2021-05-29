@@ -1,6 +1,4 @@
-fish_add_path ~/.cargo/bin /usr/local/sbin
+fish_add_path ~/.local/bin /usr/local/sbin
 
-ln -s ~/.config/git/config.local{.darwin,}
-
-# IINA
+# IINA only search for `youtube-dl`
 ln -s (brew --prefix)/bin/{yt-dlp,youtube-dl}
