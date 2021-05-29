@@ -1,8 +1,8 @@
-# Completions for trash (https://hasseg.org/trash/)
-complete -c trash -s v -d "Verbose"
-complete -c trash -s F -d "Use Finder"
-complete -c trash -s l -d "List items in trash"
-complete -c trash -s e -d "Empty trash"
-complete -c trash -s s -d "Securely empty trash"
-complete -c trash -s y -d "Skip confirmation"
-complete -c trash -s h -d "Help"
+# trash: https://hasseg.org/trash/
+complete trash -s v -d Verbose
+complete trash -s F -d "Use Finder"
+complete trash -s l -d "List items in trash"
+complete trash -s e -d "Empty trash"
+complete trash -s s -d "Securely empty trash"
+complete trash -s y -d "Skip confirmation"
+complete trash -s h -d Help

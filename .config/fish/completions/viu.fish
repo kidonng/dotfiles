@@ -1,4 +1,4 @@
-complete viu -x -l help -d "Help"
+complete viu -x -l help -d Help
 complete viu -s b -l blocks -d "Force block output"
 complete viu -s m -l mirror -d "Display a mirror of the original image"
 complete viu -s n -l name -d "Output the name of the file before displaying"
