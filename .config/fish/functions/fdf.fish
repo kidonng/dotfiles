@@ -1,0 +1,12 @@
+function fdf -w fd -d "fd love fzf"
+    set selection (fd --color always $argv |
+    fzf --ansi -m --preview "__fzf_preview_file {}")
+
+    set -q selection[1] || return
+
+    if status -c
+        echo $selection
+    else
+        commandline -i -- (string escape -- $selection | string join ' ')
+    end
+end

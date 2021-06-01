@@ -18,7 +18,7 @@ function __fzf_preview_file_content
                 case application/{msword,vnd.{ms-excel,ms-powerpoint,openxmlformats-officedocument.{presentationml.presentation,spreadsheetml.sheet,wordprocessingml.document}},pdf} image/{heic,x-icns} video/{mp4,x-matroska}
                     set tmp (mktemp -d)
                     qlmanage -t -s (math $COLUMNS x 8) -o $tmp $argv &>/dev/null
-                    preview $tmp/*
+                    __fzf_preview_file_content $tmp/*
                     rm -r $tmp
                 case application/{gzip,java-archive,x-{7z-compressed,bzip2,chrome-extension,rar,tar,xar},zip}
                     7z l $argv | tail -n +12
