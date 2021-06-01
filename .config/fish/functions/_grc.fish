@@ -1,5 +1,7 @@
 command -sq grc || exit
 
-function (string replace .fish "" (status basename))
-    grc (status current-command) $argv
+set -l cmd (string replace .fish "" (status basename))
+
+function $cmd -V cmd
+    grc $cmd $argv
 end
