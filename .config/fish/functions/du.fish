@@ -4,6 +4,6 @@ function du
     if command -sq grc
         grc du $argv
     else
-        du $argv
+        command du $argv
     end
 end
