@@ -3,6 +3,7 @@ function tmpsh -w fish
 
     fish -C "
         function __tmpsh_cleanup -e fish_exit
+            echo (set_color -o)Cleaning up...(set_color normal)
             rm -rf ~
         end
 

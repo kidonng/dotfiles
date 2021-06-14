@@ -5,7 +5,7 @@ abbr sha sha256sum
 
 abbr df df -h
 abbr di diff
-abbr du du -hcs
+abbr du du -hs
 abbr tmp mktemp -d
 
 abbr cafe caffeinate
@@ -25,9 +25,9 @@ abbr html bat -l html
 abbr json bat -l json
 abbr rb bat -l ruby
 
+abbr co code
 abbr icat kitty +icat
 abbr md glow -p
-abbr vi nvim
 
 abbr bbc brew bundle --global cleanup
 abbr bbd brew bundle --global dump
@@ -57,12 +57,3 @@ end
 
 abbr ga git add
 abbr grm git rm
-
-# for option in F Q Qd Qdt Qe Qg Qi Ql Qm Qn Qo Qs Qt Qu Sg Si Sl Ss
-#     abbr $command pacman -$command
-# end
-
-# for option in D Fy Qk Qkk R Rs Rsn S Sc Scc Sw Syu U
-#     abbr $command sudo pacman -$command
-# end
-
