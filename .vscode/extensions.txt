@@ -8,6 +8,7 @@ esbenp.prettier-vscode
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 GitHub.codespaces
+GitHub.remotehub
 iocave.customize-ui
 iocave.monkey-patch
 meganrogge.template-string-converter
