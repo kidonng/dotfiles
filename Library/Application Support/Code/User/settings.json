@@ -30,11 +30,10 @@
   "telemetry.enableTelemetry": false,
   "terminal.external.osxExec": "kitty.app",
   "terminal.integrated.enableBell": true,
-  "terminal.integrated.experimentalUseTitleEvent": true,
   "terminal.integrated.macOptionIsMeta": true,
   "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.titleMode": "sequence",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "update.mode": "manual",
   "update.showReleaseNotes": false,
   "vetur.experimental.templateInterpolationService": true,
   "vim.hlsearch": true,
@@ -46,8 +45,5 @@
   "workbench.preferredDarkColorTheme": "Tokyo Night Storm",
   "workbench.preferredLightColorTheme": "Tokyo Night Light",
   "workbench.tree.renderIndentGuides": "none",
-  "xo.enable": true,
-  "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  "xo.enable": true
 }

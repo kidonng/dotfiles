@@ -1,3 +1,5 @@
+command -sq brew || exit
+
 function bottle -a formula -w "brew bottle" -d "Build and upload Homebrew bottles to GitHub releases"
     set -l info (brew info --json $formula | string trim | string join "")
     set -l tap (string match -r '"tap": "([\w/]+)"' $info)[2]

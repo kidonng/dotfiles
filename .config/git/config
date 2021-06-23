@@ -23,6 +23,7 @@
 [core]
 	autocrlf = input
     pager = delta
+	sshCommand = /usr/bin/ssh
 [delta]
 	line-numbers = true
 	hunk-header-style = omit
@@ -30,8 +31,6 @@
 	algorithm = patience
 [fetch]
 	prune = true
-[http]
- 	proxy = 127.0.0.1:7890
 [include]
     path = config.theme
 [pull]

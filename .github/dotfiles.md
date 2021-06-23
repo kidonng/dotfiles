@@ -1,27 +1,36 @@
 # [`dotfiles.fish`](../.config/fish/functions/dotfiles.fish)
 
-Simple Git wrapper for managing dotfiles.
+Simple Git wrapper (with completions) for managing dotfiles.
 
-- Setup and use like plain Git
-- Enjoy the same completions with Git
-
-> Want a more comprehensive feature set? Check out [yadm](https://github.com/TheLocehiliosan/yadm).
+> Want something more powerful? Check out [yadm](https://github.com/TheLocehiliosan/yadm).
 
 ## Usage
 
 Setup a dotfiles repository is as intuitive as a regular one.
 
-1. Navigate to the folder you want to track, for example `cd ~`.
-2. Init the repository with `dotfiles init`. You can also specify any `git init` options, including a different directory, for example `dotfiles init --quiet ~/.dotfiles`.
+1. Initialize the repository with `dotfiles init`. You can specify any `git init` options except for `--bare`, including a different directory: `dotfiles init --quiet ~/.dotfiles`.
 
    - If no directory is specified, the repository will be initialized in `$XDG_CONFIG_HOME/dotfiles`, or `~/.config/dotfiles`.
-   - You can always get the location of the repository via `$dotfiles` variable.
+   - You can always get the repository location with `dotfiles rev-parse --git-dir`.
 
-3. Now start adding files to track with `dotfiles add path/to/file`, commit with `dotfiles commit` and you've got it 😉
-4. Want to access your dotfiles in a new environment? Just `dotfiles pull <remote>` and if there's no conflict, you are good to go!
+2. Start tracking dotfiles with `dotfiles add path/to/file`, commit with `dotfiles commit` and you got it 😉
+3. To access the dotfiles in a new environment, just `dotfiles pull --set-upstream <remote>` and you are ready to go!
 
-## Move dotfiles repository to a new location
+## Resolve conflicts / selective checkout
 
-1. Move it!
+The trick is to use a temporary directory as worktree:
+
+```fish
+set -l tmp (mktemp -d)
+dotfiles config core.worktree $tmp
+dotfiles pull --set-upstream <remote>
+rm -rf $tmp
+dotfiles config core.worktree ~
+# Now checkout/restore your files
+dotfiles restore ~
+```
+
+## Move repository to a new location
+
+1. Move the repository
 2. `set -U dotfiles path/to/location`
-

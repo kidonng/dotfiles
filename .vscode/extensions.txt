@@ -11,7 +11,9 @@ GitHub.codespaces
 GitHub.remotehub
 iocave.customize-ui
 iocave.monkey-patch
+jnoortheen.nix-ide
 meganrogge.template-string-converter
+ms-vscode-remote.remote-ssh-edit
 octref.vetur
 PKief.material-icon-theme
 pucelle.vscode-css-navigation

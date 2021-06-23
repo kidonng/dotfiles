@@ -1,1 +1,1 @@
-fish_add_path ~/.local/bin /usr/local/opt/{curl,file-formula}/bin /usr/local/sbin
+set -U fish_user_paths ~/.local/bin ~/.yarn/bin ~/.nix-profile/bin
