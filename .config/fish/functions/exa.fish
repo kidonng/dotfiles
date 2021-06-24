@@ -1,5 +1,12 @@
 command -sq exa || exit
 
 function exa
-    command exa --group-directories-first --git $argv
+    set -p argv --group-directories-first --git
+
+    # https://github.com/ogham/exa/issues/879#issuecomment-845233451
+    if status -c
+        COLUMNS=1 command exa $argv
+    else
+        command exa $argv
+    end
 end

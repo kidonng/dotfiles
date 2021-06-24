@@ -7,7 +7,7 @@ if ! test -f $db
 end
 
 function maccy -V db
-    set selection (
+    set -l selection (
         sqlite3 -newline \1 $db "
             SELECT DISTINCT ZVALUE
             FROM ZHISTORYITEMCONTENT

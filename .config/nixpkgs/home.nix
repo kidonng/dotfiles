@@ -6,10 +6,11 @@
 
   home.packages = [
     pkgs.bat
+    pkgs.cargo
     pkgs.curl
     pkgs.delta
     pkgs.deno
-    pkgs.du-dust
+    pkgs.dua
     pkgs.exa
     pkgs.fd
     pkgs.fish
