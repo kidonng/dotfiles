@@ -26,5 +26,6 @@
     "workbench.preferredLightColorTheme": "Catppuccin Latte",
     "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
     "workbench.experimental.modernUI": true,
-    "chat.viewSessions.orientation": "stacked",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
 }

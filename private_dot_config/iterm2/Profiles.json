@@ -185,8 +185,8 @@
   },
   "Window Type" : 0,
   "BM Growl" : true,
-  "Prompt Before Closing 2" : false,
-  "Command" : "\/opt\/homebrew\/bin\/fish",
+  "Prompt Before Closing 2" : 2,
+  "Command" : "\/Users\/kid\/.nix-profile\/bin\/fish",
   "Selected Text Color" : {
     "Red Component" : 0,
     "Color Space" : "sRGB",

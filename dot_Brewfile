@@ -1,58 +1,10 @@
 tap "can1357/tap"
-# Simple, modern, secure file encryption
-brew "age"
-# Improved shell history for zsh, bash, fish and nushell
-brew "atuin"
-# New way to see and navigate directory trees
-brew "broot"
-# Manage your dotfiles across multiple diverse machines, securely
-brew "chezmoi"
-# Open-source, cross-platform JavaScript runtime environment
-brew "node"
-# CLI tool for Cloudflare Workers
-brew "cloudflare-wrangler"
-# Secure runtime for JavaScript and TypeScript
-brew "deno"
-# Simple, fast and user-friendly alternative to find
-brew "fd"
-# User-friendly command-line shell for UNIX-like operating systems
-brew "fish"
-# Command-line fuzzy finder written in Go
-brew "fzf"
-# Remote repository management made easy
-brew "ghq"
-# Tools and libraries to manipulate images in select formats
-brew "imagemagick"
-# Media player based on MPlayer and mplayer2
-brew "mpv"
-# Ambitious Vim-fork focused on extensibility and agility
-brew "neovim"
-# AI agent toolkit
-brew "pi-coding-agent"
-# Fast, disk space efficient package manager
-brew "pnpm"
-# Search tool like grep and The Silver Searcher
-brew "ripgrep"
-# Utility that provides fast incremental file transfer
-brew "rsync"
-# Editor of encrypted files
-brew "sops"
-# Modern cli tool that keeps your deps fresh
-brew "taze"
-# Markup-based typesetting system
-brew "typst"
-# Shell extension to navigate your filesystem faster
-brew "zoxide"
 # Coding agent with the IDE wired in
 brew "can1357/tap/omp", trusted: true
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
-# Android SDK component
-cask "android-platform-tools"
 # Voice and text chat software
 cask "discord"
-# Web browser
-cask "firefox"
 cask "font-maple-mono-nf-cn"
 # Chromium-based web browser
 cask "helium-browser"
@@ -72,25 +24,15 @@ cask "qq"
 cask "tailscale-app"
 # Messaging app with a focus on speed and security
 cask "telegram"
+# Desktop client for Telegram messenger
+cask "telegram-desktop"
 # JDK from the Eclipse Foundation (Adoptium)
 cask "temurin@25"
-# Menu bar manager
-cask "thaw"
 # Open-source code editor
 cask "visual-studio-code"
 vscode "asvetliakov.vscode-neovim"
-vscode "bradlc.vscode-tailwindcss"
 vscode "catppuccin.catppuccin-vsc"
 vscode "eamodio.gitlens"
 vscode "github.codespaces"
 vscode "jnoortheen.nix-ide"
-vscode "ms-toolsai.jupyter"
-vscode "ms-toolsai.jupyter-keymap"
-vscode "ms-toolsai.jupyter-renderers"
-vscode "ms-toolsai.vscode-jupyter-cell-tags"
-vscode "ms-toolsai.vscode-jupyter-slideshow"
-vscode "myriad-dreamin.tinymist"
-vscode "oxc.oxc-vscode"
 vscode "pkief.material-icon-theme"
-vscode "vitest.explorer"
-vscode "voidzero.vite-plus-extension-pack"

@@ -3,6 +3,17 @@
 # This won't be added again if you remove it.
 Include ~/.orbstack/ssh/config
 
-
 Host *
 	IdentityAgent "~/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
+
+Host gh
+  User git
+  HostName github.com
+
+Host dmit
+  User root
+  Hostname dmit-lax.xuann.wang
+
+Host oracle
+  User root
+  Hostname oracle-sjc.xuann.wang

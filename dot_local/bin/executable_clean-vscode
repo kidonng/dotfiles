@@ -1,0 +1,64 @@
+#!/usr/bin/env ruby
+require 'json'
+require 'fileutils'
+require 'uri'
+
+base_path = File.expand_path('~/Library/Application Support/Code/User')
+
+def uri_to_path(uri)
+  return nil unless uri&.start_with?('file://')
+  URI::DEFAULT_PARSER.unescape(URI.parse(uri).path)
+rescue
+  nil
+end
+
+def userdata_to_path(uri)
+  return nil unless uri&.start_with?('vscode-userdata:')
+  # `vscode-userdata:` URIs carry the absolute file path after the scheme
+  # e.g. vscode-userdata:/Users/me/.../Code/User/settings.json
+  URI::DEFAULT_PARSER.unescape(uri.delete_prefix('vscode-userdata:'))
+rescue
+  nil
+end
+
+def clean_storage(dir_path, config_file, uri_keys, clean_remote: false)
+  return 0 unless Dir.exist?(dir_path)
+
+  Dir.children(dir_path).count do |folder|
+    folder_path = File.join(dir_path, folder)
+    next unless File.directory?(folder_path)
+
+    json_path = File.join(folder_path, config_file)
+    if !File.exist?(json_path)
+      FileUtils.rm_rf(folder_path)
+      true
+    else
+      data = JSON.parse(File.read(json_path)) rescue {}
+      uri = uri_keys.map { |k| data[k] }.compact.first || ''
+
+      if uri.start_with?('file://')
+        path = uri_to_path(uri)
+        if path && !File.exist?(path)
+          FileUtils.rm_rf(folder_path)
+          true
+        end
+      elsif uri.start_with?('vscode-userdata:')
+        path = userdata_to_path(uri)
+        if path && !File.exist?(path)
+          FileUtils.rm_rf(folder_path)
+          true
+        end
+      elsif clean_remote && uri.start_with?('vscode-remote://')
+        FileUtils.rm_rf(folder_path)
+        true
+      end
+    end
+  end
+end
+
+cleaned_ws   = clean_storage(File.join(base_path, 'workspaceStorage'), 'workspace.json', ['folder', 'workspace'], clean_remote: true)
+cleaned_hist = clean_storage(File.join(base_path, 'History'), 'entries.json', ['resource'])
+
+puts "Cleanup complete!"
+puts "- Cleaned #{cleaned_ws} workspaces"
+puts "- Cleaned #{cleaned_hist} history entries"
