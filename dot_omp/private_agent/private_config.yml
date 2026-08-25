@@ -1,0 +1,34 @@
+providers: 
+  webSearchOrder: 
+    - public
+    - perplexity
+    - gemini
+    - anthropic
+    - codex
+    - xai
+    - zai
+    - exa
+    - tinyfish
+    - jina
+    - kagi
+    - tavily
+    - firecrawl
+    - brave
+    - kimi
+    - parallel
+    - synthetic
+    - searxng
+    - startpage
+    - duckduckgo
+    - ecosia
+    - google
+    - mojeek
+modelRoles: 
+  default: google-antigravity/gemini-3.7-flash:high
+  vision: google-antigravity/gemini-3.1-flash-image
+symbolPreset: nerd
+theme: 
+  light: light
+setupVersion: 2
+composer: 
+  shape: claude

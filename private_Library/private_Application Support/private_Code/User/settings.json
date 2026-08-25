@@ -25,7 +25,6 @@
     "workbench.layoutControl.enabled": false,
     "workbench.preferredLightColorTheme": "Catppuccin Latte",
     "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
-    "workbench.experimental.modernUI": true,
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
 }

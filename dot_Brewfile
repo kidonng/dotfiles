@@ -3,6 +3,8 @@ tap "can1357/tap"
 brew "can1357/tap/omp", trusted: true
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
+# Tools for building Android applications
+cask "android-studio"
 # Voice and text chat software
 cask "discord"
 cask "font-maple-mono-nf-cn"
