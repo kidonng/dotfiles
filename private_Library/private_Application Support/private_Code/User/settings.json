@@ -27,4 +27,5 @@
     "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
+    "security.workspace.trust.enabled": false,
 }

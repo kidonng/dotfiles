@@ -1,0 +1,10 @@
+{
+  "plugins": {
+    "superpowers": {
+      "version": "7.0.0",
+      "enabledFeatures": null,
+      "enabled": true
+    }
+  },
+  "settings": {}
+}

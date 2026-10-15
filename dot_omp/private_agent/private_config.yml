@@ -1,34 +1,20 @@
-providers: 
-  webSearchOrder: 
-    - public
-    - perplexity
-    - gemini
-    - anthropic
-    - codex
-    - xai
-    - zai
-    - exa
-    - tinyfish
-    - jina
-    - kagi
-    - tavily
-    - firecrawl
-    - brave
-    - kimi
-    - parallel
-    - synthetic
-    - searxng
-    - startpage
-    - duckduckgo
-    - ecosia
-    - google
-    - mojeek
-modelRoles: 
-  default: google-antigravity/gemini-3.7-flash:high
-  vision: google-antigravity/gemini-3.1-flash-image
-symbolPreset: nerd
-theme: 
-  light: light
 setupVersion: 2
-composer: 
+modelRoles:
+  default: google-antigravity/gemini-3.8-flash:high
+  smol: google-antigravity/gemini-3.8-flash:high
+  slow: opencode-go/deepseek-v4.1-flash:max
+symbolPreset: nerd
+theme:
+  light: light-catppuccin
+  dark: dark-catppuccin
+composer:
   shape: claude
+recap:
+  enabled: false
+astGrep:
+  enabled: true
+enabledProviders:
+  - claude-plugins
+edit:
+  modelVariants:
+    deepseek: hashline

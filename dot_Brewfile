@@ -3,25 +3,38 @@ tap "can1357/tap"
 brew "can1357/tap/omp", trusted: true
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
+# Browse, search and analyse your past AI coding sessions
+cask "agentsview"
 # Tools for building Android applications
 cask "android-studio"
+# Tool to customise input devices and automate computer systems
+cask "bettertouchtool"
+# Menu bar app for tracking agentic coding limits and usage
+cask "codexbar"
+# Node-based image, video and audio generator
+cask "comfy"
 # Voice and text chat software
 cask "discord"
-cask "font-maple-mono-nf-cn"
+# Native desktop AI assistant from Google
+cask "google-gemini"
 # Chromium-based web browser
 cask "helium-browser"
 # Terminal emulator as alternative to Apple's Terminal app
-cask "iterm2@beta"
-# Software for Logitech devices
-cask "logi-options+"
+cask "iterm2"
 # App to write, plan, collaborate, and get organised
 cask "notion"
 # Replacement for Docker Desktop
 cask "orbstack"
+# Desktop virtualization software
+cask "parallels"
 # Peer to peer Bitorrent client
 cask "qbittorrent"
 # Instant messaging tool
 cask "qq"
+# Control your tools with a few keystrokes
+cask "raycast"
+# Tool that provides consistent, highly configurable symbols for apps
+cask "sf-symbols"
 # Mesh VPN based on WireGuard
 cask "tailscale-app"
 # Messaging app with a focus on speed and security
@@ -38,3 +51,5 @@ vscode "eamodio.gitlens"
 vscode "github.codespaces"
 vscode "jnoortheen.nix-ide"
 vscode "pkief.material-icon-theme"
+vscode "streetsidesoftware.code-spell-checker"
+vscode "yzhang.markdown-all-in-one"
