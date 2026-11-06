@@ -1,8 +1,8 @@
-setupVersion: 2
+setupVersion: 3
 modelRoles:
   default: google-antigravity/gemini-3.8-flash:high
   smol: google-antigravity/gemini-3.8-flash:high
-  slow: opencode-go/deepseek-v4.1-flash:max
+  slow: opencode-go/deepseek-v4.1-flash:high
 symbolPreset: nerd
 theme:
   light: light-catppuccin
@@ -18,3 +18,7 @@ enabledProviders:
 edit:
   modelVariants:
     deepseek: hashline
+browser:
+  relay: true
+update:
+  auto: false

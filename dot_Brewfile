@@ -13,8 +13,6 @@ cask "bettertouchtool"
 cask "codexbar"
 # Node-based image, video and audio generator
 cask "comfy"
-# Voice and text chat software
-cask "discord"
 # Native desktop AI assistant from Google
 cask "google-gemini"
 # Chromium-based web browser
@@ -39,12 +37,10 @@ cask "sf-symbols"
 cask "tailscale-app"
 # Messaging app with a focus on speed and security
 cask "telegram"
-# Desktop client for Telegram messenger
-cask "telegram-desktop"
-# JDK from the Eclipse Foundation (Adoptium)
-cask "temurin@25"
 # Open-source code editor
 cask "visual-studio-code"
+# JavaScript IDE
+cask "webstorm"
 vscode "asvetliakov.vscode-neovim"
 vscode "catppuccin.catppuccin-vsc"
 vscode "eamodio.gitlens"
@@ -52,4 +48,5 @@ vscode "github.codespaces"
 vscode "jnoortheen.nix-ide"
 vscode "pkief.material-icon-theme"
 vscode "streetsidesoftware.code-spell-checker"
+vscode "typescriptteam.native-preview"
 vscode "yzhang.markdown-all-in-one"

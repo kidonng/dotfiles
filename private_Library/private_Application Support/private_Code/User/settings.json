@@ -28,4 +28,7 @@
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "security.workspace.trust.enabled": false,
+    "markdown.preview.fontSize": 16,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
 }

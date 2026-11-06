@@ -11,21 +11,21 @@
 SHOULD use Linux Kernel commit message style:
 
 ```
-[scope]: Short imperative summary of the change
+scope: Short imperative summary of the change
 
-# Problem
+### Problem
 
 Describe the problem: explain the current behavior, why it is
 problematic, broken, or suboptimal, and under what conditions the
 issue occurs.
 
-# Solution
+### Solution
 
 Explain the solution: describe what this change does to resolve the
 problem. Detail any non-obvious design choices, trade-offs, or side
 effects that the reader should be aware of.
 
-# References
+### References
 
 Provide context and references: cite relevant issue trackers, design
 documents, specifications, or prior commits (such as the commit that

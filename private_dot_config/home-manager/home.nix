@@ -45,6 +45,7 @@
       abbr nix-shell --regex '^s#\S+'    --function abbr-nix-shell
     '';
     shellAbbrs = {
+      n = "nix shell nixpkgs#nodejs -c fish -C 'fish_add_path --global node_modules/.bin'";
       o = "omp";
       v = "nvim";
     };
@@ -75,7 +76,12 @@
 
   programs.zoxide.enable = true;
 
-  programs.direnv.enable = true;
+  programs.direnv = {
+    enable = true;
+    config = {
+      hide_env_diff = true;
+    };
+  };
 
   programs.broot = {
     enable = true;
