@@ -1,14 +1,41 @@
-tap "can1357/tap"
-# Coding agent with the IDE wired in
-brew "can1357/tap/omp", trusted: true
+# Improved shell history for zsh, bash, fish and nushell
+brew "atuin"
+# New way to see and navigate directory trees
+brew "broot"
+# Manage your dotfiles across multiple diverse machines, securely
+brew "chezmoi"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
+# User-friendly command-line shell for UNIX-like operating systems
+brew "fish"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# GitHub command-line tool
+brew "gh"
+# Remote repository management made easy
+brew "ghq"
+# Tools and libraries to manipulate images in select formats
+brew "imagemagick"
+# Polyglot runtime manager (asdf rust clone)
+brew "mise"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Browse, search and analyse your past AI coding sessions
 cask "agentsview"
 # Tools for building Android applications
 cask "android-studio"
+# Terminal interface for Antigravity agents
+cask "antigravity-cli"
 # Tool to customise input devices and automate computer systems
-cask "bettertouchtool"
+cask "bettertouchtool", pin: true
 # Menu bar app for tracking agentic coding limits and usage
 cask "codexbar"
 # Node-based image, video and audio generator
@@ -24,7 +51,7 @@ cask "notion"
 # Replacement for Docker Desktop
 cask "orbstack"
 # Desktop virtualization software
-cask "parallels"
+cask "parallels", pin: true
 # Peer to peer Bitorrent client
 cask "qbittorrent"
 # Instant messaging tool

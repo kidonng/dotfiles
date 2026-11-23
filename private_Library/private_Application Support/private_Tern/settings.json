@@ -1,0 +1,9 @@
+{
+  "theme": "System",
+  "font_size": 16,
+  "ui_font_size": 14,
+  "font_family": "Maple Mono NF CN",
+  "font_weight": 500,
+  "material": "Glass",
+  "shell": "/opt/homebrew/bin/fish"
+}

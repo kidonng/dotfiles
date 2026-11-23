@@ -1,8 +1,10 @@
 setupVersion: 3
 modelRoles:
-  default: google-antigravity/gemini-3.8-flash:high
-  smol: google-antigravity/gemini-3.8-flash:high
-  slow: opencode-go/deepseek-v4.1-flash:high
+  default: google-vertex/gemini-4-hydrogen:high
+  smol: opencode-go/deepseek-v4.1-flash:high
+  slow: opencode-go/glm-5.3:max
+  advisor: opencode-go/deepseek-v4.1-flash:high
+  judge: openrouter/perplexity/pplx-decider-v1.3:free
 symbolPreset: nerd
 theme:
   light: light-catppuccin
@@ -18,7 +20,5 @@ enabledProviders:
 edit:
   modelVariants:
     deepseek: hashline
-browser:
-  relay: true
-update:
-  auto: false
+advisor:
+  enabled: true
